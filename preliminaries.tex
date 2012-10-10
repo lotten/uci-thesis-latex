@@ -1,0 +1,146 @@
+\thesistitle{
+  Title of the Thesis
+}
+
+\degreename{Doctor of Philosophy}
+
+% Use the wording given in the official list of degrees awarded by UCI:
+% http://www.rgs.uci.edu/grad/academic/degrees_offered.htm
+\degreefield{Computer Science}
+
+% Your name as it appears on official UCI records.
+\authorname{Your name}
+
+% Use the full name of each committee member.
+\committeechair{Professor A}
+\othercommitteemembers
+{
+  Professor B\\
+  Professor C
+}
+
+\degreeyear{2012}
+
+\copyrightdeclaration
+{
+  {\copyright} {\Degreeyear} \Authorname
+}
+
+% If you have previously published parts of your manuscript, you must list the
+% copyright holders; see Section 3.2 of the UCI Thesis and Dissertation Manual.
+% Otherwise, this section may be omitted.
+% \prepublishedcopyrightdeclaration
+% {
+% 	Chapter 4 {\copyright} 2003 Springer-Verlag \\
+% 	Portion of Chapter 5 {\copyright} 1999 John Wiley \& Sons, Inc. \\
+% 	All other materials {\copyright} {\Degreeyear} \Authorname
+% }
+
+% The dedication page is optional.
+\dedications
+{
+  (Optional dedication page)
+  
+  To ...
+}
+
+\acknowledgments
+{
+  I would like to thank...
+  
+  (You must acknowledge grants and other funding assistance. 
+  
+  You may also acknowledge the contributions of professors and
+  friends.
+  
+  You also need to acknowledge any publishers of your previous
+  work who have given you permission to incorporate that work
+  into your dissertation. See Section 3.2 of the UCI Thesis and
+  Dissertation Manual.)
+}
+
+
+% Some custom commands for your list of publications and software.
+\newcommand{\mypubentry}[3]{
+  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}p{4.5in}r}
+    \textbf{#1} & \textbf{#2} \\ 
+    \multicolumn{2}{@{\extracolsep{\fill}}p{.95\textwidth}}{#3}\vspace{6pt} \\
+  \end{tabular*}
+}
+\newcommand{\mysoftentry}[3]{
+  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & \url{#2} \\
+    \multicolumn{2}{@{\extracolsep{\fill}}p{.95\textwidth}}
+    {\emph{#3}}\vspace{-6pt} \\
+  \end{tabular*}
+}
+
+% Include, at minimum, a listing of your degrees and educational
+% achievements with dates and the school where the degrees were
+% earned. This should include the degree currently being
+% attained. Other than that it's mostly up to you what to include here
+% and how to format it, below is just an example.
+\curriculumvitae
+{
+
+\textbf{EDUCATION}
+  
+  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{Doctor of Philosophy in Computer Science} & \textbf{2012} \\
+    \vspace{6pt}
+    University name & \emph{City, State} \\
+    \textbf{Bachelor of Science in Computational Sciences} & \textbf{2007} \\
+    \vspace{6pt}
+    Another university name & \emph{City, State} \\
+  \end{tabular*}
+
+\vspace{12pt}
+\textbf{RESEARCH EXPERIENCE}
+
+  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{Graduate Research Assistant} & \textbf{2007--2012} \\
+    \vspace{6pt}
+    University of California, Irvine & \emph{Irvine, California} \\
+  \end{tabular*}
+
+\vspace{12pt}
+\textbf{TEACHING EXPERIENCE}
+
+  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{Teaching Assistant} & \textbf{2009--2010} \\
+    \vspace{6pt}
+    University name & \emph{City, State} \\
+  \end{tabular*}
+
+\pagebreak
+
+\textbf{REFEREED JOURNAL PUBLICATIONS}
+
+  \mypubentry{Ground-breaking article}{2012}{Journal name}
+
+\vspace{12pt}
+\textbf{REFEREED CONFERENCE PUBLICATIONS}
+
+  \mypubentry{Awesome paper}{Jun 2011}{Conference name}
+  \mypubentry{Another awesome paper}{Aug 2012}{Conference name}
+
+\vspace{12pt}
+\textbf{SOFTWARE}
+
+  \mysoftentry{Magical tool}{http://your.url.here/}
+  {C++ algorithm that solves TSP in polynomial time.}
+
+}
+
+% The abstract should not be over 350 words, although that's
+% supposedly somewhat of a soft constraint.
+\thesisabstract
+{
+  The abstract of your contribution goes here.
+}
+
+
+%%% Local Variables: ***
+%%% mode: latex ***
+%%% TeX-master: "thesis.tex" ***
+%%% End: ***
