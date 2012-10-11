@@ -25,14 +25,14 @@
 \usepackage{multirow}
 \usepackage{tabularx}
 
+% plainpages=false fixes the "duplicate ignored" error with page counters
+% Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
+\usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
+
 % Modify or extend these at will.
 \newtheorem{theorem}{{\sc Theorem}}
 \newtheorem{definition}{{\sc Definition}}
 \newtheorem{example}{{\sc Example}}
-
-% plainpages=false fixes the "duplicate ignored" error with page counters
-% Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
-\usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
 
 % Uncomment the following line to enable Unicode support. This will allow you
 % to enter non-ASCII characters (such as accented characters) directly without
@@ -44,12 +44,14 @@
 
 % Set this to only select a subset of the includes directives below.
 % Very handy to speed up compilation if you're working on a certain
-% part of your thesis, conserves page numbers, reference, etc.
+% part of your thesis. It conserves page numbers, references, etc.
+% even for excluded files.
 %\includeonly{chapter1}
+
 
 \begin{document}
 
-% Always load preliminary pages
+% Preliminary pages are always loaded (TOC, CV, etc.)
 \input{preliminaries}
 \preliminarypages
 
@@ -69,8 +71,14 @@
 \bibliographystyle{abbrv}
 \bibliography{thesis}
 
+% The Thesis Manual says not to include appendix figures and tables in
+% the List of Figures and Tables, respectively, so these commands from
+% the caption package turn it off from this point onwards. If needed,
+% it can be re-enabled later (using list=yes argument).
+\captionsetup[figure]{list=no}
+\captionsetup[table]{list=no}
+
 % If you have an appendix, it should come after the references.
-\appendix
 \include{appendix}
 
 \end{document}

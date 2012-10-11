@@ -7,8 +7,11 @@
 % Trevor Harmon <tharmon@uci.edu>
 %
 % Changelog:
+% Oct 11, 2012: Defaulted back to standard \appendix with subsequent \chapter,
+%               since custom \appendix confused figure/table counters. (Lars)
 % Oct 10, 2012: Changed all margins to 1 in and removed signature page. (Lars)
-% Aug 15, 2008: added "Page" as column title to Table of Contents, List of Figures, and List of Tables
+% Aug 15, 2008: added "Page" as column title to Table of Contents, List of
+%               Figures, and List of Tables (Trevor)
 % Dec 6, 2007:  eliminated some spurious "duplicate ignored" (Trevor)
 %               corrected bibliography spacing (Trevor)
 % May 17, 2007: added support for the pre-published copyright page (Trevor)
@@ -228,10 +231,16 @@
 	\pagenumbering{arabic}
 }
 
-\renewcommand{\appendix}
+% Reverted back to standard latex appendix, since numbering of
+% figures/tables was broken with custom command.
+%\renewcommand{\appendix}
+\newcommand{\myappendix}
 {
 	\par
 	\setcounter{section}{0}
+	\setcounter{figure}{0}
+	\setcounter{table}{0}
+	\setcounter{equation}{0}
 	\gdef\thechapter{\@Alph\c@section}
 	\gdef\thesection{\@Alph\c@section}
 	\chapter*{Appendices}
