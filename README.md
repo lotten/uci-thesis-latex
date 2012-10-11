@@ -22,3 +22,10 @@ Naturally, this template comes _without any guarantees whatsoever_,
 but if you find anything that's at odds with UCI requirements, now or
 in the future, feel free to submit a pull request or contact me
 directly.
+
+#### Usage
+
+Simply run `thesis.tex` through your LaTeX executable of choice. The
+template has been tested with `latex`+`dvipdf`, but `pdflatex` and
+others should work equally well. An optional, simple makefile to
+automate some of the steps is also included (adapted from Trevor).
