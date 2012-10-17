@@ -1,10 +1,13 @@
 % ucithesis.cls: LaTeX2e class for writing UCI Ph.D. dessertation, based on
 %   LaTeX ``report'' class, to comply with ``UCI Thesis and Dissertation Manual''
-%   (http://www.lib.uci.edu/libraries/collections/special/thesis/tdmanual.html).
+%   (http://special.lib.uci.edu/dissertations/electronic/tdmanuale.html).
+%
+% Disclaimer: not endorsed by UCI, provided without any guarantees.
 %
 % Authors: 
 % Xianping Ge <xge@ics.uci.edu>
 % Trevor Harmon <tharmon@uci.edu>
+% Lars Otten <lotten@uci.edu>
 %
 % Changelog:
 % Oct 11, 2012: Defaulted back to standard \appendix with subsequent \chapter,
