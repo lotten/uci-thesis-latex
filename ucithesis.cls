@@ -196,16 +196,16 @@
 {
 	\pagenumbering{roman}
 	\thesistitlepage
-	\copyrightpage
-    \ifx\Prepublishedcopyrightdeclaration\undefined
+        \ifx\Prepublishedcopyrightdeclaration\undefined
+	  \copyrightpage
 	\else
-	\prepublishedcopyrightpage
-    \fi
+	  \prepublishedcopyrightpage
+        \fi
 	\setcounter{page}{2}
 	%\signaturepage  %% not for electronic submission
-    \ifx\Dedications\undefined
+        \ifx\Dedications\undefined
 	\else
-	\dedicationpage
+	  \dedicationpage
 	\fi
 	\tableofcontents
 	\clearpage
