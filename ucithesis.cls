@@ -219,6 +219,13 @@
 	\phantomsection
 	\addcontentsline{toc}{chapter}{LIST OF TABLES}
 	\listoftables
+	\ifx\listalgorithmname\undefined  % for algorithm package
+	\else
+	  \clearpage
+	  \phantomsection
+	  \addcontentsline{toc}{chapter}{LIST OF ALGORITHMS}
+	  \listofalgorithms
+	\fi
 	\clearpage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}

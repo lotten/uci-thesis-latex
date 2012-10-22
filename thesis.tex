@@ -21,7 +21,7 @@
 
 % Some other useful packages
 \usepackage{caption}
-\usepackage{subcaption}
+\usepackage{subcaption}  % \begin{subfigure}...\end{subfigure} within figure
 \usepackage{multirow}
 \usepackage{tabularx}
 
@@ -29,10 +29,14 @@
 % Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
 \usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
 
-% Modify or extend these at will.
-\newtheorem{theorem}{{\sc Theorem}}
-\newtheorem{definition}{{\sc Definition}}
-\newtheorem{example}{{\sc Example}}
+% Uncomment the following two lines to use the algorithm package,
+% which provides an algorithm environment similar to figure and table
+% ("\begin{algorithm}...\end{algorithm}"). A list of algorithms will
+% automatically be added in the preliminary pages. Note that you
+% probably want a package for the actual code to go with this (e.g.,
+% algorithmic).
+%\usepackage{algorithm}
+%\renewcommand{\listalgorithmname}{\protect\centering\protect\Large LIST OF ALGORITHMS}
 
 % Uncomment the following line to enable Unicode support. This will allow you
 % to enter non-ASCII characters (such as accented characters) directly without
@@ -42,12 +46,17 @@
 %\usepackage[utf8x]{inputenc}
 
 
+% Modify or extend these at will.
+\newtheorem{theorem}{{\sc Theorem}}
+\newtheorem{definition}{{\sc Definition}}
+\newtheorem{example}{{\sc Example}}
+
+
 % Set this to only select a subset of the includes directives below.
 % Very handy to speed up compilation if you're working on a certain
 % part of your thesis. It conserves page numbers, references, etc.
-% even for excluded files.
+% even for non-included files.
 %\includeonly{chapter1}
-
 
 \begin{document}
 
