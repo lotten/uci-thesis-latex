@@ -190,10 +190,12 @@
 \renewcommand{\listfigurename}{\protect\centering\protect\Large LIST OF FIGURES}
 \renewcommand{\listtablename}{\protect\centering\protect\Large LIST OF TABLES}
 
-% Add "Page" as column title to Table of Contents, List of Figures, and List of Tables
+% Add "Page" as column title to Table of Contents, List of Figures,
+% List of Tables, and List of Algorithms
 \addtocontents{toc}{\protect\raggedleft Page\\}
 \addtocontents{lof}{\protect\raggedleft Page\\}
 \addtocontents{lot}{\protect\raggedleft Page\\}
+\addtocontents{loa}{\protect\raggedleft Page\\}
 
 \newcommand{\preliminarypages}
 {
