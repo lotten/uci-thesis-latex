@@ -23,8 +23,8 @@ electronic filing as of Fall 2012:
 The template homepage is:
 - https://github.com/lotten/uci-thesis-latex
 
-The latest version is available as a .zip or .tar.gz archive at:
-- https://github.com/lotten/uci-thesis-latex/downloads
+A zip archive of the latest version is available directly at:
+- https://github.com/lotten/uci-thesis-latex/archive/master.zip
 
 #### Usage
 
