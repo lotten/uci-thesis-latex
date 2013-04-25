@@ -1,7 +1,7 @@
 PROJ = thesis
 
 SRC	= $(PROJ).tex
-DEP	= *.tex
+DEP	= *.tex *.bib ucithesis.cls
 
 OUT	= .
 
@@ -13,24 +13,20 @@ CMDPDF   = dvipdf
 
 PDFVIEWER = evince
 
-$(DVI) : $(DEP)
-	make tex
+all: $(DVI) $(PDF)
 
 $(PDF) : $(DVI)
 	$(CMDPDF) $(DVI) $(PDF)
 
-tex	:
-	mkdir -p $(OUT)
+$(DVI) : $(DEP) | $(OUT)
 	$(CMDLATEX) $(SRC)
-
-all :
-	make tex
-	make bib
-	make tex
-	make tex    # Run LaTeX again to make sure all references are correct
-
-bib	:
 	bibtex $(OUT)/$(PROJ)
+	$(CMDLATEX) $(SRC)
+	$(CMDLATEX) $(SRC)	# Run LaTeX again to make sure all references are correct
+
+# Create the OUT directory, if it doesn't exist
+$(OUT):
+	mkdir -p $@
 
 show	: $(PDF)
 	$(PDFVIEWER) "$(PDF)"
