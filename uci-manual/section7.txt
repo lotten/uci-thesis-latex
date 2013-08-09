@@ -8,7 +8,7 @@ Master's thesis template
 7.1.1. Sample Title Page (Master's Thesis)
 7.1.2. Sample Title Page (Ph.D. Dissertation)
 7.1.3. Sample Copyright Page
-7.1.4 Sample Copyright Page (Pre-published materials)
+7.1.4. Sample Copyright Page (Pre-published materials)
 7.1.5. Sample Dedication Page (Optional)
 7.1.6. Sample Table of Contents (Master's Thesis) 
 7.1.7. Sample Table of Contents (Ph.D. Dissertation)
