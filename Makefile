@@ -1,17 +1,17 @@
-PROJ = thesis
+PROJ := thesis
 
-SRC	= $(PROJ).tex
-DEP	= *.tex *.bib ucithesis.cls
+SRC	:= $(PROJ).tex
+DEP	:= *.tex *.bib ucithesis.cls
 
-OUT	= .
+OUT	:= .
 
-DVI	= $(OUT)/$(PROJ).dvi
-PDF	= $(OUT)/$(PROJ).pdf
+DVI	:= $(OUT)/$(PROJ).dvi
+PDF	:= $(OUT)/$(PROJ).pdf
 
-CMDLATEX = latex -output-directory=$(OUT)
-CMDPDF   = dvipdf
+CMDLATEX := latex -output-directory=$(OUT)
+CMDPDF   := dvipdf
 
-PDFVIEWER = evince
+PDFVIEWER := evince
 
 all: $(DVI) $(PDF)
 
