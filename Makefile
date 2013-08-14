@@ -1,7 +1,7 @@
 PROJ := thesis
 
 SRC	:= $(PROJ).tex
-DEP	:= *.tex *.bib ucithesis.cls
+DEP	:= $(wildcard *.tex *.bib) ucithesis.cls
 
 OUT	:= .
 
