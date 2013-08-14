@@ -18,11 +18,14 @@ all: $(DVI) $(PDF)
 $(PDF) : $(DVI)
 	$(CMDPDF) $(DVI) $(PDF)
 
-$(DVI) : $(DEP) | $(OUT)
-	$(CMDLATEX) $(SRC)
-	bibtex $(OUT)/$(PROJ)
-	$(CMDLATEX) $(SRC)
-	$(CMDLATEX) $(SRC)	# Run LaTeX again to make sure all references are correct
+# OUT directory must be ordered before we generate output
+$(OUT)/%.dvi: %.tex | $(OUT)
+	$(CMDLATEX) $<
+	bibtex $(OUT)/$(<:%.tex=%)
+	$(CMDLATEX) $<
+	$(CMDLATEX) $<	# Run LaTeX again to make sure all references are correct
+
+$(DVI) : $(DEP)
 
 # Create the OUT directory, if it doesn't exist
 $(OUT):
