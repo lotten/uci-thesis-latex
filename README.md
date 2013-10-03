@@ -14,7 +14,7 @@ file).
 However, it seems the site above isn't actively maintained anymore, so
 I reorganized and updated things a bit to comply (to the best of my
 knowledge) with the latest UCI Theses and Dissertation Manual for
-electronic filing as of Fall 2012:
+electronic filing as of Fall 2013:
 
 - http://special.lib.uci.edu/dissertations/electronic/tdmanuale.html
 
@@ -40,11 +40,11 @@ customize to suit your needs).
 
 #### Disclaimer
 
-Note that this template is _not officially endorsed by UCI_ and is
+Note that this template is _not officially maintained by UCI_ and is
 provided here _without any guarantees whatsoever_.
 
 That being said, I believe it can be genuinely useful to future grad
 students and I'll try my best to maintain it going forward. So if you
-find anything that's at odds with UCI requirements, now or in the
+find anything that is at odds with UCI requirements, now or in the
 future, or have other suggestions feel free to submit a pull request
 on GitHub or contact me directly (lotten _at_ uci _dot_ edu).
