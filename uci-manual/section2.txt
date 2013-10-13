@@ -150,8 +150,8 @@ Use only black, permanent, non-smearing ink for handwritten symbols or formulas,
 Electronic or audiovisual data may be included as supplemental files in an ETD submission. Your committee should agree that the information contained in the supplemental files is of such a character that a medium other than text is necessary. For ETD submissions, information on attaching supplementary files is available in section 6.1. 
 [back to Table of Contents][top of page]
 2.12. Style Manuals 
-In most instances, your academic department or discipline should be your guide regarding the style guide most applicable to your thesis/dissertation. You should select the style manual that is most commonly used in your field of study, and you should follow it consistently.
-If your department has not designated a style manual, those listed below may be helpful. They are the standards for various broad disciplines and are available in the UCI Libraries and the UCI Bookstore.
+In most instances, your academic department or discipline should provide guidance regarding the style manual most applicable to your thesis/dissertation. You should select the style manual that is most commonly used in your field of study, and you should follow it consistently.
+If your department has not designated a style manual, those print editions listed below may be helpful. They are the standards for various broad disciplines and are available in the UCI Libraries and the UCI Bookstore.
 
 Publication Manual of the American Psychological Association (APA Style Manual). Sixth edition. Washington, D.C.: American Psychological Association, 2010.
 CBE Style Manual Committee. Council of Biology Editors Style Manual: A Guide for Authors, Editors, and Publishers in the Biological Sciences. Fourth edition. 1978.
@@ -161,8 +161,9 @@ Gibaldi, Joseph. The MLA Style Manual. Third edition. New York: The Modern Langu
 Turabian, Kate L. A Manual for Writers of Term Papers, Theses and Dissertations. Sixth edition. Revised by John Grossman and Alice Bennett. Chicago: University of Chicago Press, 1996.
 Li, Xia, and Nancy B. Crane. Electronic Style: A Guide to Citing Electronic Information. Connecticut: Meckler Publishing, 1993.
 
-On more general matters of style, The Elements of Style, by William Strunk, Jr., and E. B. White (fourth edition, 1999), is an excellent guide. The Careful Writer, by Theodore M. Bernstein, also is a good source for common word-selection decisions. For spelling and many usage questions, use a dictionary (e.g., Webster's New Collegiate Dictionary). In addition, your discipline may have its own dictionary (e.g., the McGraw-Hill Dictionary of Science and Engineering).
- 
+To access electronic versions of these and other style manuals and guides, the UCI Libraries maintain a libguide "Quick Reference Guide for Writing" that provides access to Citation Styles & Writing Guides.
+There are templates available for Word and LaTeX. The Special Collections and Archives Department maintains the official thesis and dissertation Word templates. The LaTeX template is for dissertations only. It is not official and it is not maintained by Special Collections and Archives. However, it is accurate as of August 2013.
+On more general matters of style, The Elements of Style, by William Strunk, Jr., and E. B. White (fourth edition, 1999), is an excellent guide. The Careful Writer, by Theodore M. Bernstein, also is a good source for common word-selection decisions. For spelling and many usage questions, use a dictionary (e.g., Webster's New Collegiate Dictionary). In addition, your discipline may have its own dictionary (e.g., the McGraw-Hill Dictionary of Science and Engineering). Also, see the Citation Styles & Writing Guides section of the "Quick Reference Guide for Writing" libguide for access to these and other suggested sources.
 Many common manuscript problems involve punctuation. Strunk and White's The Elements of Style and The Chicago Manual of Style (15th edition) are excellent sources for correct usage. Two basic guidelines are: 
 
 When using double or single quotation marks, place commas or periods inside the ending quotation mark. Place colons and semicolons outside the ending quotation mark.
