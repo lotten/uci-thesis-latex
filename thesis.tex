@@ -52,9 +52,19 @@
 %\clubpenalty=10000
 
 % Modify or extend these at will.
-\newtheorem{theorem}{{\sc Theorem}}[chapter]
-\newtheorem{definition}{{\sc Definition}}[chapter]
-\newtheorem{example}{{\sc Example}}[chapter]
+\newtheorem{theorem}{\textsc{Theorem}}[chapter]
+\newtheorem{definition}{\textsc{Definition}}[chapter]
+\newtheorem{example}{\textsc{Example}}[chapter]
+
+% Macros for title, author, abstract, etc.
+\input{preliminaries}
+
+% Add PDF document info fields
+\hypersetup{
+	pdftitle={\Thesistitle},
+	pdfauthor={\Authorname},
+	pdfsubject={\Degreefield},
+}
 
 % Uncomment the following to have numbered subsubsections (by default
 % numbering goes only to subsections).
@@ -70,7 +80,6 @@
 \begin{document}
 
 % Preliminary pages are always loaded (TOC, CV, etc.)
-\input{preliminaries}
 \preliminarypages
 
 % Include the different components of your thesis, in separate files.
