@@ -28,7 +28,7 @@ A zip archive of the latest version is available directly at:
 
 #### Usage
 
-The main file is `thesis.tex`, from which a number other files are
+The main file is `thesis.tex`, from which a number of other files are
 included. Take a look at the comments in the LaTeX sources for some
 more specific pointers.
 
