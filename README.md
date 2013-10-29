@@ -40,8 +40,9 @@ customize to suit your needs).
 
 #### Disclaimer
 
-Note that this template is _not officially maintained by UCI_ and is
-provided here _without any guarantees whatsoever_.
+Even though UCI Special Collections and Archives has referred students
+to this template, it is _not officially maintained by UCI_ and provided
+here _without any guarantees whatsoever_.
 
 That being said, I believe it can be genuinely useful to future grad
 students and I'll try my best to maintain it going forward. So if you
