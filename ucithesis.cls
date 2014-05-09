@@ -199,8 +199,12 @@
 
 \newcommand{\preliminarypages}
 {
-	\pagenumbering{roman}
+	\pagenumbering{gobble}% Remove page numbers (and reset to 1), see http://tex.stackexchange.com/questions/54333/no-page-numbering
+	\clearpage
+	\thispagestyle{empty}
 	\thesistitlepage
+	\clearpage
+	\pagenumbering{roman}
         \ifx\Prepublishedcopyrightdeclaration\undefined
 	  \copyrightpage
 	\else
@@ -240,6 +244,8 @@
 	\phantomsection
 	\addcontentsline{toc}{chapter}{ABSTRACT OF THE DISSERTATION}
 	\abstractpage
+	\clearpage
+	\setcounter{page}{1}
 	\pagenumbering{arabic}
 }
 
