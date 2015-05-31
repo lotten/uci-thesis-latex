@@ -2,6 +2,12 @@ UCI Theses and Dissertations Manual - 2. Preparing Your Manuscript
 
 2.1. Introduction
 2.2. Manuscript Sections
+
+2.2.1 Preliminary Pages Section
+2.2.2 Text Section
+2.2.3 References Section
+
+
 2.3. Length
 2.4. Paper Size 
 2.5. Selecting a Typeface 
@@ -14,77 +20,185 @@ UCI Theses and Dissertations Manual - 2. Preparing Your Manuscript
 2.12. Style Manuals
 
 2.1. Introduction
-Please keep in mind that your thesis/dissertation is part of your individual permanent academic record. It is also part of the permanent record of scholarship and research undertaken by all graduates of UCI, and it will be permanently accessible to the worldwide community of scholars.
+Please
+keep in mind that your thesis/dissertation is part of your individual permanent
+academic record. It is also part of the permanent record of scholarship and
+research undertaken by all graduate student graduates of UCI, and it will be permanently accessible to the
+worldwide community of scholars.
 2.1.1. Paper and Electronic (ETD) Submissions
-Your manuscript must be neat, clean, legible, and error-free when it is submitted to your committee, as well as to the University Archives, whether in paper or electronically (ETD). 
-The manuscript that the University Archives approves is considered final; any errors you may discover after the University Archives accepts it can be corrected only when and if you subsequently publish elsewhere.
-Use the spell-checker on your word-processing program, but manually proofread your text as well.
-In creating each page of your manuscript, avoid (1) hyphenating words at the end of a line, (2) putting the first line of a paragraph as the last line of type on a page, and (3) putting the last line of a paragraph as the first line of type on a page. Also, keep intact all parts of formulas or items in a list, moving them intact to the next page, if necessary, even if such a move results in extra white space at the bottom of the preceding page.
+Your manuscript must be neat, clean, legible, and
+error-free when it is submitted to your committee, as well as to the University
+Archives, whether in paper or electronically (ETD). 
+The manuscript that the University Archives approves
+is considered final; any errors you may discover after the University Archives
+accepts it cannot be corrected.
+Use the spell-checker on your word-processing
+program, but manually proofread your text as well.
+ In creating each page of your manuscript, avoid (1)
+hyphenating words at the end of a line, (2) putting the first line of a
+paragraph as the last line of type on a page, and (3) putting the last line of
+a paragraph as the first line of type on a page. Also, keep intact all parts of
+formulas or items in a list, moving them intact to the next page, if necessary,
+even if such a move results in extra white space at the bottom of the preceding
+page.
 2.1.2. Electronic (ETD) Submissions
-Electronic submissions must follow the basic formatting requirement specified on the UMI submission web site, and in this manual. 
+Electronic submissions must follow the basic
+formatting requirement specified on the UMI submission web site here and in
+this manual.
 [back to Table of Contents][top of page]
 2.2. Manuscript Sections
-2.2.1. Preliminary Pages Section
-Manuscripts normally are composed of three sequential sections: preliminary pages, text, and references. Consult with your committee about the internal arrangement within the text and reference sections.
-For margin and pagination requirements, refer to sections 2.6 and 2.8. The preliminary pages require very specific wording, spacing, and layout. Model your pages after the sample pages in section 6.1. and use the exact wording given there.
-Only those pages listed below may be included as part of the preliminary pages section, and they must be placed in the order indicated; no other pages are permitted. All are required except the dedication page and the lists of symbols, etc. (the latter is required if applicable).
-The Signature Page is not included in the ETD submission. It is only included for paper submissions. Actual committee signatures are included on the "Ph.D. Form II/Signature Page" or the "Master's Thesis / Signature Page" that you submit to Graduate Division (Aldrich Hall 120). 
+2.2.1.
+Preliminary Pages Section
+Manuscripts normally are composed of three
+sequential sections: preliminary pages, text, and references. Consult with your
+committee about the internal arrangement within the text and reference
+sections.
+For margin and pagination requirements, refer to
+sections 2.6 and 2.8. The preliminary pages require very specific wording,
+spacing, and layout.  Model your pages
+after the sample pages in section 6.1. and use the exact wording given there.
+There is a  Word templates available for
+the Ph.D. dissertation here.
+And a Word template for the Masters thesis here.
+You can also see samples of all of the preliminary
+pages in Section 7.1 of this Manual here.
+Only those pages listed below may be included as
+part of the preliminary pages section, and they must be placed in the order
+indicated; no other pages are permitted. All are required except the dedication
+page and the lists of symbols, etc. (the latter is required if applicable).
+A Signature
+Page is not a valid part of your
+manuscript and is not included in the ETD submission. If the template you are
+using includes a Signature Page you do not have a current accurate template. Committee
+signatures are now included on the “Ph.D. Form II/Signature Page” or the
+“Master’s Thesis / Signature Page” that you print and submit to Graduate
+Division (Aldrich Hall 120). See Section 5.2 or 5.3 for more about your
+Submission Checklist.
 Title Page 
 
-Author's name as it appears on official University records.
-The degree earned; use the wording given in section 6.2., Graduate Degrees Awarded by UCI.
-The full name of each committee member.
-The words used in the title of your manuscript are the access points for researchers who may use keyword-searching techniques to identify works in various subject areas. Use word substitutes, not symbols or formulas, to ensure effective retrieval from on-line indexes. Use concise titles containing words descriptive of the work; emphasis should be on nouns, with easily identifiable key words.
+Author's name as it appears
+on official University records. Check with the Graduate Division if you are
+unsure.
+The degree earned; use the
+wording given in Section 7.2., Graduate Degrees Awarded by UCI. 
+The full name of each
+committee member. 
+The words used in the title
+of your manuscript are the access points for researchers who may use
+keyword-searching techniques to identify works in various subject areas. Use
+word substitutes, not symbols or formulas, to ensure effective retrieval from
+on-line indexes. Use concise titles containing words descriptive of the work;
+emphasis should be on nouns, with easily identifiable key words. 
+Sample pages and templates are available.
 
 Copyright Page 
 
-If you have previously published parts of your manuscript, you must list the copyright holders; see section 3.2. 
-If a copyright statement is not being included, insert a blank page as a substitute. The University Archives strongly recommends that you include a copyright statement; see section 4, Copyrighting your Manuscript.
+If you have previously
+published parts of your manuscript, you must list the copyright holders; see Section
+3.2. 
+If a copyright
+statement is not being included, insert a blank page as a substitute.   The University Archives strongly recommends
+that you include a copyright statement; see section 4, Copyrighting your
+Manuscript.
+Sample pages and templates are available.
 
-Dedication Page (Optional)
-Table of Contents
+Dedication
+Page
+(Optional) 
 
-All sections of the manuscript are listed in the table of contents except the title page, the copyright page, the dedication page, and the table of contents. The sections to be included in the table of contents are: lists of symbols, figures, tables, and illustrations, acknowledgments, curriculum vitae, abstract, introduction, each chapter, bibliography, and each appendix.
-Novels and collections of poems are not exempt from the requirement to include a table of contents.
+Sample pages and templates are available.
 
-List of Symbols, List of Tables, List of Figures, and List of Illustrations
+Table of
+Contents 
 
-Include a separate page/s for each type of list.
-Include symbols, tables, figures, and illustrations in the text section only (do not include those in your appendiz/appendices).
+All sections of the
+manuscript are listed in the table of contents except the title page, the
+copyright page, the dedication page, and the table of contents. The sections to
+be included in the table of contents are: lists of symbols, figures, tables,
+and illustrations, acknowledgments, curriculum vitae, abstract, introduction,
+each chapter, bibliography, and each appendix. 
+Novels and collections of
+poems are not exempt from the requirement to include a table of contents.
+Sample pages and templates are available.
 
-Acknowledgments Page 
 
-You must acknowledge grants and other funding assistance.
-If you have used copyrighted material of your own or others, you must include a statement to inform the reader that permission has been granted and state the source of the permission.
-You may also acknowledge the contributions of professors and friends.
 
-Curriculum Vitae (Ph.D.s only) 
+List of Symbols, List of Tables, List of
+Figures, and List of Illustrations
 
-Includes, at minimum, a listing of the author's degrees and educational achievements with dates and the school where the degree was earned.
-Includes the degree currently being attained.
+Include a separate page/s
+for each type of list.
+Include symbols, tables,
+figures, and illustrations in the text section only (do not include those in
+your appendix/appendices).
+Sample pages and templatees are available.
+
+Acknowledgments Page
+
+You must acknowledge grants
+and other funding assistance.
+If you have used copyrighted
+material of your own or others, you must include a statement to inform the
+reader that permission has been granted and state the source of the permission.
+You may also acknowledge the
+contributions of professors and friends.
+Sample pages and templates are available.
+
+Curriculum
+Vitae
+(Ph.D.s only) 
+
+Includes, at minimum, a
+listing of the author's degrees and educational achievements with dates and the
+school where the degree was earned.
+Include the degree currently
+being attained with the date of completion (remove any words such as “present”
+or “current”).
+Sample pages and templates are available.
 
 Abstract 
 
-Text is double-spaced.
-Includes the title, your name, the degree name, the university name and year, and your committee chair's name; all of the above must be consistent with your title page.
-Contains no more than 250 words for Master's theses or 350 for Ph.D. dissertations.
-Use indent or flush left at the beginning of paragraphs, depending on the style manual you are following. Include a short statement of the problem you studied; a brief exposition of the methods and procedures employed in gathering the data; and a summary of your findings. No graphs, charts, or tables may be included.
+Text is double-spaced. 
+Includes the title, your
+name, the degree name, the university name and year, and your committee chair’s
+name; all of the above must be consistent with your title page.
+Contains no more than 250 words for Master’s theses or 350 for Ph.D.
+dissertations.
 
-2.2.2. Text Section
+Use indent or flush left at
+the beginning of paragraphs, depending on the style manual you are following.
+Include a short statement of the problem you studied; a brief exposition of the
+methods and procedures employed in gathering the data; and a summary of your
+findings. No graphs, charts, or tables may be included.
+Sample pages and templates are available.
 
-Introduction or preface.
-Main body, usually consisting of well-defined subdivisions, i.e., chapters, parts, or their equivalents.
-Conclusion (may be separate or a part of the main body).
+2.2.2. Text
+Section 
 
-2.2.3. References Section
+Introduction or preface. 
+Main body, usually
+consisting of well-defined subdivisions, i.e., chapters, parts, or their
+equivalents. 
+Conclusion (may be separate
+or a part of the main body). 
+
+2.2.3.
+References Section
 Bibliography 
 
-Format the references or bibliography in the style most commonly used in your academic discipline (including the placement of references at the end of each chapter if necessary).
+Format the references or
+bibliography in the style most commonly used in your academic discipline
+(including the placement of references at the end of each chapter if
+necessary).
 
 Appendices 
 
-List each appendix separately in the table of contents.
-Tables, figures, charts, or photos placed at the end of the manuscript form an appendix and should not be listed in a list of figures, list of tables, or list of illustrations in your preliminary pages.
+List each appendix
+separately in the table of contents.
+Tables, figures, charts, or
+photos placed at the end of the manuscript form an appendix and should not be
+listed in a list of figures, list of tables, or list of illustrations in your
+preliminary pages. 
 
 [back to Table of Contents][top of page]
 2.3. Length 
@@ -93,80 +207,206 @@ UCI places no limit on the length of your thesis/dissertation.
 2.4. Page Size
 For manuscripts submitted electronically, the final version of your thesis/dissertation must be on an 8.5" x 11" page.
 2.4.1. Oversized Materials
-Oversized material (e.g., extensive computer program instructions or computer listings, form letters, questionnaires, charts, or any other reprinted materials) should be photo-reduced to fit onto 8.5" x 11" pages. Reduced copies of graphs, charts, and similar material can be accepted if they are (1) clearly legible and 10-point or larger font and (2) the required allowances for margins and page number location requirements are maintained. You may want to consider using multimedia for some such material. (See section 2.11., Electronic and Audiovisual Appendices).
+Oversized material (e.g., extensive computer program
+instructions or computer listings, form letters, questionnaires, charts, or any
+other reprinted materials) should be photo-reduced to fit onto 8.5" x
+11" pages.  Reduced copies of graphs,
+charts, and similar material can be accepted if they are (1) clearly legible
+and 10-point or larger font; and (2) the required allowances for margins and
+page number location requirements are maintained. You may want to consider
+using multimedia for some such material. (See section 2.11., Electronic and
+Audiovisual Appendices).
 [back to Table of Contents][top of page]
 2.5. Selecting a Typeface
-Be consistent in the use of typeface(s) throughout your manuscript. All text material must be in the same typeface/font; all headings and figure/table titles/captions must be in a consistent typeface.
-Any symbols, equations, figures, drawings, diacritical marks, or lines that cannot be typed, and therefore are drawn, must be added in permanent black ink.
+Be
+consistent in the use of typeface(s) throughout your manuscript. All text
+material must be in the same typeface/font; all headings and figure/table
+titles/captions must be in a consistent typeface.
+Any
+symbols, equations, figures, drawings, diacritical marks, or lines that cannot
+be typed, and therefore are drawn, must be added in permanent black ink.
 2.5.1. Font Size
-Each copy of your manuscript made from microfilm will be a photographically reduced version, and the type size will be only two-thirds that of your original. Therefore, it is extremely important that you begin with a type size that is legible.
-All fonts used, including those for sub-and superscripts, must be 10-point or larger. Recommended sizes are 14-point for chapter headings, 12-point for the main body of text and figure/table titles, and 10-point for footnotes, sub-and superscripts, and text in figures and tables. 
+It is extremely important that you choose a type
+size that is legible.
+All fonts
+used, including those for sub-and superscripts, must be 10-point or larger. Recommended sizes are
+14-point for chapter headings, 12-point for the main body of text and
+figure/table titles, and 10-point for footnotes, sub- and super-scripts, and
+text in figures and tables.
 2.5.2. Font Selection
-Use a clear, standard font that is highly legible and will reproduce clearly. Ornate or decorative fonts such as script, calligraphy, gothic, italics, or specialized art fonts are not acceptable.
-If permitted by your committee, you may (1) use italic type for headings, foreign words, book titles, or occasional emphasis, OR (2) you may use bold-faced or underscored type where appropriate such as in the text of headings and table titles/figure captions. Remember to maintain consistency throughout your manuscript when you use any of these styles.
+Use a clear, standard font that is highly legible
+and will reproduce clearly. Ornate or decorative fonts such as script,
+calligraphy, gothic, italics, or specialized art fonts are not acceptable. 
+ If permitted by your committee, you may (1) use
+italic type for headings, foreign words, book titles, or occasional emphasis,
+OR (2) you may use bold-faced or underscored type where appropriate such as in
+the text of headings and table titles/figure captions. Remember to maintain
+consistency throughout your manuscript when you use any of these styles.
 [back to Table of Contents][top of page]
 2.6. Margins 
 All manuscript text, excluding manuscript page numbers, must fit within these specified margin requirements:
 
-1" from the top, left, right, and bottom edges of the page
+1" (minimum) from the top, left, right, and bottom edges of the page
 
 Tables, figures, graphs, photographs, and appendices are also included in these margin requirements. Materials may be reduced or enlarged, if necessary, to fit within the required margins.
 [back to Table of Contents][top of page]
 2.7. Spacing and Layout 
-Your manuscript must be double-spaced, with the exception of footnotes, bibliographic entries, long quotations, data in lists and tables, and figure/table captions, all of which should be single-spaced.
+Your
+manuscript must be double-spaced, with the exception of footnotes,
+bibliographic entries, long quotations, data in lists and tables, and
+figure/table captions, all of which should be single-spaced.
 2.7.1. Preliminary pages
-The title page, copyright page, dedication page (if used), lists of figures, tables, symbols, or illustrations, acknowledgments page, curriculum vitae (Ph.D.s only) and abstract page have specific spacing and layout requirements. Model your pages after the sample pages in section 6.1. The manuscript you submit via the ETD system should not have a signature page.
+The title page, copyright page, dedication page (if
+used), lists of figures, tables, symbols, or illustrations, acknowledgments
+page, curriculum vitae (Ph.D.s only) and abstract page have specific spacing
+and layout requirements. Model your pages after the sample pages in section 7.1.
+The manuscript you submit should not have a Signature page. This is no longer a
+valid part of your manuscript. If the template you are using includes a
+Signature page you do not have a current accurate template. There are templates
+available for Word and LaTeX. The Special Collections and Archives Department
+maintains the official thesis and dissertation Word templates. The LaTeX
+template is for dissertations only. It is not official and it is not maintained
+by Special Collections and Archives. However, it is accurate as of September
+2013.
+Sample pages and templates are available.
 2.7.2. Headings
-Establish and follow a consistent pattern for layout of all headings. For example: center all major headings; place secondary headings at least two lines below major headings.
+Establish and follow a consistent pattern for layout
+of all headings. For example: center all major headings; place secondary
+headings at least two lines below major headings.
 2.7.3. Long Quotations
-The format recommended for layout of long quotations is to double space before and after any long quotations used in your main text and to indent all lines in the quoted material at least five spaces from BOTH the left and right margins.
+The format recommended for layout of long quotations
+is to double space before and after any long quotations used in your main text
+and to indent all lines in the quoted material at least five spaces from BOTH
+the left and right margins.
 [back to Table of Contents][top of page]
 2.8. Pagination 
-Every manuscript page except the title page and the copyright page must be numbered.
+Every
+manuscript page except the title page and the copyright page must be numbered.
 2.8.1. Preliminary Pages
-Number the preliminary pages at the bottom center of the page, in lower-case Roman numerals. The title page is counted in determining the total number of pages in this section but is NOT numbered. The copyright page is not counted or numbered; thus, numbering begins with Roman numeral "ii" on the dedication page (if used) or on the table of contents (if there is no dedication page). The subsequent pages are then numbered consecutively through the end of the abstract.
+Number the preliminary pages at the bottom center of
+the page, in lower-case Roman numerals. The title page is counted in
+determining the total number of pages in this section but is NOT numbered. The
+copyright page is not counted or numbered; thus, numbering begins with Roman
+numeral "ii" on the dedication page (if used) or on the table of
+contents (if there is no dedication page). The subsequent pages are then
+numbered consecutively through the end of the abstract.
 2.8.2. Text Section
-Use Arabic numerals for all pages of the text section. Depending upon the structure of your manuscript, its preface, introduction, or Chapter 1 will be Arabic page 1. Number the subsequent pages consecutively to the end of your manuscript including any appendices and the bibliography. Dashes, periods, underlining, and letter suffixes (e.g.,10a, 10b) are not permitted before, after, or under your page numbers.
-You may choose one of two pagination styles for the text and reference sections of the manuscript.
+Use Arabic numerals for all pages of the text
+section. Depending upon the structure of your manuscript, its preface, introduction,
+or Chapter 1 will be Arabic page 1. Number the subsequent pages consecutively
+to the end of your manuscript including any appendices and the bibliography.
+Dashes, periods, underlining, and letter suffixes (e.g.,10a, 10b) are not
+permitted before, after, or under your page numbers.
+ You may choose one of two pagination styles for the
+text and reference sections of the manuscript.
+A. Number all the pages at the bottom center of each
+page. 
 
-Number all the pages at the bottom center of each page.
-Number the first page of each section at the bottom center and all remaining pages of that section in the upper right corner. (The sections are the introduction, each chapter, the bibliography, and each appendix. Endnotes are considered part of their chapter, and not a separate section.)
-
-Check each page before submitting your manuscript to the University Archives to ensure that there are no missing or misnumbered pages.
+B. Number the first page of each section at the
+bottom center and all remaining pages of 
+that section in the upper right corner. (The
+sections are the introduction, each chapter, the bibliography, and each
+appendix. Endnotes are considered part of their chapter, and not a separate
+section.) 
+Check each page before submitting your manuscript to
+the University Archives to ensure that there are no missing or misnumbered
+pages.
 [back to Table of Contents][top of page]
 2.9. Figures and illustrations
 2.9.1. Captions and Numbering
-Place table numbers and titles above each table, and figure numbers and legends below each figure; if you choose a different pattern, be consistent throughout the manuscript. If space is not available within the margins of your figures/tables page for your caption or title, place it on the page preceding the illustrative material. Include both pages in your consecutive pagination and list the page containing the caption in the list of figures or list of tables (see section 2.2.1., Preliminary Pages Section).
-Number all figures and tables sequentially, either by chapter or throughout the entire manuscript. You may use letter suffixes to identify figures or tables (e.g., Table 3a or Figure 12d), but such use should reflect some relational quality among the figures/tables so numbered. Do not add a suffix simply because you add a figure/table at the last moment if its data bears little or no relationship to the figure/table that precedes it.
+Place table numbers and titles above each table, and figure numbers and legends below each figure; if you choose a
+different pattern, be consistent throughout the manuscript. If space is not
+available within the margins of your figures/tables page for your caption or
+title, place it on the page preceding the illustrative material. Include both
+pages in your consecutive pagination and list the page containing the caption
+in the list of figures or list of tables (see section 2.2.1., Preliminary Pages
+Section). 
+Number all figures and tables sequentially,
+either by chapter or throughout the entire manuscript. You may use letter
+suffixes to identify figures or tables (e.g., Table 3a or Figure 12d), but such
+use should reflect some relational quality among the figures/tables so
+numbered. Do not add a suffix simply because you add a figure/table at the last
+moment if its data bears little or no relationship to the figure/table that
+precedes it.
 2.9.2. Photographs and Other Illustrations
-Photographs and other illustrations included in your manuscript can be either in black and white or in color. Thos images must fit within the standard page size of 8 1/2" x 11". 
+Photographs and other illustrations included in your
+manuscript can be either in black and white or in color. Those images must fit
+within the standard page size of 8 ½” x 11” and must fit within the 1” margins
+as stated in Section 2.6. 
 2.9.3. Handwritten Marks
-Use only black, permanent, non-smearing ink for handwritten symbols or formulas, drawings, diacritical marks, etc. as well as for the signatures on your signature page. Black ink images reproduce the best. Blue inks vary widely in their reproducibility, from intense to nonexistent.
+Use only black, permanent, non-smearing ink for
+handwritten symbols or formulas, drawings, diacritical marks, etc. Black ink
+images reproduce the best. Blue inks vary widely in their reproducibility, from
+intense to nonexistent.
 [back to Table of Contents][top of page]
 2.10. Footnotes and Endnotes
-"Footnotes" appear at the bottom of a page. "Endnotes" appear at the end of each chapter/part or all together after the last chapter/part in the text section. Your committee should be your guide regarding your choice of footnotes or endnotes. If these notes are few in number, and there is only one on any page, you may use an asterisk, instead of a numeral, to designate it. However, if your notes are more numerous, you must number them sequentially throughout your manuscript. You may not mix asterisks with numerals.
+"Footnotes"
+appear at the bottom of a page. "Endnotes" appear at the end of each
+chapter/part or all together after the last chapter/part in the text section.
+Your committee should be your guide regarding your choice of footnotes or
+endnotes. If these notes are few in number, and there is only one on any page,
+you may use an asterisk, instead of a numeral, to designate it. However, if
+your notes are more numerous, you must number them sequentially throughout your
+manuscript. You may not mix asterisks with numerals.
 [back to Table of Contents][top of page]
 2.11. Electronic and Audiovisual Appendices 
-Electronic or audiovisual data may be included as supplemental files in an ETD submission. Your committee should agree that the information contained in the supplemental files is of such a character that a medium other than text is necessary. For ETD submissions, information on attaching supplementary files is available in section 6.1. 
+Electronic
+or audiovisual data may be included as Supplemental Files in an ETD submission.
+Your committee should agree that the information contained in the supplemental
+files is of such a character that a medium other than text is necessary. For
+ETD submissions, information on attaching supplementary files is available in
+section 6.1.
 [back to Table of Contents][top of page]
 2.12. Style Manuals 
-In most instances, your academic department or discipline should provide guidance regarding the style manual most applicable to your thesis/dissertation. You should select the style manual that is most commonly used in your field of study, and you should follow it consistently.
-If your department has not designated a style manual, those print editions listed below may be helpful. They are the standards for various broad disciplines and are available in the UCI Libraries and the UCI Bookstore.
+In
+most instances, your academic department or discipline should be your guide
+regarding the style guide most applicable to your thesis/dissertation. You
+should select the style manual that is most commonly used in your field of
+study, and you should follow it consistently.
+If
+your department has not designated a style manual, those listed below may be
+helpful. They are the standards for various broad disciplines and are available
+in the UCI Libraries and the UCI Bookstore.
 
-Publication Manual of the American Psychological Association (APA Style Manual). Sixth edition. Washington, D.C.: American Psychological Association, 2010.
-CBE Style Manual Committee. Council of Biology Editors Style Manual: A Guide for Authors, Editors, and Publishers in the Biological Sciences. Fourth edition. 1978.
+
+
+Publication Manual of the American Psychological Association (APA
+Style Manual). Sixth edition. Washington, D.C.: American Psychological
+Association, 2010. 
+CBE Style Manual Committee. Council
+of Biology Editors Style Manual: A Guide for Authors, Editors, and Publishers
+in the Biological Sciences. Fourth edition.  1978. 
 The Chicago Manual of Style. (Formerly: A Manual of Style). Fifteenth edition. Chicago: University of Chicago Press, 2003.
-Handbook for Authors of Papers in American Chemical Society Publications. Washington, D.C.: American Chemical Society, 1978.
-Gibaldi, Joseph. The MLA Style Manual. Third edition. New York: The Modern Language Association of America, 2008.
-Turabian, Kate L. A Manual for Writers of Term Papers, Theses and Dissertations. Sixth edition. Revised by John Grossman and Alice Bennett. Chicago: University of Chicago Press, 1996.
-Li, Xia, and Nancy B. Crane. Electronic Style: A Guide to Citing Electronic Information. Connecticut: Meckler Publishing, 1993.
+Handbook for Authors of Papers in American Chemical Society
+Publications. Washington, D.C.: American Chemical Society, 1978. 
+Gibaldi, Joseph. The MLA Style Manual.  Third edition.  New York: The Modern Language Association of
+America, 2008. 
+Turabian, Kate L. A Manual for Writers of Term Papers, Theses
+and Dissertations. Sixth edition. Revised by John Grossman and Alice
+Bennett. Chicago:
+University of Chicago Press, 1996. 
+Li, Xia, and Nancy B. Crane. Electronic Style: A Guide to Citing
+Electronic Information. Connecticut:
+Meckler Publishing, 1993. 
 
 To access electronic versions of these and other style manuals and guides, the UCI Libraries maintain a libguide "Quick Reference Guide for Writing" that provides access to Citation Styles & Writing Guides.
 There are templates available for Word and LaTeX. The Special Collections and Archives Department maintains the official thesis and dissertation Word templates. The LaTeX template is for dissertations only. It is not official and it is not maintained by Special Collections and Archives. However, it is accurate as of August 2013.
-On more general matters of style, The Elements of Style, by William Strunk, Jr., and E. B. White (fourth edition, 1999), is an excellent guide. The Careful Writer, by Theodore M. Bernstein, also is a good source for common word-selection decisions. For spelling and many usage questions, use a dictionary (e.g., Webster's New Collegiate Dictionary). In addition, your discipline may have its own dictionary (e.g., the McGraw-Hill Dictionary of Science and Engineering). Also, see the Citation Styles & Writing Guides section of the "Quick Reference Guide for Writing" libguide for access to these and other suggested sources.
-Many common manuscript problems involve punctuation. Strunk and White's The Elements of Style and The Chicago Manual of Style (15th edition) are excellent sources for correct usage. Two basic guidelines are: 
+On more general matters of style, The Elements of Style, by
+William Strunk, Jr., and E. B. White (fourth edition, 1999), is an excellent
+guide. The Careful Writer, by Theodore M. Bernstein, also is a good
+source for common word-selection decisions. For spelling and many usage
+questions, use a dictionary (e.g., Webster's New Collegiate Dictionary).
+In addition, your discipline may have its own dictionary (e.g., the
+McGraw-Hill Dictionary of Science and Engineering).
+Many common manuscript problems involve punctuation.
+Strunk and White's The Elements of Style and The Chicago Manual of Style (15th
+edition) are excellent sources for correct usage. Two basic guidelines are: 
 
-When using double or single quotation marks, place commas or periods inside the ending quotation mark. Place colons and semicolons outside the ending quotation mark.
-The term "et al." requires a period after "al." The terms "e.g." and "i.e." include two periods and are followed by a comma, unless they appear at the end of a sentence.
+When using double or single quotation marks, place commas or periods
+inside the ending quotation mark. Place colons and semicolons outside the
+ending quotation mark. 
+The term "et al." requires a period after "al." The
+terms "e.g." and "i.e." include two periods and are
+followed by a comma, unless they appear at the end of a sentence.
 
 [3. Using Copyrighted Material]

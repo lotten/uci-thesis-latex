@@ -17,51 +17,174 @@ UCI Theses and Dissertations Manual - 1. Basic Information for the Candidate
 
 
 1.1. Introduction to Using the Manual
-[NOTE: Beginning Winter 2009, both Masters and Ph.D. students will have the option of submitting their thesis or dissertation electronically via the UMI ETD system or via the paper process currently in place. We strongly encourage submission electronically via the ETD system, but we will continue to accept paper submissions.]
-Congratulations! You are approaching the last step toward attainment of your graduate degree.
-Your Master's thesis or Ph.D. dissertation, as the permanent scholarly statement of your research, should be error-free and appropriately prepared. You are responsible for submitting a manuscript that fits the format described in this manual and is free of spelling and format errors. The University Archives staff will review your manuscript via the ETD system and will not accept it unless it has been appropriately prepared. Once your manuscript has been accepted by the University Archives, no changes to the text or substitution of pages may be made.
-The requirements described in this manual apply only to the formatting of your manuscript, not to its scholarly content. UCI's Graduate Division, the Graduate Council of the Irvine Division of the Academic Senate, and the University Archives have established these criteria and regulations in order to provide all Master's and Ph.D. degree candidates with a uniform presentation format.
-It is important that you work with your thesis/dissertation committee and/or your department to develop your manuscript. Be aware that your particular school or discipline's criteria for preparation and submission of manuscripts may vary from this manual. School of the Arts students, for example, are not required to submit their theses to the University Archives, but may do so if they wish to have a copy of their manuscript bound and housed in the UCI Libraries or if they wish to have their manuscript published electronically by UMI. If an art student does choose to submit to the Archives, their manuscript must conform to the requirements in this manual, except for the signature page.
-You and your committee are responsible for ensuring the accuracy of everything in your manuscript. All formatting requirements specified in this manual must be adhered to. Refer to sections 7.5 and 7.6 of the manual for answers to frequently asked questions about thesis/dissertation preparation and submission and an overview of common mistakes to avoid. For all other matters of organization, presentation, and documentation, your manuscript should meet the standards for published journal articles or monographs in your field.
+Since
+Winter Quarter 2009, both Masters and Ph.D. students have the option of
+submitting their thesis or dissertation electronically via the UMI ETD
+system or via the paper submission process. We strongly encourage submission
+electronically via the ETD system, but we will continue to accept paper
+submissions.
+Congratulations!
+You are approaching the last step toward attainment of your graduate degree.
+Your
+Master's thesis or Ph.D. dissertation, as the permanent scholarly statement of
+your research, should be error-free and appropriately prepared. You are
+responsible for submitting a manuscript that fits the format described in this
+manual and is free of spelling and format errors. The University Archives staff
+will review your manuscript via the ETD system and will not accept it unless it
+has been appropriately prepared. Once
+your manuscript has been accepted by the University Archives, no changes to the
+text or substitution of pages may be made.
+The
+requirements described in this manual apply only to the formatting of your
+manuscript, not to its scholarly content. UCI's
+Graduate Division, the Graduate Council of the Irvine Division of the Academic
+Senate, and the University Archives have established these criteria and
+regulations in order to provide all Master's and Ph.D. degree candidates with a
+uniform presentation format.
+It
+is important that you work with your thesis/dissertation committee and/or your
+department to develop your manuscript. Be aware that your particular school or
+discipline's criteria for preparation and submission of manuscripts may vary
+from this manual.  School of the Arts
+students, for example, are not required to submit their theses to the
+University Archives, but may do so if they wish to
+have a copy of their manuscript bound and housed in the UCI
+Libraries or if they wish to have their manuscript published electronically by
+UMI.  If an art student does
+choose to submit to the Archives, their manuscript must conform to the
+requirements in this manual.
+You
+and your committee are responsible for ensuring the accuracy of everything in
+your manuscript. All formatting requirements specified in this manual must be
+adhered to. Refer to sections 7.5 and 7.6 of the manual for answers to
+frequently asked questions about thesis/dissertation preparation and submission
+and an overview of common mistakes to avoid. For all other matters of
+organization, presentation, and documentation, your manuscript should meet the
+standards for published journal articles or monographs in your field.
 [back to Table of Contents][top of page]
 1.2. Your Responsibilities as a Candidate 
 1.2.1. Maintain Your Current Enrollment at UCI
-To maintain your status as a graduate-degree candidate, you must continue your full-time enrollment as a UCI student until your thesis/dissertation has been approved by your faculty committee and accepted by the University Archives. If your student status lapses, so does your candidate status. To maintain your full-time enrollment, you must pay either the quarterly Registration Fee and enroll in a minimum of 12 units or, in certain cases (see section 1.2.3.), pay a Filing Fee.
+To
+maintain your status as a graduate-degree candidate, you must continue your
+full-time enrollment as a UCI
+student until your thesis/dissertation has been approved by your faculty
+committee and accepted by the University Archives. If your student status
+lapses, so does your candidate status. To maintain your full-time enrollment,
+you must pay either the quarterly Registration Fee and enroll in a minimum of
+12 units or, in certain cases (see section 1.2.3.), pay a Filing Fee.
 1.2.2. Meet Filing Deadlines
-Deadlines for each option above are published here and in UCI's quarterly Schedule of Classes. These official deadlines are final, and they usually occur at the end of the tenth week of classes.
-The faculty review and/or the defense of your thesis/dissertation must be completed prior to the filing deadline. If you miss the deadline, the formal conferral of your degree will be delayed until (at minimum) the following quarter. The University Archives is not able to approve extensions.
+Deadlines for each option above are published here and in UCI's
+quarterly Schedule of Classes. These official deadlines are final, and they
+usually occur at the end of the tenth week of classes.
+The faculty review and/or the defense of your
+thesis/dissertation must be completed prior to the filing deadline. If you miss
+the deadline, the formal conferral of your degree will be delayed until (at
+minimum) the following quarter. The University Archives is not able to approve
+extensions.
 [back to Table of Contents][top of page]
  
 1.2.3. Pay the Filing Fee
-You may pay a Filing Fee instead of the regular quarterly Registration Fee or Summer Session Fee if, prior to the beginning of the term in which you expect to receive your degree, you have met all degree requirements, as well as all other eligibility requirements for the filing fee which are listed on the form
-The Filing Fee is half the amount of the Registration Fee. To pay the Filing Fee, you must have the chair of your thesis/dissertation committee sign a "Filing Fee Petition" form, which is available from your department or the Graduate Division. The form must also be signed by your Department Chair or Graduate Advisor. Students in the Schools of Biological Sciences, Engineering, Humanities, Social Ecology, Social Sciences and ICS also need their Associate Dean's signature on the petition form. International students must have approval from the International Center before submitting their form.
-Once your petition has all the required signatures, take it to the Cashier's Office (228 Aldrich Hall) and pay the Filing Fee by the deadline, and then submit the signed petition to the Graduate Division (120 Aldrich Hall).
-If your Filing Fee petition is not approved, you must continue to enroll and pay the full Registration Fee until you have completed all your degree requirements.
+You may pay a Filing Fee instead of the regular
+quarterly Registration Fee or Summer Session Fee if, prior to the beginning of
+the term in which you expect to receive your degree, you have met all degree
+requirements, as well as all other eligibility requirements for the filing fee
+which are listed on the form
+The Filing Fee is half the amount of the
+Registration Fee. To pay the Filing Fee, you must have the chair of your
+thesis/dissertation committee sign a "Filing Fee Petition" form,
+which is available from your department or the Graduate Division. The form must
+also be signed by your Department Chair or Graduate Advisor. Students in the
+Schools of Biological Sciences, Engineering, Humanities, Social Ecology, Social
+Sciences and ICS also need their Associate Dean's signature on the petition
+form. International students must have approval from the International Center
+before submitting their form.
+Once your petition has all the required signatures,
+take it to the Cashier's Office (228 Aldrich Hall) and pay the Filing Fee by
+the deadline, and then submit the signed petition to the Graduate Division (120
+Aldrich Hall).
+If your Filing Fee petition is not approved, you
+must continue to enroll and pay the full Registration Fee until you have
+completed all your degree requirements.
 1.2.4. Follow the Requirements in this Manual
-The requirements in this manual pertain to manuscript formatting, manuscript submission, and copyright matters. They take precedence over any style manuals used by your academic discipline or adopted by your committee. Since requirements change over time, it is important to note that the requirements in this manual supersede all prior editions.
-Students are responsible for adherence to all requirements specified in this manual. Do not rely principally on the format of another student's thesis/dissertation when preparing your own manuscript.
-The Graduate Division and the University Archives conduct quarterly workshops on the preparation and filing of theses and dissertations. You are strongly urged to attend; dates and times of future sessions are available here.
+The requirements in this manual pertain to
+manuscript formatting, manuscript submission, and copyright matters. They take
+precedence over any style manuals used by your academic discipline or adopted
+by your committee. Since requirements change over time, it is important to note
+that the requirements in this manual supersede all prior editions.
+Students are responsible for
+adherence to all requirements specified in this manual. Do not rely principally on the format of
+another student's thesis/dissertation when preparing your own manuscript. We
+maintain a Word template that conforms to all formatting requirements. We do
+not maintain an official LaTeX template. However, this template is accurate as
+of December 2013: https://github.com/lotten/uci-thesis-latex.
+If you are using a LaTeX template, please check to see that it conforms to the
+Word template that we maintain. The Ph.D. dissertation Word template is
+available here. The Masters thesis Word
+template is available here.
+The Graduate Division and the University
+Archives conduct quarterly workshops on the preparation and filing of theses
+and dissertations. You are strongly urged to attend; dates and times of future
+sessions are available here.
 [back to Table of Contents][top of page]
  
 1.3. The Role of the University Archives 
-Graduate students have the option of submitting their thesis/dissertation electronically or in paper format. Students must select one method of submission, either electronically or paper. We strongly encourage students to submit electronically via the ETD system.
+Graduate
+students have the option of submitting their thesis/dissertation electronically
+or in paper format.  Students must select
+one method of submission, either electronically or paper. We strongly encourage
+students to submit electronically via the ETD system.
 1.3.1. Electronic Thesis or Dissertation (ETD) submissions: 
-Electronic Thesis or Dissertation (ETD) submissions:Electronic submissions of ETDs are done here. Information about the electronic submission process is available in this manual, on the Graduate Division website and on the ETD site. Upon submitting your manuscript electronically, the Library Archives will send you a verification email stating your submission has been received, is under review, and who will be reviewing it. Theses or dissertations that do not follow the formatting requirements in the manual will be rejected and the student will be instructed about what needs to be changed and will be asked to refer to the manual for formatting requirements. 
-The Archives staff reviews your manuscript to ensure that: 
+Electronic
+submissions of ETDs are done here.
+Information
+about the electronic submission process is available in this manual, on the
+Graduate Division website and on the ETD site. Upon submitting your manuscript electronically, University
+Archives will automatically send you a verification email stating your
+submission has been received. That will be followed shortly by an email
+informing you that your submission is under review, and who will be reviewing
+it. Theses or dissertations that do not follow the formatting requirements in
+the manual will not be accepted and the student will be told what needs to be
+changed and will be referred to certain section(s) of the manual for formatting
+requirements.  
+ The
+Archives staff reviews your manuscript to ensure that:
 
-The margins, pagination, and other formatting requirements have been followed.
-All required preliminary pages are present.
-All requirements specified by Proquest for ETD submission have been met.
+The margins, pagination, and other formatting requirements have been
+followed. 
+All required preliminary pages are present. 
+All requirements specified by ProQuest for ETD submission have been
+met. 
 
-For ETD submissions, all required and optional forms need to be submitted to the Graduate Division, 120 Aldrich Hall before the submission deadline to insure that you will obtain your degree. Graduate Division staff will verify that:
+For ETD submissions, all required and optional forms need to be submitted to the Graduate
+Division, 120 Aldrich Hall before the submission deadline to insure that you
+will obtain your degree. Graduate Division staff will verify that:
+
 
 All committee members have signed the appropriate form.
 Your graduate degree paperwork is complete.
 You have submitted your manuscript electronically.
 
-Please note that if you choose to submit electronically, there is no need to visit the University Archives during the submission process unless you would like an in-person critique of the manuscript prior to submission. You can ask any questions regarding the process or any formatting questions by contacting University Archives (archives@uci.edu, 949-824-3947).
+Please note that if you choose to submit
+electronically, there is no need to visit the University Archives during the
+submission process unless you would like to make an appointment for an in-person critique of the
+manuscript prior to submission. You can ask any questions regarding the process
+or any formatting questions by contacting University Archives through the Electronic Thesis/Dissertation Consultation Request Form. We can also provide critiques on your formatting of the manuscript through this form.
 1.3.2. Your Manuscript After Submission 
-All approved thesis/dissertation manuscripts completed by UCI students become available for public access. 
-Dissertations are published by UMI Dissertation Services (a division of ProQuest Information and Learning Company) or another designated entity approved by UCI that makes dissertations publicly available. In addition, abstracts are printed and indexed in Dissertation Abstracts International. Thesis/dissertation manuscripts are also archived for preservation purposes.
-
+All
+approved thesis/dissertation manuscripts completed by UCI
+students automatically become available for public access and circulation as
+part of the UC Irvine Libraries collection. 
+Theses and dissertation submitted electronically will be available via
+Antpac, with a link to the fulltext in eScholarship. You have an option to
+delay access through an embargo request process. See more information about the
+embargo process in Section 5.4 Publishing Your Work Elsewhere and Embargoes
+Dissertations
+are published by UMI Dissertation Services (a division of ProQuest Information
+and Learning Company) or another designated firm approved by UCI that makes dissertations available worldwide
+through an online index. 
+The
+time needed for cataloging and various other processes for electronic
+publishing varies; allow a minimum of five months for the entire process from
+submission of your manuscript to the University Archives to the time your
+manuscript is available for viewing.
 [2. Preparing Your Manuscript]

@@ -1,23 +1,124 @@
 UCI Theses and Dissertations Manual - 6. Electronic Doctoral Dissertation and Master's Thesis Submission Procedures
 
-6.1. Submitting Electronically the Doctoral Dissertation or Master's Thesis
+6.1 Submitting Electronically the Doctoral Dissertation or Master's Thesis
+6.2 UCI Open Access Service
 
-UCI allows Doctoral students and Master students to submit their dissertation or thesis electronically via the UMI ETD system. All required and optional paper forms need to be submitted to the Graduate Division, 120 Aldrich Hall by the submission deadline. 
-Electronic submissions of a doctoral dissertation or master's thesis must follow all formatting requirements set forth in the manual.  It is the responsibility of the student to ensure that the doctoral dissertation or master's thesis appears as originally intended when it is accessed or printed. An original Ph.D. Form II/Signature page or Master's thesis/Signature page, with committee signatures and other signatures (as appropriate) must be submitted to the Graduate Division with all other final degree paperwork. The manuscript submitted electronically (ETD), should not include a signature page.
-The doctoral dissertation or master's thesis must be submitted as a single electronic Portable Document Format (PDF) file. If the original doctoral dissertation or master's thesis is a Microsoft Word or RTF file, you will be able to convert the doctoral dissertation or master's thesis to a PDF at the UCI Dissertation Submission Site. If the doctoral dissertation or master's thesis is not in Microsoft Word, RTF or PDF - e.g. LaTeX or WordPerfect - it must be converted to PDF before the student uses the Submission Site. Certain types of fonts and graphics work better with PDF, and special attention should be paid to creating equations for PDF conversion. Optional supplemental files (images, video, audio) that are an integral part of the doctoral dissertation or master's thesis but not part of the full text may also be submitted electronically, upon approval of your committee.
+UCI allows Doctoral students and Master students to
+submit their dissertation or thesis electronically via the UMI ETD system. All
+required and optional paper forms need to be submitted to the Graduate
+Division, 120 Aldrich Hall by the submission deadline. 
+Electronic submissions of a doctoral dissertation or
+master’s thesis must follow all formatting requirements set forth in the manual.
+ It is the responsibility of the student
+to ensure that the doctoral dissertation or master’s thesis appears as
+originally intended when it is accessed or printed. An original Ph.D. Form II/Signature
+page or Master’s thesis/Signature page, with committee signatures and other
+signatures (as appropriate) must be submitted to the Graduate Division with all
+other final degree paperwork. The manuscript submitted electronically (ETD) should not
+include a signature page.
+
+The doctoral dissertation or master’s thesis must be
+submitted as a single electronic Portable Document Format (PDF) file. If the
+original doctoral dissertation or master’s thesis is a Microsoft Word or RTF
+file, you will be able to convert the doctoral dissertation or master’s thesis
+to a PDF at the UCI Dissertation Submission Site. If the doctoral dissertation or master’s thesis is not in Microsoft Word, RTF
+or PDF - e.g. LaTeX or WordPerfect - it must be converted to PDF before the
+student uses the Submission Site. Certain types of fonts and graphics work
+better with PDF, and special attention should be paid to creating equations for
+PDF conversion. Optional supplemental files (images, video, audio) that are an
+integral part of the doctoral dissertation or master’s thesis but not part of
+the full text may also be submitted electronically, upon approval of your
+committee.
 [back to Table of Contents][top of page]
 6.1. Submitting Electronically the Doctoral Dissertation or Master's Thesis
 
 Electronic doctoral dissertations and master's theses must be submitted via the UCI ETD Dissertation Submission Site.
-When the doctoral dissertation or master's thesis is ready to be submitted, students click on "Submit Your Dissertation/Thesis" in the left sidebar. This link opens the log-in page for students to click on the "New user" link to create a free account. If an account has already been created, students enter the appropriate email address and password into the text boxes provided and click "Log-In." If you are submitting a revision, use the revise dissertation link in the email from sent to you from the reviewer; do not create a new account.
-Once the log-in is successful, students follow the instructions and links. In addition to properly formatting your doctoral dissertation or master's thesis, you will need to choose one of four publishing options. Please see the options site for details on the four options and discuss them with your committee chair. Current UC
-Irvine policy requires immediate release of doctoral dissertations and master's theses. If your committee chair wishes to delay publication with an embargo, s/he must complete the embargo section of the Ph.D. Form II/Signature page and attach a brief memo of explanation addressed to the Graduate Dean. Options for the period of time an embargo may be granted are: 6 months, 1 year and 2 years. The letter must also be endorsed by the chair of your department. The student's acceptance of the Submission Agreement and ProQuest Release is required in order to submit the electronic doctoral dissertation or master's thesis. These agreements contain standard language that is also part of the paper contract that one would sign while filing a paper doctoral dissertation or master's thesis. Students click on "Accept" to agree to these terms.
-Next, students complete the required text boxes with student name and contact information and click "Continue."
-The next page requires information about the doctoral dissertation or master's thesis and student's degree. Students paste or type the doctoral dissertation or master's thesis abstract into the appropriate text box. Finally, students indicate whether ProQuest is authorized to register the student's claim to copyright with the U.S. Copyright Office for a $65 fee. Once students click on "Submit," the next page may take a few minutes to load.
-The next page is an optional order form for printed, bound copies of the doctoral dissertation or master's thesis. To place an order, students complete the relevant fields and click on "Place order." Otherwise, students may click on "Continue without ordering copies."
-The final page gives students the opportunity to verify the accuracy of the submission. If the submission is satisfactory, students click on "Log out."
+When the doctoral dissertation or master’s thesis is
+ready to be submitted, students click on “Submit Your Dissertation/Thesis” in
+the left sidebar. This link opens the log-in page for students to click on the
+“New user” link to create a free account. If an account has already been
+created, students enter the appropriate email address and password into the
+text boxes provided and click “Log-In.” If you are submitting a revision, use
+the revise dissertation link in the email from sent to you from the reviewer; do
+not create a new account.
+Once the log-in is successful, students follow
+the instructions and links. In addition to properly formatting your doctoral
+dissertation or master’s thesis, you will need to choose one of four publishing
+options. Please see the options site for details on the four options and discuss them with
+your committee chair. Current UC Irvine policy requires immediate release of
+doctoral dissertations and master’s theses. If you  wish   to delay publication with an embargo, you  must complete
+the embargo section of the Ph.D. Form II/Signature page or the Master's Thesis Signature Page.
+Options for the period of time an embargo
+may be granted are: 6 months, 1-6 years and by exception, an option to request
+more than 6 years. For this option, you must attach a brief memo of explanation
+addressed to the Graduate Dean. The student’s acceptance of the Submission
+Agreement and ProQuest Release is
+required in order to submit the electronic doctoral dissertation or master’s
+thesis. These agreements contain standard language that is also part of the
+paper contract that one would sign while filing a paper doctoral dissertation
+or master’s thesis. Students click on “Accept” to agree to these terms.
+Next, students complete the required text boxes with
+student name and contact information and click “Continue.” 
+The next page requires information about the doctoral
+dissertation or master’s thesis and student’s degree. Students paste or type
+the doctoral dissertation or master’s thesis abstract into the appropriate text
+box. There is a limit of 250 words for the Master’s thesis abstract and a limit
+of 350 words for the Ph.D. dissertation abstract.
+Finally, students indicate whether ProQuest is
+authorized to register the student’s claim to copyright with the U.S. Copyright
+Office for an optional $55 fee. Once students click on “Submit,” the next page
+may take a few minutes to load.
+The next page is an optional order form for printed,
+bound copies of the doctoral dissertation or master’s thesis. To place an
+order, students complete the relevant fields and click on “Place order.”
+Otherwise, students may click on “Continue without ordering copies.”
+The final page gives students the opportunity to
+verify the accuracy of the submission. If the submission is satisfactory,
+students click on “Log out.”
 An email confirmation of a successfully submitted electronic doctoral dissertation
-or master's thesis will be sent to students. A printed copy of this email needs to be submitted to the Graduate Division, along with all other forms. The electronic doctoral dissertation or master's thesis will be sent to the Library Archives for final approval. Upon review of the electronic doctoral dissertation or master's thesis, the Library Archives will send an email to students with any problems or questions prior to the final approval. Students will need to submit required corresponding forms, to the Graduate Division, Aldrich Hall 120, once they have submitted their thesis or dissertations electronically.
-For technical questions, students may contact http://dissertations.umi.com/faq.html#submission. For questions about doctoral dissertation or master's thesis required forms, students may contact the Graduate Division at 949-824-4611.
+or master's thesis will be sent to students. A printed copy of this email needs to be submitted to the Graduate Division, along with all other forms. The electronic doctoral dissertation or master’s
+thesis will be sent to the University Archives for final approval. Upon review
+of the electronic doctoral dissertation or master’s thesis, the University
+Archives will send an email to students identifying any problems or questions
+prior to the final approval. Students will need to submit required
+corresponding forms, to the Graduate Division, Aldrich Hall 120, once they have
+submitted their thesis or dissertations electronically.
+For technical questions, students may contact http://www.etdadmin.com/cgi-bin/main/faq?siteId=0. For questions about doctoral dissertation or master's thesis required forms, students may contact the Graduate Division at 949-824-4611.
 
+6.2. UCI Open Access Service
+It is the policy of the University of California,
+Irvine that dissertations and theses be published and made available for public
+access. [In June 2000, Graduate Council voted unanimously to reaffirm the
+requirement that dissertations be published and made available for public use.]  Electronic copies of all UCI theses and
+dissertations submitted to the ETD system will be routed to the UCI Libraries
+shortly after the formatting of your manuscript has been accepted by University
+Archives. The Libraries will preserve and make accessible to the public all
+theses and dissertations submitted electronically, in accordance with the
+Libraries policies and best practices. Such access includes online public
+access through the University of California’s open access repository
+eScholarship.  Providing such access
+increases the availability and dissemination of your work at no charge to you,
+a benefit UMI/ProQuest will provide only for a fee. If you request an embargo
+(see Section 6.1 above) and that request is approved, the Libraries will honor
+the embargo and provide access to the dissertation and or thesis only when the
+embargo period concludes. With that embargo, the ETD is not cataloged for the
+UCI Libraries collection nor published by UMI/ProQuest in their databases nor
+made available in eScholarship until after the embargo period concludes. All
+students who submit an ETD must complete and sign the “Open Access” agreement
+form, which is part of the Ph.D. Form II/Signature Page and Master’s Thesis
+signature page. 
+Students may still submit their thesis or dissertation
+in paper rather than as an ETD. Paper theses and dissertations will not be made
+available in eScholarship. Masters theses submitted in paper are bound and made
+available for circulation, but they are not available online.  This is a good option for MFA students who do
+not want their theses distributed on the web. 
+Paper dissertations are still sent to ProQuest, where they are scanned
+for inclusion in the ProQuest Digital Dissertations Database.  Distribution is limited and available
+exclusively through UMI/ProQuest. In order to gain access to a UCI ETD online,
+a researcher must be affiliated with an institution that subscribes to a
+full-text option in ProQuest.  The
+full-text options are very expensive, and few universities subscribe. Most
+institutions subscribe to the abstract and index product.  The UC system subscribes to the abstract and
+index product, but we pay extra to include UC full text dissertations from 1997
+to the present; access is restricted to authorized UC users.   
 [7. Appendices]
