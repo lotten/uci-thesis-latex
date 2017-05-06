@@ -5,28 +5,24 @@ DEP	:= $(wildcard *.tex *.bib) ucithesis.cls
 
 OUT	:= .
 
-DVI	:= $(OUT)/$(PROJ).dvi
 PDF	:= $(OUT)/$(PROJ).pdf
 
 # Can also use pdflatex, if preferred
-CMDLATEX := latex -output-directory=$(OUT)
-CMDPDF   := dvipdf
+CMDLATEX := pdflatex -output-directory=$(OUT)
 
 PDFVIEWER := evince
 
-all: $(DVI) $(PDF)
+all: $(PDF)
 
-$(PDF) : $(DVI)
-	$(CMDPDF) $(DVI) $(PDF)
 
 # OUT directory must be ordered before we generate output
-$(OUT)/%.dvi: %.tex | $(OUT)
+$(OUT)/%.pdf: %.tex | $(OUT)
 	$(CMDLATEX) $<
 	bibtex $(OUT)/$(<:%.tex=%)
 	$(CMDLATEX) $<
 	$(CMDLATEX) $<	# Run LaTeX again to make sure all references are correct
 
-$(DVI) : $(DEP)
+$(PDF) : $(DEP)
 
 # Create the OUT directory, if it doesn't exist
 $(OUT):
