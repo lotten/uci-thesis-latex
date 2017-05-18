@@ -45,7 +45,7 @@
 \newcommand{\dedications}[1]{\newcommand\Dedications{#1}}
 \newcommand{\acknowledgments}[1]{\newcommand\Acknowledgments{#1}}
 \newcommand{\curriculumvitae}[1]{\newcommand\Curriculumvitae{#1}}
-\newcommand{\thesisabstract}[1]{\newcommand\Thesisbstract{#1}}
+\newcommand{\thesisabstract}[1]{\newcommand\Thesisabstract{#1}}
 
 \newcommand{\thesistitlepage}
 {
@@ -182,7 +182,7 @@
 	\end{center}
 	\vspace{0.2in}
 	\doublespacing
-	\Thesisbstract
+	\Thesisabstract
 	\clearpage
 }
 
