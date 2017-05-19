@@ -1,15 +1,17 @@
+
 UCI Theses and Dissertations Manual - 7. Appendices
+
+
+
+
+ 
 
 Templates
 
-Students are responsible for
-adherence to all requirements specified in this manual. Do not rely principally on the format of
-another student's thesis/dissertation when preparing your own manuscript. We
-maintain a Word template that conforms to all formatting requirements. 
+Students are responsible for adherence to all requirements specified in this manual. Do not rely principally on the format of another student's thesis/dissertation when preparing your own manuscript. We maintain a Word template that conforms to all formatting requirements. 
 
 
 Ph.D dissertation template
-
 
 
 
@@ -20,21 +22,14 @@ Master's thesis template
 *If you experience problems downloading the Word templates, let us know through the Electronic Thesis/Dissertation Consultation Request Form. We will forward the templates as an email attachment.
 
 
-LaTeX template: We do
-not maintain an official LaTeX template. However, this template is accurate as
-of December 2013: https://github.com/lotten/uci-thesis-latex.
-If you are using a LaTeX template, please check to see that it conforms to the
-Word template that we maintain.
 
+LaTeX template: We do not maintain an official LaTeX template. However, this template is accurate as of December 2013: https://github.com/lotten/uci-thesis-latex. If you are using a LaTeX template, please check to see that it conforms to the Word template that we maintain.
 
 
 
 7.1. Sample Preliminary Pages
 
-The formatting of your preliminary pages should resemble that of the
-following samples.  Please note that
-these sample pages are not to scale (i.e. the page size is less than 8.5”x11”
-and the margins are less than 1” on the top, left, right, and bottom).
+The formatting of your preliminary pages should resemble that of the following samples.  Please note that these sample pages are not to scale (i.e. the page size is less than 8.5”x11” and the margins are less than 1” on the top, left, right, and bottom).
 
 
 7.1.1. Sample Title Page(Master's Thesis)
@@ -68,3 +63,8 @@ Available at: http://www.grad.uci.edu/academics/filing%20deadlines/index.html
 
 
 7.6. Points to Double Check- Avoid These Common Mistakes! 
+
+ 
+
+
+
