@@ -237,10 +237,13 @@
 	\addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
 	\acknowledgmentspage
 	\clearpage
-	\phantomsection
-	\addcontentsline{toc}{chapter}{CURRICULUM VITAE}
-	\curriculumvitaepage
-	\clearpage
+	\ifx\Curriculumvitaepage\undefined
+	\else
+	  \phantomsection
+	  \addcontentsline{toc}{chapter}{CURRICULUM VITAE}
+	  \curriculumvitaepage
+	  \clearpage
+	\fi
 	\phantomsection
 	\addcontentsline{toc}{chapter}{ABSTRACT OF THE DISSERTATION}
 	\abstractpage
