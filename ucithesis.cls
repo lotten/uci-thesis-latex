@@ -34,6 +34,7 @@
 \RequirePackage{setspace}
 
 \newcommand{\thesistitle}[1]{\newcommand\Thesistitle{#1}}
+\newcommand{\documenttitle}[1]{\newcommand\Documenttitle{#1}}
 \newcommand{\degreename}[1]{\newcommand\Degreename{#1}}
 \newcommand{\degreefield}[1]{\newcommand\Degreefield{#1}}
 \newcommand{\authorname}[1]{\newcommand\Authorname{#1}}
@@ -58,7 +59,7 @@
 		\vspace{0.4in}
 		\Thesistitle \\
 		\vspace{0.15in}
-		DISSERTATION \\
+		\MakeUppercase\Documenttitle \\
 		\vspace{0.4in}
 		submitted in partial satisfaction of the requirements \\
 		for the degree of \\
@@ -73,7 +74,7 @@
 	\end{center}
 	\vspace{1in}
 	\begin{flushright}
-		Dissertation Committee: \\
+		\Documenttitle \;Committee: \\
 		\Committeechair, Chair \\
 		\Othercommitteemembers \\
 	\end{flushright}
@@ -110,7 +111,7 @@
 {
 	\vspace*{1in}
 	\begin{center}
-		The dissertation of \Authorname \\
+		The \MakeLowercase\Documenttitle of \Authorname \\
 		is approved and is acceptable in quality and form for \\
 		publication on microfilm and in digital formats: \\
 	\end{center}
@@ -166,7 +167,7 @@
 \newcommand{\abstractpage}
 {
 	\begin{center}
-		{\bf\Large ABSTRACT OF THE DISSERTATION} \\
+		{\bf\Large ABSTRACT OF THE \expandafter\MakeUppercase\expandafter\Documenttitle} \\
 		\vspace{0.2in}
 		\Thesistitle \\
 		\vspace{0.2in}
@@ -237,12 +238,15 @@
 	\addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
 	\acknowledgmentspage
 	\clearpage
+	\ifx\Curriculumvitaepage\undefined
+	\else
+	  \phantomsection
+	  \addcontentsline{toc}{chapter}{CURRICULUM VITAE}
+	  \curriculumvitaepage
+	  \clearpage
+	\fi
 	\phantomsection
-	\addcontentsline{toc}{chapter}{CURRICULUM VITAE}
-	\curriculumvitaepage
-	\clearpage
-	\phantomsection
-	\addcontentsline{toc}{chapter}{ABSTRACT OF THE DISSERTATION}
+	\addcontentsline{toc}{chapter}{ABSTRACT OF THE \uppercase{\Documenttitle}}
 	\abstractpage
 	\clearpage
 	\setcounter{page}{1}
