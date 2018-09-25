@@ -238,7 +238,7 @@
 	\addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
 	\acknowledgmentspage
 	\clearpage
-	\ifx\Curriculumvitaepage\undefined
+	\ifx\Curriculumvitae\undefined
 	\else
 	  \phantomsection
 	  \addcontentsline{toc}{chapter}{CURRICULUM VITAE}
