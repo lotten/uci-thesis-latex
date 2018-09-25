@@ -8,11 +8,11 @@ import urllib2
 
 def get_contents(url, output_name):
     html = urllib2.urlopen(url).read()
-    manual_content = Soup(html).findAll('div', {'class': 'col-lg-9 twins'})[0]
+    manual_content = Soup(html).findAll('div', {'class': 'col-lg-9'})[0]
     with open(output_name + '.txt', 'w') as fh:
         fh.write(manual_content.text.encode('utf8'))
 
-get_contents('http://special.lib.uci.edu/dissertations/electronic/tdmanuale.html', 'toc')
+get_contents('http://etd.lib.uci.edu/electronic/tdmanuale', 'toc')
 for section in range(1,8):
-    url = 'http://special.lib.uci.edu/dissertations/electronic/td%de.html' % section
+    url = 'http://etd.lib.uci.edu/electronic/td%de' % section
     get_contents(url, 'section%d' % section)
