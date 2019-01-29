@@ -1,0 +1,111 @@
+% This is a template for Ph.D. dissertations in the UCI format.
+% 
+% All fonts, including those for sub- and superscripts, must be 10
+% points or larger.  Recommended sizes are 14-point for chapter
+% headings, 12-point for the main body of text and figure/table
+% titles, and 10-point for footnotes, sub- and super-scripts, and text
+% in figures and tables.
+%
+% Notes: Add short title to figures, sections, via square brackets,
+% e.g. \section[short]{long}.
+%
+\documentclass[12pt,fleqn]{ucithesis}
+
+% A few common packages
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{relsize}
+
+% Some other useful packages
+\usepackage{caption}
+\usepackage{subcaption}  % \begin{subfigure}...\end{subfigure} within figure
+\usepackage{multirow}
+\usepackage{tabularx}
+
+% plainpages=false fixes the "duplicate ignored" error with page counters
+% Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
+\usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
+
+% Uncomment the following two lines to use the algorithm package,
+% which provides an algorithm environment similar to figure and table
+% ("\begin{algorithm}...\end{algorithm}"). A list of algorithms will
+% automatically be added in the preliminary pages. Note that you
+% probably want a package for the actual code to go with this (e.g.,
+% algorithmic).
+%\usepackage{algorithm}
+%\renewcommand{\listalgorithmname}{\protect\centering\protect\Large LIST OF ALGORITHMS}
+
+% Uncomment the following line to enable Unicode support. This will allow you
+% to enter non-ASCII characters (such as accented characters) directly without
+% having to use LaTeX's awkward escape syntax (e.g., \'{e})
+% NOTE: You may have to install the ucs.sty package for this to work. See:
+% http://www.unruh.de/DniQ/latex/unicode/
+%\usepackage[utf8x]{inputenc}
+
+% Uncomment the following to avoid "widowing", where page breaks cause
+% single lines of paragraphs to float onto the next page (this is not
+% a UCI requirement but more of an aesthetic choice).
+%\widowpenalty=10000
+%\clubpenalty=10000
+
+% Modify or extend these at will.
+\newtheorem{theorem}{\textsc{Theorem}}[chapter]
+\newtheorem{definition}{\textsc{Definition}}[chapter]
+\newtheorem{example}{\textsc{Example}}[chapter]
+
+% Macros for title, author, abstract, etc.
+\input{preliminaries}
+
+% Add PDF document info fields
+\hypersetup{
+	pdftitle={\Thesistitle},
+	pdfauthor={\Authorname},
+	pdfsubject={\Degreefield},
+}
+
+% Uncomment the following to have numbered subsubsections (by default
+% numbering goes only to subsections).
+%\setcounter{secnumdepth}{4}
+
+
+% Set this to only select a subset of the includes directives below.
+% Very handy to speed up compilation if you're working on a certain
+% part of your thesis. It conserves page numbers, references, etc.
+% even for non-included files.
+%\includeonly{chapter1}
+
+\begin{document}
+
+% Preliminary pages are always loaded (TOC, CV, etc.)
+\preliminarypages
+
+% Include the different components of your thesis, in separate files.
+% Using \include allows you to set \includeonly above.
+\include{chapter1}
+%\include{chapter2}
+% ... and so on
+
+% These commands fix an odd problem in which the bibliography line
+% of the Table of Contents shows the wrong page number.
+\clearpage
+\phantomsection
+
+% "References should be formatted in style most common in discipline",
+% abbrv is only a suggestion.
+\bibliographystyle{abbrv}
+\bibliography{thesis}
+
+% The Thesis Manual says not to include appendix figures and tables in
+% the List of Figures and Tables, respectively, so these commands from
+% the caption package turn it off from this point onwards. If needed,
+% it can be re-enabled later (using list=yes argument).
+\captionsetup[figure]{list=no}
+\captionsetup[table]{list=no}
+
+% If you have an appendix, it should come after the references.
+\include{appendix}
+
+\end{document}
