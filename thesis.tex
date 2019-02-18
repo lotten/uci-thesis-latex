@@ -9,7 +9,7 @@
 % Notes: Add short title to figures, sections, via square brackets,
 % e.g. \section[short]{long}.
 %
-\documentclass[12pt,fleqn]{ucithesis}
+\documentclass[12pt,fleqn,usenatbib]{ucithesis}
 
 % A few common packages
 \usepackage{amsmath}
@@ -29,6 +29,8 @@
 \usepackage{subcaption}  % \begin{subfigure}...\end{subfigure} within figure
 \usepackage{multirow}
 \usepackage{tabularx}
+
+
 
 % plainpages=false fixes the "duplicate ignored" error with page counters
 % Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
@@ -90,7 +92,8 @@
 % Include the different components of your thesis, in separate files.
 % Using \include allows you to set \includeonly above.
 \include{chapter1}
-%\include{chapter2}
+\include{chapter2}
+\include{chapter3}
 % ... and so on
 
 % These commands fix an odd problem in which the bibliography line
@@ -100,7 +103,10 @@
 
 % "References should be formatted in style most common in discipline",
 % abbrv is only a suggestion.
-\bibliographystyle{abbrv}
+\bibliographystyle{mnras}
+\setlength\oddsidemargin{-0.6cm}
+\setlength\evensidemargin{-0.6cm}
+\voffset-1.5cm
 \bibliography{thesis}
 
 % The Thesis Manual says not to include appendix figures and tables in
