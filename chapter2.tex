@@ -1,1496 +1,1033 @@
-%%% Local Variables: ***
 
 
-
-\chapter{Under Pressure: Quenching Star Formation in Low-Mass Satellite Galaxies via
-  Stripping}
-
+\chapter{Taking Care of Business in a Flash \Lightning:  
+Constraining the Timescale for Low-Mass Satellite Quenching with ELVIS
+}
 
 
 \section{Introduction}
 \label{sec:intro} 
 
-Recent studies probing the properties of satellite galaxies in the
-local Universe show that the suppression (or ``quenching'') of star
-formation in satellites is a relatively inefficient process relative
-to the expectations of hydrodynamic and semi-analytic models of galaxy
-formation \citep[e.g.][]{kimm09, kimm11, wang14, hirschmann14,
-  phillips15a}.
+Foremost among the results of galaxy surveys over the last decade has
+been the realization that the galaxy population at $z \lesssim 2$ is
+bimodal in nature \citep[e.g.][]{strateva01, baldry04, bell04,
+  cooper06}. That is, galaxies both locally and out to intermediate
+redshift are effectively described as one of two distinct types: red,
+early-type galaxies lacking significant star formation and blue,
+late-type galaxies with active star formation. In color-magnitude
+space, the red galaxies populate a tight relation (often called the
+red sequence), while the distribution of blue galaxies is more
+scattered (sometimes referred to as the blue cloud).
 %
-While satellites are rapidly quenched -- following infall -- in the
-models, analysis of satellite populations identified in the Sloan
-Digital Sky Survey \citep[SDSS,][]{york00} instead find that quenching
-proceeds remarkably slowly, such that a typical satellite with $\mstar
-\gtrsim 10^{8}~\msun$ orbits within its host halo -- continuing to
-form stars -- for $\sim3-7$~Gyr before being quenched
-\citep{delucia12, wetzel13, wheeler14}.\footnote{These measured
-  satellite quenching timescales include the transition of a satellite
-  system from star-forming to quiescent, which must proceed quickly
-  (within $\sim1$~Gyr) so as to reproduce the observed bimodal
-  distribution of specific star-formation rates and rest-frame colors
-  \citep{balogh04, wetzel13}.}
+While the red and blue populations comprise approximately equal
+portions of the cosmic stellar mass budget at $z \sim 1$, galaxies on
+the red sequence dominate today, following a growth in stellar mass
+within the red population of roughly a factor of $2$ over the past $7$
+Gyr \citep{bell04, bundy06, faber07, brown07}.
 %
-Only at the lowest satellite masses is quenching a highly efficient
-process, with low-mass ($\mstar < 10^{8}~\msun$) satellites in the
-Local Group quenching within $\sim1-2$~Gyr of infall \citep{weisz15,
-  wetzel15b, fham15}.
+Despite uncertainty regarding the particular physical process(es) at play,
+the suppression (or quenching) of star formation in blue galaxies,
+thereby making them red, is one of the principal drivers of this
+dramatic growth in the number density of quiescent systems at late
+cosmic time.
 
 
-
-In an effort to connect these measured quenching timescales to the
-relevant physical mechanisms at play, \citet{fham15} present
-a comprehensive picture of satellite quenching spanning
-roughly $5$ orders of magnitude in satellite stellar mass.
+At both low and intermediate redshift, the local environment of a
+galaxy is known to be well-correlated with the suppression of star
+formation, such that passive or quiescent galaxies preferentially live
+in higher-density environments \citep{balogh04, kauffmann04, blanton05,
+  cooper06, cooper07, cooper10b}.
 %
-The low efficiency and long quenching timescales inferred for
-intermediate- and high-mass satellites ($\mstar \gtrsim 10^{8}~\msun$)
-are consistent with quenching via starvation -- a scenario in which
-gas accretion on to a satellite galaxy is halted following infall,
-thus eventually eliminating the fuel for star formation
-\citep{larson80, kawata08};
+While the stellar mass or surface mass density of a galaxy may be more
+closely connected to quenching for massive systems \citep{peng10,
+  cheung12, woo13}, recent work has shown that environment is likely
+the dominant driver of quenching at the lowest mass scales
+\citep[$\mstar < 10^9~\msun$,][]{geha12}.  For example, studies
+comparing satellite galaxies to isolated field systems of similar
+stellar mass in the local Universe find that satellites tend to
+exhibit lower star formation rates, more bulge-dominated morphologies,
+as well as older and more metal-rich stellar populations
+\citep{baldry06, vdb08, cooper10a, pasquali10, tollerud11,phillips14}. This
+observed suppression of star formation in satellite galaxies is
+commonly referred to as ``environmental quenching''.
 %
-lending support to this picture, the measured quenching timescales
-agree very well with the observed cold gas (H{\scriptsize I} +
-H$_{2}$) depletion timescales for field systems at $z \sim 0$
-\citep{fham15}.
-%
-At lower satellite masses ($\mstar \lesssim 10^{8}~\msun$), however,
-the quenching timescales derived from analysis of the Local Group
-satellite population suggest that the physics of satellite quenching
-must change significantly; a more efficient quenching mechanism
-(relative to starvation) must be at play below a critical mass scale
-of $\sim10^{8}~\msun$.
-
-
-Stripping is a plausible candidate quenching mechanism at low
-masses. This includes ram-pressure stripping \citep{gunn72}, a
-process by which the cool, dense interstellar medium (and thus the
-fuel for future star formation) is removed from a satellite galaxy as
-it passes through its host's circumgalactic medium (CGM).
-%
-Ram-pressure stripping becomes increasingly effective in lower-mass
-satellites, due to their weaker gravitational restoring pressures
-\citep{hester06}; moreover, ram pressure acts on roughly the dynamical
-time of the host system \citep[i.e.~$1-3$~Gyr,][]{tonnesen07,
-  bekki14}, consistent with the short quenching timescale inferred for
-low-mass satellites of the Local Group.
-%
-In addition to ram-pressure stripping, cold gas may also be removed
-from a satellite due to turbulent viscous stripping, which results
-from Kelvin-Helmholtz instabilities at the interface of the
-satellite's interstellar medium and the CGM \citep{nulsen82}.
-%
-The relative motion of the two media in addition to the substantial
-difference in their mean densities can lead to perturbations that
-overcome the local gravitational restoring force, such that gas is
-stripped from the satellite.
-%
-Within massive groups and clusters, a wide range of observations
-provide abundant evidence of stripping in action, showing its ability
-to quench infalling galaxies via removal of their cold gas component
-\citep[e.g.][]{ebeling14, kenney15}.
-%
-It remains uncertain, however, if stripping is an
-effective quenching mechanism in more typical host halos, such as that
-of the Milky Way or M31, and specifically at satellite stellar masses
-of $\lesssim10^{8}~\msun$.
+At present, galaxy formation models fail to reproduce this
+environment-dependent effect in detail, with both semi-analytic and
+hydrodynamical models overpredicting the number of quenched satellites
+at low masses \citep{kimm09, weinmann11, weinmann12, hirschmann14,
+  wang14}.
 
 
-In this work, our goal is to directly address the efficacy of
-stripping as a quenching mechanism for low-mass satellites in Milky
-Way-like systems. By using observations of local field dwarfs to
-inform analytic calculations of both ram-pressure and turbulent
-viscous stripping, we measure the amount of cold gas that would
-typically be removed \emph{if} these field dwarfs were to interact
-with a Milky Way-like host.
-%
-In Section~\ref{sec:rps}, we detail our methods, including the
-analytic framework and data sets that we utilize to estimate the
-impact of stripping on infalling satellites.
-%
-In Section~\ref{sec:results}, we present our primary results regarding
-the efficiency of stripping in Milky Way-like environments,
-specifically addressing potential uncertainties associated with the
-properties of the host halo and the satellite population.
-%
-Finally, in Sections~\ref{sec:disc} and \ref{sec:endgame}, we discuss
-and summarize the implications of our results with regard to the
-quenching of low-mass satellites in the Local Group and beyond.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Testing Satellite Stripping}
-\label{sec:rps}
-
-\subsection{Analytic Framework}
-\label{subsec:af}
-The effectiveness of stripping as a quenching mechanism boils down to
-a relatively simple competition between the stripping pressure
-($P_{\rm stripping}$) and the gravitational restoring force per unit
-area (i.e.~the gravitational restoring pressure, $P_{\rm restore}$).
-%
-When $P_{\rm restore} \ge P_{\rm stripping}$, the interstellar medium
-(or ISM, comprised predominantly of cold gas) is retained by the
-infalling satellite galaxy, such that star formation may proceed.
-%
-When the stripping pressure exceeds the gravitational restoring
-pressure, however, some fraction of the cold gas is removed from the
-satellite. In cases where this stripped fraction is large enough, star
-formation will be shut down rapidly due to the loss of available fuel.
-%
-In what follows, we investigate two different mechanisms for removing
-the cold interstellar medium of infalling satellites.
+Understanding the physics of environmental quenching is complicated by
+the wide range of physical processes that could be responsible for
+suppressing star formation in low-mass satellites. For example,
+various quenching mechanisms preferentially operate on satellite
+galaxies within overdense environments, including [\emph{i}]
+``starvation'' or ``strangulation'' -- whereby gas accretion onto a
+satellite galaxy is halted following infall, thus eventually
+eliminating the fuel for star formation \citep{larson80, kawata08},
+[\emph{ii}] ``harassment'' -- by which close encounters between
+densely packed cluster or group members strip gas from around the
+interacting galaxies \citep{moore96}, and [\emph{iii}] ``ram-pressure
+stripping'' -- where the cold dense gas at the center of a satellite
+(or the hot halo surrounding it) is %violently
+removed from the galaxy as a result of a high-speed interaction with
+the hot gas halo of the host \citep{gunn72, bekki09}.
 %
 
-\subsubsection{Ram-Pressure Stripping}
+To further complicate matters, each of these processes may be
+important in different host halos and at different satellite mass
+scales.
 %
-Following \citet{gunn72}, we estimate the ram pressure ($P_{\rm ram}$)
-as:
-%
-\begin{equation}
-P_{\rm ram} \sim \rho_{\rm halo} V_{\rm sat}^{2} \; ,
-\label{eq:ram}
-\end{equation}
-%
-where $\rho_{\rm halo}$ is the density of the host's gas halo and
-$V_{\rm sat}$ is the velocity of the satellite galaxy with respect to
-the host's frame of reference, or more precisely the local reference
-frame of the host's gas halo in the immediate vicinity of the
-infalling satellite galaxy.
-%
-As shown in Equation~\ref{eq:ram}, the ram pressure experienced by an
-infalling satellite is dependent on the local environment --- thus,
-the properties of the host system, in particular its dark matter halo
-mass, which plays a critical role in setting $\rho_{\rm halo}$ and
-$V_{\rm sat}$.
-% 
-As described in Section~\ref{subsec:rhoV}, we utilize $N$-body
-simulations and observations of the Local Group and similar systems to
-inform our selection of these global environmental parameters,
-applying average values of $\rho_{\rm halo}$ and $V_{\rm sat}$ to all
-infalling satellites in our analysis.
-%
-The adopted values for these parameters, along with uncertainties or
-biases that their selection introduces, are discussed directly in
-Section~\ref{subsec:drhoV}.
-%
-
-Assuming a spherical mass profile for an infalling satellite, the
-gravitational restoring force per unit area is given by:
-%
-\begin{equation}
-P_{\rm restore} \sim \Sigma_{\rm gas}(r) \frac{G \, M(r)}{r^2}
-\; ,
-\label{eq:restore}
-\end{equation}
-%
-where $\Sigma_{\rm gas}(r)$ is the surface density of the cold gas to
-be stripped from the satellite and $M(r)$ is the total satellite mass
-interior to the radius $r$.
-%
-As shown in Equation~\ref{eq:restore}, the restoring pressure depends
-exclusively on the properties of the infalling galaxy, varying from
-one satellite system to the next, as it is accreted onto the parent
-halo.
-%
-To model the properties of a representative sample of infalling
-satellites, we utilize observational data for a broad collection of
-nearby galaxies, including mass modeling to infer the local
-gravitational potential on a system-by-system basis (see
-Section~\ref{subsec:sigM}).
-%
-
-For an infalling satellite, the degree to which ram pressure is able
-to strip its ISM is determined by the relative magnitude of the two
-pressures ($P_{\rm ram}$ versus $P_{\rm restore}$), such that
-stripping will occur beyond a radius $r$ (within the satellite) if
-%
-\begin{equation}
-\rho_{\rm halo} V_{\rm sat}^{2} \ \gt \ \Sigma_{\rm gas}(r)
-\frac{G \, M(r)}{r^2}  \; .
-\label{eq:test}
-\end{equation}
-%
-Throughout this work, we define $R_{\rm strip}$ as the innermost
-radial distance at which this inequality holds. 
-%
-Inside $R_{\rm strip}$, the restoring pressure is able to resist
-stripping, while ram pressure dominates beyond this radius.
-
-\subsubsection{Turbulent Viscous Stripping}
-
-The interaction at the interface of the ISM and the CGM can result in
-the growth of Kelvin-Helmholtz (K-H) instabilities due to the relative
-motion between the two phases. 
-This will allow turbulent viscous stripping to remove the outer
-regions of the ISM when the gravitational restoring force is
-sufficiently small. Perturbations with wavenumber, $k$, are unstable
-if they meet the following criteria \citep{murray93, mori00}:
-%
-\begin{equation}
-k \gt g \, \frac{\rho_{\rm gas}^{2} - \rho_{\rm halo}^{2}}{\rho_{\rm gas}
-  \, \rho_{\rm halo} \, V_{\rm sat}^{2}} \; ,
-\label{eq:k}
-\end{equation}
-%
-where $g$ is the gravitational restoring force at the ISM-CGM
-interface. 
+In an attempt to differentiate between these various physical
+mechanisms, we aim to measure the timescale upon which satellite
+quenching occurs across a broad range of satellite stellar
+mass. Throughout this work, we define this quenching timescale
+($\tau_{\rm quench}$) relative to the time at which a satellite was
+accreted onto its current host system (i.e.~relative to the infall
+time of the satellite). While quenching via starvation will proceed
+according to the available cold gas reservoir for star formation
+within an accreted satellite, ram-pressure stripping will largely act
+on a timescale set by the density distribution of the host's hot halo
+and infall velocity of the satellite. As such, constraining the
+timescale for satellite quenching may therefore serve as a critical
+step towards differentiating between various physical mechanisms.
 
 
-Previous studies of turbulent viscous stripping find that the dominant
-wavelength is set by the size of the cold gas region ($R_{\rm ISM}$),
-such that $k = 2\pi / R_{\rm ISM}$ \citep{nulsen82, murray93}.  In our
-analysis, we make the assumption that $\rho_{\rm halo} \ll \rho_{\rm
-  gas}$, which is undoubtedly true for gas-rich dwarfs accreted into
-the Local Group (or similar environments). Plugging these
-approximations into Equation~\ref{eq:k}, leads to the following
-inequality of the same form as Equation~\ref{eq:test}:
+By comparing satellite samples at low and intermediate redshift to
+galaxy and dark matter-only simulations, several recent analyses of
+satellites at high stellar mass ($> 5 \times 10^{9}~\msun$) point
+towards relatively long quenching timescales of several Gyr or more
+\citep{wetzel13, delucia12}. 
 %
-\begin{equation}
-  \rho_{\rm halo} V_{\rm sat}^{2} \ \gt \frac{G \, M_{0} \, \bar{\rho}_{\rm
-      gas}}{2 \pi \, R_{\rm ISM}}  \; ,
-\label{eq:kh_check}
-\end{equation}
-%
-where $\bar{\rho}_{\rm gas}$ is the average ISM density inside $R_{\rm
-  ISM}$, and $M_{0}$ is the total restoring mass inside $R_{\rm
-  ISM}$. If this inequality is true, then turbulent viscous stripping
-will proceed and the outer layers of the ISM will be removed. When
-this inequality is false, the gravitational restoring pressure is able
-to stabilize the outer layers of the ISM against the K-H instabilities.
-%
+Remarkably, when pushing this analysis to lower masses ($\sim 10^{8.5}
+- 10^{9.5}~\msun$), \citet{wheeler14} find that quenching remains
+surprisingly inefficient, such that the average quenching timescale
+increases to $> 7$~Gyr. Here, we extend these previous analyses of
+quenching timescales to yet lower masses by studying the satellite
+galaxies of the Local Group. Through comparison to simulations, we aim
+to establish a coherent picture of the timescale upon which satellite
+quenching acts, spanning more than five orders of magnitude in
+satellite mass. In \S\ref{sec:LG}, we detail the population of Local
+Group satellites along with an estimation of the observed quenched
+fraction. In \S\ref{sec:ELVIS} and \S\ref{sec:models}, we describe the
+relevant $N$-body simulations and physically-motivated quenching
+models, respectively, detailing the relevant constraints on the
+derived quenching timescale at low masses. Finally, in
+\S\ref{sec:discussion} and \S\ref{sec:summary}, we discuss the
+implications of our analysis, including a ``back of the envelope''
+explanation of the underlying physics operating on low-mass satellites
+and a summary of our main results.
 
-When turbulent viscous stripping is able to proceed, the rate at which
-the ISM is removed will determine how much gas is stripped and
-ultimately whether the reservoir for star formation will be
-significantly depleted. The rate of total gas mass loss ($\dot{M}$) is
-given in slightly different forms throughout the literature
-\citep[e.g.][]{nulsen82, mori00, roediger05}. In this work, we adopt
-the following approximation from \citet{roediger05}:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Local Group Satellites}
+\label{sec:LG}
+
+
+In assembling our sample of Milky Way and M31 satellites, we utilize
+the compilation of local dwarf galaxy properties presented by
+\citet{mcconnachie12}. To minimize the potential impact of
+incompleteness at low masses, we limit our analysis to those dwarfs
+with measured stellar masses in the range $10^{6}-10^{8}~\msun$;
+however, as discussed in more detail below, including systems at lower
+masses has very little impact on our qualitative or quantitative
+results. From this population of local dwarfs, satellite systems are
+selected to be within $300$~kpc of the Milky Way or M31 and bound with
+respect to their host --- i.e.~$\sqrt{3} \cdot V_{los} < V_{\rm
+  esc}(r)$, where $V_{\rm esc}(r)$ is the escape velocity at a radial
+distance of $r$ for an NFW halo with a concentration ($c$) of $8$ and
+a total halo mass of $2\times 10^{12}\ \rm \msun$.\footnote{Varying
+  the adopted host halo mass and concentration (and thus our satellite
+  selection limits) does not have a significant effect on our final
+  sample of Local Group satellites.} To account for potential
+tangential motion, we multiply all observed line-of-sight velocities
+from \citet{mcconnachie12} by a factor of $\sqrt{3}$ in evaluating
+whether each system is bound. Within the stellar mass range of
+$10^{6}~\msun$ to $10^{8}~\msun$, Figure~\ref{fig:vlos} shows the
+position and velocity of all Local Group dwarfs relative to their host
+(or nearest massive neighbor in the case of field systems such as the
+Pegasus dIrr).
+
+
+We identify $12$ satellite systems meeting our selection criteria (see
+Table~1), with the final set of satellites and
+corresponding quenched fraction relatively independent of the adopted
+selection criteria. For instance, field dwarfs such as NGC 6822, Leo
+T, and Phoenix, which are nearly in our stellar mass limits, are
+located significantly beyond our radial selection limit
+(i.e.~$>~\!\!\!~400$~kpc from the Milky Way). Moreover, while the
+observed line-of-sight velocity of Leo I suggests that it may be
+unbound (see Fig.~\ref{fig:vlos}), recent proper motion observations
+conclude that the system is very likely bound to the Milky Way even at
+a distance of more than 250~kpc \citep{sohn13, bk13}. Finally, given
+the high metallicity and lack of overdensity in RR Lyrae stars, we
+categorize Canis Major as an overdensity in the Milky Way and not a
+satellite \citep[][but see also \citealt{md05}]{momany04, butler07,
+  mateu09}.
+
+
+To determine whether a given satellite is quenched, we use the
+observed H{\scriptsize I} gas fraction as a proxy for the current star
+formation rate (SFR), defining dwarfs with atomic gas fractions less
+than $10\%$ to be quenched (see Fig.~\ref{fig:h1}). This criterion
+leads to only one satellite in our sample, IC 10, categorized as
+currently star-forming and yields a quenched fraction of $>90\%$ for
+satellites bound to the Milky Way and M31 in the selected mass
+range. 
 %
-\begin{equation}
-  \dot{M} \approx 20 \, \left (\frac{R_{\rm ISM}}{20 \, {\rm kpc}} \right )^{2}
-  \left (\frac{n_{\rm halo}}{10^{-3} \, {\rm cm}^{-3}} \right ) \left
-    (\frac{V_{\rm sat}}{1000 \, {\rm km} \, {\rm s}^{-1}} \right )
-\frac{\msun}{\rm yr} \; .
-\label{eq:mloss}
-\end{equation}
+Alternative definitions of quenched versus star-forming -- e.g.~using
+star-formation histories derived from photometric observations of
+spatially-resolved stellar populations \citep{weisz14a, weisz15} or
+star-formation rates inferred from H$\alpha$ emission \citep{kaisin13,
+  karachentsev13} yield similar results.
 %
-The details regarding how Equations~\ref{eq:kh_check} and
-\ref{eq:mloss} are used to determine the fraction of ISM removed from
-an infalling dwarf galaxy are discussed further in
-Section~\ref{subsec:frac}. 
+Moreover, our measurement of the satellite quenched fraction is not
+strongly dependent on the adopted mass range, as the quenched fraction
+is largely unchanged if we extend the lower mass limit down to
+$3~\times~10^{5}~\msun$ so as to account for potential uncertainties
+or scatter in the stellar mass measurements.
+%
+Over this expanded stellar mass range, the sample would then also
+include Leo II, And XXI, And XXV, and LGS~3. While H{\scriptsize I}
+measurements suggest that LGS~3 is likely star-forming, a variety of
+observations, including star formation rates inferred from H$\alpha$
+narrow-band imaging, indicate that Leo II, And XXI, and And XXV are
+quiescent \citep{grcevich09, kaisin12, kaisin13, spekkens14, weisz14a,
+  weisz14b}. When including these four lower-mass systems in our
+sample, the resulting quenched fraction remains quite
+high %largely unchanged
+($\sim87\%$); furthermore, pushing to yet lower masses will similarly
+yield little variation in the quenched fraction, as the lowest-mass
+satellites in the Local Group are universally quenched
+\citep[e.g.][]{okamoto08, sand09, sand10, weisz14a, brown14}.
 
 
 
 \begin{figure}
- \centering
- \hspace*{-0.07in}
- \includegraphics[width=3.35in]{ch2_f1.png}
- \caption{The distribution of subhalo velocities (relative to their
-   parent halo) in the ELVIS suite of Local Group simulations for all
-   subhalos that reside inside the virial radius at $z = 0$. The cyan,
-   magenta, and gold histograms correspond to
-   subhalo velocities measured when crossing the virial radius
-   (i.e.~infall), at $0.5~R_{\rm vir}$, and at pericenter,
-   respectively. For Milky Way-like systems, the typical satellite
-   velocity (relative to the host's halo gas) is roughly
-   $200-400$~km~s$^{-1}$ at the time of quenching. In our analysis, we
-   adopt a fiducial value of $V_{\rm sat} = 300$~km~s$^{-1}$.}
- \label{fig:vel}
+  \centering
+ \hspace*{-0.05in}
+ \includegraphics[width=6.5in]{ch1_f1.pdf}
+ \caption{Host-centric velocity versus distance for all known Local
+   Group galaxies in the stellar mass range of
+   $10^{6}-10^{8}~\msun$. To account for unknown tangential
+   velocities, the observed line-of-sight velocities have been multiplied by a
+   factor of $\sqrt{3}$. The dotted vertical line at $300$~kpc
+   corresponds to the expected virial radius of the Milky Way and M31
+   and represents the radial limit for our satellite selection. The
+   dashed lines show the escape velocity for an NFW halo with a
+   concentration ($c$) of $8$ and a total mass of $2\times 10^{12}\
+   \rm \msun$. Satellites are color-coded as star-forming (blue
+   circles) or quenched (red diamonds) according to their observed
+   H{\scriptsize I} gas fraction (see
+   Fig.~\ref{fig:h1}). }
+ \label{fig:vlos}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Estimating \boldmath$\rho_{\rm halo}$ and \boldmath$V_{\rm sat}$}
-\label{subsec:rhoV}
-
-The strength of the stripping force acting upon an infalling satellite is
-primarily set by the density of the host's halo gas along with the
-relative velocity of the satellite (see Eq.~\ref{eq:ram} and Eq.~\ref{eq:kh_check}).
-%
-Within the Milky Way, a variety of indirect probes point towards halo
-gas densities of $\sim 10^{-4}$~cm$^{-3}$ for the hot
-($T\sim10^{6}$~K) component \citep[e.g.][]{weiner96, snez02, fox05,
-  grcevich09, salem15}.
-%
-Moreover, both observed X-ray emission and pulsar dispersion
-measurements in the Milky Way are consistent with a cored hot halo
-distribution with a density of $> 10^{-4}$~cm$^{-3}$
-extending to radial distances of $\sim100$~kpc \citep[][see also
-\citealt{anderson10, gupta12, miller13, miller15, fsm16}]{fang13}.
-%
-
-While the Milky Way's hot halo component is clearly important with
-regard to stripping in the Local Group, it is the density
-of the host's halo gas -- across all temperatures -- that dictates the
-strength of the stripping force.
-%
-When folding in cooler phases of the circumgalactic medium, recent
-studies of nearby massive galaxies, comparable to the Milky Way, find
-halo gas densities of $\sim10^{-3.5}$~cm$^{-3}$ extending to
-at least $\gtrsim0.25~R_{\rm vir}$ \citep{tumlinson13, werk14, fsm16}.
-%
-These results are also supported by the latest analysis of the CGM
-surrounding M31 using quasar absorption-line spectroscopy, which finds
-evidence for a massive and extended gas halo \citep{lehner15}.
-%
-Related studies targeting more massive, high-$z$ systems find
-extended, high-density reservoirs of cool ($10^{4}$~K) halo gas
-reaching out to large fractions of the virial radius \citep{lau15}.
-%
-In accordance with these recent results, we assume a fiducial value
-for the host halo density ($n_{\rm halo}$) of $10^{-3.5}$~cm$^{-3}$,
-where $\rho_{\rm halo} =\mu n_{\rm halo} m_{\rm H\scalebox{0.45}{\rm
-    I}}$. For the purposes of this analysis, the mean molecular
-weight, $\mu $, is set to $1$.
-
-
-Given the significant uncertainties in the observed halo densities of
-the Milky Way and M31, we explore how both our calculations of
-instantaneous ram-pressure stripping and continuous viscous stripping
-depend on this adopted value of
-$n_{\rm halo}$ in Section~\ref{subsec:drhoV}.
-%
-Throughout our analysis, we make no assumptions regarding the radial
-profile of the halo gas. 
-%
-Given the expected orbits of infalling satellite populations and the
-existing constraints on the quenching timescale measured relative to
-infall, however, there are relevant constraints regarding the extent
-of the CGM, which we discuss in Section~\ref{subsec:BigPic}.
-%
-
-
-
-
-To estimate the relative velocity of a satellite system in relation to
-the host's halo gas ($V_{\rm sat}$), we study the distribution of
-subhalo velocities within the Exploring the Local Volume In
-Simulations (ELVIS) suite of $48$ high-resolution, dissipationless
-simulations of Milky Way-like halos \citep{gk14}.
-%
-The ELVIS suite includes $24$ isolated halos as well as $12$
-mass-matched Local Group-like pairs, simulated within high-resolution
-uncontaminated volumes spanning $2-5$~Mpc in size using a particle
-mass of $1.9 \times 10^{5}~\msun$ and a Plummer-equivalent force
-softening of $\epsilon = 141$~physical parsecs. Within the
-high-resolution volumes, the halo catalogs are complete down to
-$M_{\rm halo} > 2 \times 10^{7}~\msun$, $V_{\rm max} > 8$~km~s$^{-1}$,
-$M_{\rm peak} > 6 \times 10^{7}~\msun$, and $V_{\rm peak} > 12$~km
-s$^{-1}$ -- thus more than sufficient to track the evolution of halos
-hosting the Local Group dwarf population.
-%
-
-From ELVIS, we select subhalos corresponding to satellites with
-stellar masses of $10^{6}-10^{9}~\msun$ --- i.e.~halo masses of
-$10^{9.7}-10^{11.2}~\msun$ following the stellar mass-halo mass (SMHM)
-relation of \citet{gk14}. 
-%
-We sample the velocities of these subhalos at the time of infall
-(i.e.~crossing $R_{\rm vir}$), at $0.5~R_{\rm vir}$, and at
-pericenter. In Figure~\ref{fig:vel}, we show the distribution of
-subhalo velocities (relative to that of their host dark matter halo)
-at each of these distances. 
-%
-As expected, the average velocity of the subhalo population increases
-from infall towards pericenter, with a mean velocity of $183$, $237$,
-and $318$~km~s$^{-1}$ at $R_{\rm vir}$, $0.5~R_{\rm vir}$, and $R_{\rm
-  peri}$, respectively.\footnote{Both the subhalo velocity and
-  pericenter distributions show no dependence on subhalo mass,
-  consistent with the idea that the host potential is the primary
-  driver of these subhalo properties.}
-%
-To increase the precision at which we are able to measure the position
-of pericentric passage and the velocity at pericenter for each subhalo,
-we 3-d spline interpolate the position and velocity information for
-all subhalos across the $75$ simulation snapshots in ELVIS.
-%
-While this interpolation scheme achieves a time resolution of
-$\sim20$~Myr, our resulting measurements of $R_{\rm peri}$ and $V_{\rm
-  peri}$ are likely somewhat over- and under-estimated, respectively.
-%
-
-
-Typically, studies of instantaneous ram-pressure stripping assume the
-satellite velocity at pericenter, where stripping is expected to be
-greatest.
-%
-Quenching (i.e.~stripping) when a satellite reaches a radial distance
-of $\sim0.5~R_{\rm vir}$ while on first infall, however, is consistent
-with the inferred quenching timescales for the Local Group satellite
-population \citep{fham15}. 
-Herein, we compromise between these two scenarios, adopting a fiducial
-satellite velocity ($V_{\rm sat}$) of $300$~km~s$^{-1}$. In
-Section~\ref{subsec:drhoV}, we explore how our results depend upon
-this choice of $V_{\rm sat}$.
-
-
 
 
 \begin{figure}
  \centering
- \hspace*{-0.15in}
- \includegraphics[width=3.4in]{ch2_f2.png}
- \caption{The observed H{\scriptsize I} surface density profiles for
-   our sample of $66$ nearby field galaxies from THINGS, Little
-   THINGS, and SHIELD, color-coded according to the stellar mass of
-   each system. While there is substantial scatter in profile shape
-   from object to object, the lower-mass dwarfs are preferentially
-   less extended than their more massive counterparts.}
+ \hspace*{-0.08in}
+ \includegraphics[width=6.5in]{ch1_f2.pdf}
+ \caption{Observed H{\scriptsize I} gas fraction as a function of
+   distance from the nearest host galaxy for local dwarfs included in
+   our mass range of $10^6-10^{8}~\msun$. Systems with an atomic gas
+   fraction less than $10\%$ are classified as quenched (red
+   diamonds), with more gas-rich dwarfs identified as star-forming
+   (blue circles). At these low masses, roughly $90\%$ of satellites
+   are quenched in the Local Group.}
  \label{fig:h1}
 \end{figure}
 
+While our census of satellites in the Local Group is likely incomplete
+at low masses due to obscuration by or confusion with the disk of both
+the Milky Way and M31, the focus of our analysis is the relative
+fraction of star-forming versus quenched systems. Assuming that
+neither quenched nor star-forming systems preferentially reside in or
+behind the disk, the quenched fraction should be independent of any
+such incompleteness. From an analysis of the Palomar and UK Schmidt
+photographic plates, which cover more than $20,000$~square~degrees of
+sky at high Galactic latitude ($|b| > 20^{\circ}$), \citet{irwin94}
+finds that the known satellite population for the Milky Way is
+complete down to below our adopted mass limit
+($\gtrsim~3~\times~10^{5}~\msun$). This conclusion is supported by
+deeper imaging data from the Sloan Digital Sky Survey
+\citep[SDSS,][]{york00}, Pan-STARRS \citep{kaiser10}, and Dark Energy
+Survey \citep[DES,][]{DES14}, which cover a significant portion of the
+northern and southern sky and are complete to beyond the host virial
+radius (i.e.~$>~\!~300$~kpc) at these stellar masses
+\citep{tollerud08, koposov08, laevens14, koposov15, DES15}.
 
 
 
-\subsection{Estimating \boldmath$\Sigma_{\rm gas}(r)$ and \boldmath$M(r)$}
-\label{subsec:sigM}
-
-As shown in Equation~\ref{eq:restore}, the gravitational restoring
-pressure is dependent upon the properties of the infalling satellite,
-specifically the gas surface density and total mass profiles.
-%
-To estimate these parameters for a representative sample of infalling
-satellites, we utilize existing observations of $66$ nearby,
-star-forming dwarf galaxies from the THINGS, Little THINGS, and SHIELD
-data sets (\citealt{walter08, hunter12, cannon11}; McNichols et al.~in
-prep; Teich et al.~in prep). 
-%
-This sample is dominated by isolated (or ``field'') systems, for which
-the ISM is largely unaltered by previous interactions with a more
-massive host system --- i.e.~ideal candidates to test the
-effectiveness of ram-pressure stripping as a quenching mechanism.
-%
-While the satellites of the Milky Way and M31 were primarily accreted
-at $z \sim 0.5-1$ \citep{wetzel15a, fham15}, our sample of nearby
-galaxies is expected to be similar in cold gas (specifically
-H{\scriptsize I}) content to similar systems at intermediate redshift
-\citep{popping15, somerville15}.
-%
-
-For galaxies drawn from Little THINGS and SHIELD, we infer the stellar
-mass of the system using the published $V$-band absolute magnitudes
-\citep{hunter12, hauerberg15} and assuming a mass-to-light ratio of
-unity, which is roughly consistent with the expectations for a
-$\sim1$~Gyr-old simple stellar population following a Salpeter initial
-mass function \citep[e.g.][]{maraston98}.
-%
-For those systems selected from THINGS, we utilize the stellar mass
-estimates of \citet{leroy08}, which are derived from {\it Spitzer}
-3.6$\mu$m imaging assuming a $K$-band mass-to-light ratio of $0.5$.
-%
-As discussed further in Section~\ref{subsec:dMr}, uncertainties in the
-measured stellar masses for our sample have little impact on the
-quantitative or qualitative results of our analysis.
-%
-For the $12$ galaxies in the SHIELD sample, the resulting stellar mass
-estimates are in relatively good agreement with those derived from
-stellar population fits to multi-band {\it Hubble Space Telescope}
-photometry, with a typical offset (to higher masses) of $0.37$ dex
-\citep{mcquinn15}.
-%
-Altogether, the sample of $66$ field systems spans a broad range in
-stellar mass, from $\sim10^{6}-10^{11}~\msun$, covering the mass
-regime where \citet{fham15} find evidence for a change in the dominant
-satellite quenching mechanism and where stripping is presumed to
-become effective.
-%
-
-For each of the galaxies in our sample, we utilize the published
-H{\scriptsize I} surface density profiles from the THINGS, Little
-THINGS, and SHIELD projects, scaled by a factor of $1.36$ to account
-for helium (\citealt{leroy08, hunter12, teich15}; Teich et al.~in
-prep).
-%
-For a typical low-mass galaxy, the cold gas component is largely
-dominated by atomic (versus molecular) gas \citep[e.g.][]{popping14,
-  boselli14}, such that $\Sigma_{\rm H\scalebox{0.45}{\rm I}}$
-provides a robust estimate of the ISM surface density and thus the
-efficacy of both ram-pressure and turbulent viscous stripping.
-%
-As shown in Figure~\ref{fig:h1}, the $\Sigma_{\rm H\scalebox{0.45}{\rm
-    I}}$ profiles for our sample exhibit significant variation in
-shape, with more massive systems having preferentially more extended
-H{\scriptsize I} surface density profiles.
-%
-While the depth of the H{\scriptsize I} observations varies from
-object to object in our sample, the THINGS, Little THINGS, and SHIELD
-measurements are sensitive to the bulk of the atomic gas component,
-such that any undetected low-density gas at large radii would have a
-negligible impact on our stripping calculations. 
-%
-
-To determine the mass profile, $M(r)$, for each galaxy in our sample,
-we infer the total dark matter halo mass according to the stellar
-mass-halo mass relation of \citet{gk14} and assume an NFW density
-profile \citep{nfw97} with a concentration given by the $c-M$ relation
-of \citet{klypin11}.
-%
-While this methodology neglects contributions to the mass profile from
-the baryonic component, these are relatively modest at these mass
-scales (i.e.~$\mstar < 10^{11}~\msun$), as illustrated in
-Section~\ref{subsec:dMr}.
-%
-Recognizing current uncertainties in the dark matter density profiles
-of low-mass galaxies \citep[e.g.][]{moore94, deblok01, bk11, bk12}, we
-also employ mass profiles derived from dynamical modeling of the
-observed H{\scriptsize I} kinematics for a subset of our systems,
-including NFW fits to the THINGS and Little THINGS samples from
-\citet{deblok08} and \citet{oh15} as well as fits to a Burkert profile
-\citep{burkert95} from \citet{pace16}.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{figure*}
- \centering
- \hspace*{-0.2in}
- \includegraphics[width=5.0in]{ch2_f3.pdf}
- \caption{The fraction of H{\scriptsize I} gas stripped ($f_{\rm
-     stripped}$) via ram pressure as a function of stellar mass for
-   our sample of $66$ dwarf galaxies, assuming a host halo gas density
-   of $n_{\rm halo} = 10^{-3.5}~{\rm cm}^{-3}$ and a satellite
-   velocity of $V_{\rm sat}=300~{\rm km}~{\rm s}^{-1}$. The grey solid
-   line corresponds to the mean $f_{\rm stripped}$ computed in a
-   sliding bin of width $0.6$ dex in stellar mass. At stellar masses
-   greater than roughly $10^{9}~\msun$, we find that satellite systems
-   are unaffected by ram pressure in a Milky Way-like environment. At
-   $\mstar \lesssim 10^{8.5}~\msun$, however, ram pressure is
-   increasingly effective, with infalling systems typically having
-   $\sim 40\%$ of their cold gas stripped. It is worth noting that the
-   scatter in the stripped fraction at fixed stellar mass is driven
-   entirely by the variation in the H{\scriptsize I} surface density
-   profiles. For reference, we include
-   the corresponding halo mass for each system, as inferred via the
-   stellar mass-halo mass relation of \citet{gk14}.}
-\label{fig:fid}
-\end{figure*}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Measuring the Stripped Fraction (\boldmath$f_{\rm stripped}$)}
-\label{subsec:frac} 
-Using the H{\scriptsize I} surface density profiles presented in
-Figure~\ref{fig:h1}, we determine the fraction of H{\scriptsize I} gas
-stripped from each satellite in our sample, given an assumed host halo
-density ($\rho_{\rm halo}$), satellite velocity ($V_{\rm sat}$), and
-satellite mass profile ($M(r)$).
-%
-Throughout our analysis, we first determine the amount of ISM removed
-via instantaneous ram-pressure stripping, then we allow turbulent
-viscous stripping to proceed for up to $1$~Gyr.
-
-\subsubsection{Ram-Pressure Stripping}
-First, the satellite experiences ram pressure stripping, which is
-generally assumed to coincide with either initial infall or pericentric
-passage. As discussed in Section~\ref{subsec:af},
-Equation~\ref{eq:test} specifies the radial distance, measured from
-the center of each satellite, at which ram pressure exceeds the
-gravitational restoring pressure ($R_{\rm strip}$).
-%
-By integrating the H{\scriptsize I} surface density profile beyond
-this radius, we compute the fraction of gas stripped from each
-satellite as
-%
-\begin{equation}
-f_{\rm stripped} = \frac{\int_{R_{\rm strip}}^{R_{\rm max}} \Sigma_{\rm gas}(r)\,
-  r\, {\rm d}r}{\int_{0}^{R_{\rm max}} \Sigma_{\rm gas}(r)\, r\, {\rm d}r}  \; ,
-\label{eq:frac}
-\end{equation}
-%
-where $R_{\rm max}$ is the outermost radial distance at which
-H{\scriptsize I} is detected.
-%
-Here, the numerator corresponds to the gas mass that is stripped from
-the satellite after it interacts with the CGM of the host. The
-denominator is the total gas mass that resides in the system in the
-absence of any environmental effects (i.e.~prior to infall).
-%
-The stripped fraction in this scenario is the amount of gas removed in
-a single, instantaneous interaction between the infalling satellite
-and the host halo.
-
-
-
-As discussed in Section~\ref{subsec:sigM}, the adopted definition for
-$R_{\rm max}$ leads to an underestimate of the stripped fraction, as
-low-density gas at large galactocentric radii is unaccounted for in
-our analysis. However, given the sensitivities of the THINGS, Little
-THINGS, and SHIELD H{\scriptsize I} maps, any H{\scriptsize I}
-component at large radii contributes minimally to the total atomic gas
-mass, such that the resulting impact on $f_{\rm stripped}$ should be
-negligible.
-
-
-
-\subsubsection{Turbulent Viscous Stripping}
-%
-After estimating $f_{\rm stripped}$ as a result of ram-pressure
-stripping, we compute the corresponding fraction of gas removed due to
-turbulent viscous stripping over a maximum timespan of $1$~Gyr.
-%
-First, we test whether the ISM and CGM interface conditions located at
-$R_{\rm strip} $ are susceptible to viscous stripping via
-Equation~\ref{eq:kh_check}.
-%
-If true, we determine the gas mass lost during a $100$~Myr
-interval, $M_{\rm viscous}$, using Equation~\ref{eq:mloss}.
-$M_{\rm viscous}$ is then uniformly removed from the outermost regions of
-the H{\scriptsize I} surface density profile, leading to a new $R_{\rm
-  strip} $ in addition to a new value of both $\bar{\rho}_{\rm
-  gas}$ and $M_{0}$.
-The ISM-CGM conditions are then reevaluated allowing the gas removal
-process to continue if Equation~\ref{eq:kh_check} is still true. 
-We repeat this process for up to $1$~Gyr, leading to a total gas mass
-lost via turbulent viscous stripping. 
-This additional gas mass is added to the gas which was initially
-removed via ram pressure to get a total gas mass lost as a result of
-stripping.
-%
-
-We limit the timespan on which turbulent viscous stripping occurs, so
-as to roughly match the measured quenching timescale for Local Group
-satellites \citep[i.e.~$\lesssim 2$~Gyr,][]{fham15}.
-%
-Approximately $50\%$ (or $55\%$) of the subhalo population in ELVIS
-reaches pericenter (or $0.5~R_{\rm vir}$) within $\sim1.5$~Gyr (or
-$\sim1$~Gyr) of infall, where instantaneous ram-pressure stripping is
-assumed to occur.
-%
-A further $1$~Gyr of turbulent viscous stripping therefore yields a
-typical quenching time (relative to infall) in rough agreement with
-the expectations of \citet{fham15} and \citet{wetzel15b}.
+\begin{table*}
+\centering 
+\begin{tabular}{l c c c c c c } 
+  \hline\hline 
+  Galaxy Name & Morphology & $\mstar~(10^{6}~\msun)$ &
+  ${\rm M}_{\rm H{\textsc{\tiny I}}}~(10^{6}~\msun)$ & $D_{\rm host}$ (kpc) &
+  $V_{\rm los}~({\rm km}~{\rm s}^{-1})$ & Quenched \\
+  & (1) & (2) & (3) & (4) & (5) & (6) \\
+  \hline\hline
+  Milky Way &  & & & & & \\
+  \hline
+%Canis Major & ??? & 49 & --- & 13 & -117 & ??? \\
+Sagittarius & dSph & 21 & $< 0.007$ & 18 & 169 & Yes \\
+Sculptor & dSph & 2.3 & 0.22 & 86 & 79 & Yes \\
+Fornax & dSph & 20 & 0.17 & 149 & -33 & Yes \\
+Leo I & dSph & 5.5 & $< 0.006$ & 258 & 174 & Yes \\
+\hline
+M31 &   & & & & & \\
+\hline
+And I & dSph & 3.9 & $< 0.35$ & 58 & -82 & Yes \\
+And XXIII & dSph & 1.1 & $<0.1$ & 127 & 52 & Yes \\
+NGC 147 & dE/dSph & 62 & $< 0.003$ & 142 & 118 & Yes \\
+And II & dSph & 7.6 & $< 0.27$ & 184 & 73 & Yes \\
+NGC 185 & dE/dSph & 68 & 0.13 & 187 & 105 & Yes \\
+And VII & dSph & 9.5 & $< 0.36$ & 218 & 24 & Yes \\
+IC 10 & dIrr & 86 & 50 & 252 & -32 & No \\
+And VI & dSph & 2.8 & $< 0.015$ & 269 & -62 & Yes \\
+\hline 
+\hline
+\end{tabular} 
+\label{table:dwarfs} 
+\caption{Observed properties of satellite galaxies in the Local Group
+  with measured stellar masses in the range $10^{6}-10^{8}~\msun$ and
+  located within $300~\kpc$ of either the Milky Way or M31 (separated
+  according to host system):  
+  (1) morphological classification and (2)
+  stellar mass from \citet{mcconnachie12}; (3)
+  atomic gas mass measurements from \citet{mcconnachie12} and
+  \citet{grcevich09}, plus upper limits from the literature
+  \citep{burton99, grcevich09, huang12a, giovanelli13};
+  (4) distance from the nearest host as given by \citet{mcconnachie12};   
+  (5) line-of-sight velocity with respect to the host from
+  \citet{mcconnachie12}, with the exception of And~XXIII 
+  \citep{kirby14}; (6) identification as quenched 
+  versus star-forming, according to observed atomic gas fraction
+  (see~Fig.~\ref{fig:h1}). } 
+\end{table*} 
 
 
 
 
+For M31, our knowledge of satellites is largely based on imaging
+surveys such as the Pan Andromeda Archeological Survey
+\citep[PAndAS,][see also
+\citealt{ferguson02,ibata07,mcconnachie08}]{mcconnachie09}. As shown
+by \citet{brasseur11}, PAndAS is complete down to our mass limit
+within a survey footprint that covers a radial distance of roughly
+$150$~kpc surrounding M31. While recent analysis of imaging data,
+including that from Pan-STARRS, has likely uncovered several new
+satellites of M31 at radial distances of $\gtrsim 150$~kpc \citep[And
+XXX-XXXIV,][]{conn12, martin13a, martin13b, martin14}, we exclude
+these systems from our study given that distances (relative to M31)
+are poorly constrained and potentially greater than $300$~kpc. Early
+analysis of the stellar populations in Andromeda XXXI and XXXII,
+however, do suggest passive populations devoid of young stars
+\citep{martin13a}. As likely quenched satellites, we note that
+inclusion of And XXX-XXXIV would have little impact on the observed
+quenched fraction in the Local Group and thus on the results of our
+analysis. Moreover, while the M31 satellite population may be
+incomplete at radial distances of $150 - 300$~kpc from M31, this
+should have minimal impact on the observed quenched fraction in the
+Local Group (even assuming that star-forming satellites are possibly
+biased towards large radial distances, as our results would imply). In
+\S\ref{sec:models}, we discuss this potential selection effect in more
+detail.
 
-\section{Results}
-\label{sec:results}
 
-In Figure~\ref{fig:fid}, we show the fraction of H{\scriptsize I} gas
-ram-pressure stripped from our sample of star-forming galaxies (with
-no viscous stripping), assuming a host halo density of $n_{\rm halo} =
-10^{-3.5}$~cm$^{-3}$ and a satellite velocity of $V_{\rm sat} =
-300$~km~s$^{-1}$.
-%
-For satellite systems with stellar masses greater than
-$\sim~10^{9}~\msun$, ram pressure is unable to strip the interstellar
-medium, consistent with the long quenching timescales inferred by
-\citet{wheeler14} and \citet{fham15} at this mass regime.
-% 
-At $\mstar \sim 10^{8-9}~\msun$, however, we find that ram pressure
-begins to overcome the local gravitational restoring force, such that
-a significant fraction of the cold gas reservoir is removed from a
-typical infalling satellite at $\mstar < 10^{8}~\msun$ ($<\!f_{\rm
-  stripped}\!> \sim 40\%$).
-%
-While there is considerable scatter in the efficacy of ram-pressure
-stripping at low masses, our fiducial model for a Milky Way-like
-system qualitatively reproduces the critical mass scale for quenching
-at $\sim10^{8}~\msun$, such that ram-pressure stripping is a viable
-candidate to be the dominant quenching mechanism at low satellite
-stellar masses.
-%
-In Section~\ref{subsec:dMr} and \ref{subsec:drhoV}, we explore how
-this result depends on the specific parameters adopted in our fiducial
-model (i.e.~$M(r)$, $n_{\rm halo}$, and $V_{\rm sat}$). Additionally,
-in Section~\ref{subsec:viscous}, we discuss how the inclusion of
-turbulent viscous stripping impacts these results.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Simulations}
+\label{sec:ELVIS}
+
+
+To model the evolution of satellite galaxies in the Local Group, we
+utilize the Exploring the Local Volume In Simulations (ELVIS) suite of
+$48$ high-resolution, dissipationless simulations of Milky Way-like
+halos \citep{gk14}. The suite includes $24$ isolated halos as well as
+$12$ mass-matched Local Group-like pairs, simulated within
+high-resolution uncontaminated volumes spanning $2$-$5$~Mpc in size
+using a particle mass of $1.9 \times 10^{5}~\msun$ and a
+Plummer-equivalent force softening of $\epsilon = 141$~physical
+parsecs. Within the high-resolution volumes, the halo catalogs are
+complete down to ${\rm M}_{\rm halo} > 2 \times 10^{7}~\msun$, $V_{\rm
+  max} > 8~\kms$, ${\rm M}_{\rm peak} > 6 \times 10^{7}~\msun$, and
+$V_{\rm peak} > 12~\kms$ --- thus more than sufficient to track the
+evolution of halos hosting Local Group dwarfs with stellar masses of
+$> 10^{6}~\msun$. ELVIS adopts a cosmological model based on
+{Wilkinson Microwave Anisotropy Probe 7} \citep{komatsu11}, with the
+following $\Lambda$CDM parameters: $\sigma_{8}=0.801$,
+$\Omega_{m}=0.266$, $\Omega_{\Lambda}=0.734$, $n_{s}=0.963$, and
+$h=0.71$.
+
+
+
+As hosts for the Local Group dwarfs in the stellar mass range of
+$10^{6}-10^{8}~\msun$, we select halos in the ELVIS simulations with
+masses of ${\rm M}_{\rm peak} = 5\times10^{9}-6\times10^{10}~\msun$,
+following the abundance matching prescription of
+\citet{gk14}. Abundance matching, a common technique for populating
+simulated dark matter distributions with galaxies, assumes a
+one-to-one relation between a galaxy's stellar mass and the mass of
+its parent dark matter (sub)halo \citep{behroozi13, moster13}. While
+this simple empirical approach to modeling galaxy formation yields
+great success for massive galaxies, matching a wide range of
+clustering statistics as a function of cosmic time
+\citep[e.g.][]{berrier06, conroy06}, it potentially breaks down at low
+masses, where the most massive subhalos of Milky Way-like simulations
+are inconsistent with the observed dynamics of nearby dwarf galaxies
+\citep{bk11, bk12, gk14b, kirby14, tollerud14}.
+
+
+While uncertainties remain in the potential efficacy or robustness of
+abundance matching prescriptions at low masses, our results are
+largely unaffected by changes in the assumed stellar mass-halo mass
+relation. As our fiducial model, we adopt the abundance matching
+relation of \citet{gk14}, which in our stellar mass range ($10^{6} -
+10^{8}~\msun$) yields $9$ subhalos as candidate satellite hosts within
+a typical ELVIS parent halo (after removing stripped or disrupted
+subhalos). When applying the shallower stellar mass-halo mass relation
+from \citet{behroozi13}, the number of potential subhalo hosts
+increases accordingly, but the quantitative and qualitative results
+with regard to satellite quenching remain unchanged. To account for
+potential increased scatter in the abundance matching relation at low
+masses, we also mimic scatter in the \citet{gk14} relation, by
+broadening the range of halo masses associated with the observed
+stellar mass range, randomly selecting $9$ subhalos within $2 \times
+10^{9} < {\rm M}_{\rm peak}/\msun < 2 \times 10^{11}$ as satellite
+hosts. Again, while this biases the subhalo population to lower
+masses, our results with regard to satellite quenching remain
+unaffected.
+
+
+Independent of the particular abundance matching prescription, we
+account for satellites that have been tidally-stripped or disrupted
+--- and thus not included in our observational sample --- by
+restricting our analysis to subhalos for which $V_{\rm max}/V_{\rm
+  peak} > 0.3$, where $V_{\rm max}$ is the current ($z=0$) maximum
+circular velocity for the halo and $V_{\rm peak}$ is the value of
+$V_{\rm max}$ when the halo mass is at its maximum. While a halo's
+maximum halo mass generally occurs prior to infall (typically at $>
+1.5~R_{\rm vir}$), $V_{\rm peak}$ is a good approximation for $V_{\rm
+  infall}$ since a halo's mass, in general, does not change
+appreciably prior to infall \citep{behroozi14}. By restricting our
+analysis to present-day halos with $V_{\rm max}/V_{\rm peak} > 0.3$,
+we eliminate all subhalos (i.e.~satellites) that have lost greater
+than $90\%$ of their mass since infall, thereby selecting those
+subhalos that are within the desired mass range and are highly likely
+to currently host dwarf galaxies (i.e.~not disrupted or significantly
+stripped). Finally, we note that our results are not strongly
+dependent upon the adopted $V_{\rm max}/V_{\rm peak}$ cut; applying a
+more conservative selection criterion (e.g.~$V_{\rm max}/V_{\rm peak}
+> 0.5$) does not significantly change our results.
+
+
+
+The ELVIS merger trees include $75$ snapshots from $z = 125$ to $z =
+0$, providing time resolution of roughly $200$~Myr. As discussed in
+more detail in \S\ref{sec:models}, we are interested in using ELVIS to
+explore models where satellite quenching occurs at a fixed physical
+radius from the host (e.g.~within $50$~kpc radially). The crossing
+time on such scales ($\sim100$~kpc), however, is typically greater
+than the median time resolution of the snapshots, such that subhalos
+would potentially pass into and back out of the quenching radius
+between two successive snapshots. To more precisely determine subhalo
+orbits within ELVIS, we map the spatial position of each subhalo
+(relative to its host) at $20$~Myr intervals by spline interpolating
+the position of each subhalo and corresponding host halo across each
+of the $75$ snapshots. This interpolation also allows us to determine
+the time at which each subhalo was accreted onto its host halo
+(i.e.~the infall time or $t_{\rm infall}$) at greater precision. Due
+to the linear spacing of the ELVIS snapshots with scale factor
+(i.e.~non-linear spacing with lookback time), the difference in the
+measured infall time between our interpolated data and that inferred
+from the standard ELVIS merger trees depends upon the lookback time at
+which a subhalo is accreted. For systems with $t_{\rm infall} <
+3$~Gyr, which place the strongest constraints on the satellite
+quenching timescale, the difference in $t_{\rm infall}$ is relatively
+modest, with a median offset of less than $0.5$~Gyr for our fiducial
+sample of subhalos.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure*}
- \centering
- \hspace*{-0.25in}
-   \includegraphics[width=7.7in]{ch2_f4.pdf}
-   \caption{(\emph{Left}): the fraction of H{\scriptsize I} gas
-     ram-pressure stripped ($f_{\rm stripped}$) as a function of
-     stellar mass for the subset of systems with mass profiles
-     determined via dynamical fits to an NFW profile \citep{deblok08,
-       oh15} and to a Burkert profile \citep{pace16}. As in
-     Fig.~\ref{fig:fid}, we assume a halo gas density of $n_{\rm
-       halo}=10^{-3.5}~{\rm cm}^{-3}$ and a satellite velocity of
-     $V_{\rm sat}=300~{\rm km}~{\rm s}^{-1}$. (\emph{Right}): the
-     difference in the fraction of H{\scriptsize I} gas stripped
-     relative to the corresponding result (see Fig.~\ref{fig:fid})
-     assuming our fiducial mass profile inferred via the stellar
-     mass-halo mass relation of \citet{gk14}: ${\Delta}f_{\rm
-       stripped} = f_{\rm stripped, fid} - f_{\rm stripped, dyn}$. In
-     general, the mass profiles inferred from dynamical modeling favor
-     cored halos, such that stripping is more efficient relative to
-     our fiducial model. Moreover, while there is significant scatter
-     from galaxy to galaxy based upon the assumed mass profile, the
-     qualitative results are universal with ram-pressure stripping
-     becoming increasingly effective at $\mstar<10^{8-9}~\msun$. }
- \label{fig:mass}
-\end{figure*}
- 
+\section{Quenching Models}
+\label{sec:models}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Dependence on \boldmath$M(r)$}
-\label{subsec:dMr}
+As highlighted in \S\ref{sec:intro}, observations of low-mass galaxies
+in the local Universe suggest that all isolated (or ``field'') systems
+at $\lesssim 10^{9}~\msun$ are star-forming. Thus, all quenching at
+these low masses is likely driven by environmental effects associated
+with dwarf galaxies being accreted onto more massive halos, such as
+that of the Milky Way or M31. Two likely quenching mechanisms
+operating on satellite systems are starvation, where future gas
+accretion onto the satellite is halted following infall into a more
+massive host halo, and ram-pressure stripping, where the cold gas in a
+satellite galaxy is violently removed via interaction with the hot gas
+halo of the host. To mimic these respective processes, we implement
+two quenching models in the ELVIS simulations: (\emph{i})~a
+``starvation'' model in which quenching depends only on time since
+infall into the host halo and (\emph{ii})~a ``stripping'' model in
+which quenching occurs once a satellite reaches a fixed physical
+distance from the host.
 
-The assumed dark matter density profile for each galaxy in our sample
-is critical in determining the strength of the local gravitational
-restoring pressure (see Eq.~\ref{eq:restore}) and thus the degree to
-which ram pressure is able to strip the infalling satellite's ISM.
-%
-In our fiducial model, the mass profiles, $M(r)$, are determined using
-the stellar mass-halo mass (SMHM) relation of \citet{gk14}, assuming
-an NFW density profile.
-%
-At low masses, however, less-cuspy dark matter profiles are typically
-favored and there are large uncertainties in the slope of the stellar
-mass-halo mass relation (and its scatter, \citealt{gk16}).
-%
-
-To explore how our estimates of $f_{\rm stripped}$ depend on the
-assumed mass profile, $M(r)$, we utilize alternative mass profiles
-derived from dynamical fits to the observed H{\scriptsize I}
-kinematics for a subset of the systems in our sample. In particular,
-we utilize the NFW fits to the THINGS and Little THINGS velocity
-fields from \citet{deblok08} and \citet{oh15}, respectively. 
-%
-For $21$ galaxies, we also employ Burkert profile fits to the
-H{\scriptsize I} kinematics from \citet{pace16}.
-%
-
-
-The two left most panels of Figure~\ref{fig:mass} show the fraction of
-atomic gas stripped for the subset of objects with dynamical mass
-estimates, assuming a host halo density of $n_{\rm halo} =
-10^{-3.5}$~cm$^{-3}$ and a satellite velocity of $V_{\rm
-  sat} = 300$~km~s$^{-1}$. 
-%
-Qualitatively, the dependence of $f_{\rm stripped}$ on satellite
-stellar mass is very similar to that shown in Fig.~\ref{fig:fid} for
-our fiducial model, which employs mass profiles inferred from the SMHM
-relation of \citet{gk14}.
-%
-At $\mstar < 10^{8-9}~\msun$, ram-pressure stripping becomes
-increasingly effective. 
-%
-However, the stripped fractions calculated using the dynamical mass
-profile fits are, on average, slightly greater relative to those
-produced by our fiducial model. 
-%
-This effect is evident in the far right panel of
-Figure~\ref{fig:mass}, which shows the difference in the stripped
-fraction for each object as we vary the restoring mass profile.
-%
-For the dynamical fits to an NFW and Burkert profile (magenta hexagons
-versus cyan diamonds), we find a mean difference in $f_{\rm stripped}$
-of $-0.32$ and $-0.15$, respectively. 
-%
-On average, the dynamical fits lead to greater stripped fractions,
-consistent with these objects being hosted by less-concentrated (or
-lower-mass) dark matter halos at fixed stellar mass. While there is
-not perfect agreement between the different halo mass estimators, by
-adopting the SMHM relation as our fiducial method, we are likely
-underestimating the stripped fraction and thus providing a
-conservative estimate of the effectiveness of ram-pressure stripping.
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{figure*}
- \centering
- \hspace*{-0.5in}
-  \includegraphics[width=7.6in]{ch2_f5.pdf}
-  \caption{The fraction of H{\scriptsize I} gas stripped ($f_{\rm
-      stripped}$) via ram-pressure %\emph{and} viscous
-    stripping as a function of satellite stellar mass for our sample
-    of $66$ dwarf galaxies. The solid line in each panel gives the
-    mean $f_{\rm stripped}$ in a sliding bin of width $0.6$ dex in
-    stellar mass, with the shaded region tracing the corresponding
-    $1\sigma$ scatter. In the \emph{top} and \emph{bottom} rows, we
-    assume a host halo gas density of $n_{\rm
-      halo}=10^{-3.5}$~cm$^{-3}$ and $10^{-4.0}$~cm$^{-3}$,
-    respectively. From \emph{left} to \emph{right}, the satellite
-    velocity varies from $200$ (cyan) to $250$ (magenta) to
-    $300$~km~s$^{-1}$ (gold). While the efficiency of ram-pressure
-    stripping depends on the assumed properties of the host halo, such
-    that $<\!f_{\rm stripped}\!>$ ranges from $\sim10-40\%$, the
-    satellite stellar mass where ram-pressure stripping becomes
-    significant is universally $<10^{9}~\msun$.}
- \label{fig:MW}
-\end{figure*}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Dependence on \boldmath$n_{\rm halo}$ and
-  \boldmath$V_{\rm sat}$}
-\label{subsec:drhoV}
-
-
-In addition to the uncertainty in the restoring mass profile, the
-amount of cold gas stripped from each dwarf is highly dependent on the
-properties of the host system (i.e.~$n_{\rm halo}$ and $V_{\rm sat}$).
-%
-The density of the host gas halo, for the Local Group in particular,
-is relatively poorly constrained. 
-%
-To explore how variation in these global parameters will impact our
-results, we measure the stripped fraction for our sample while varying
-both the satellite velocity, $V_{\rm sat} =\left \{200, 250, 300\right
-\}~{\rm km~s}^{-1}$, and the density of the halo gas, $n_{\rm halo} =
-\{10^{-4.0}, 10^{-3.5}\}~{\rm cm}^{-3}$.
-
-Figure~\ref{fig:MW} shows the mean and $1\sigma$ scatter in the
-stripped fraction as a function of satellite stellar mass for the
-adopted variation in both the density of the CGM and the satellite
-velocity relative to the frame of reference of the host.
-%
-Across the entire range of $V_{\rm sat}$ and $n_{\rm halo}$ explored,
-ram-pressure stripping becomes effective at roughly the same critical
-mass scale ($10^{8-9}~\msun$).
-%
-The efficacy of ram-pressure stripping at low masses, however, is
-highly dependent on the chosen parameters for $n_{\rm halo}$ and
-$V_{\rm sat}$.
-%
-For example, at $\mstar < 10^{9}~\msun$, the stripped fraction
-decreases, on average, by $\sim0.15$ as the satellite velocity is
-reduced from $300$ to $200$~km~s$^{-1}$ at fixed $n_{\rm halo}$.
-%
-Similarly, decreasing the host halo density from $n_{\rm halo} =
-10^{-3.5}$~cm$^{-3}$ to $10^{-4}$~cm$^{-3}$ yields an average
-reduction in $f_{\rm stripped}$ of $\sim0.2$ at fixed $V_{\rm sat}$.
-%
-The scatter in $f_{\rm stripped}$ associated with variation in $V_{\rm
-  sat}$ is particularly noteworthy, given that in our analysis we
-adopt a single value of $V_{\rm sat}$ for the entire satellite
-population, thereby neglecting objects that have velocities greater
-(or less) than this value. 
-%
-At pericentric passage, for example, roughly $60\%$ of subhalos in
-ELVIS have velocities greater than $300~{\rm km~s}^{-1}$. This
-fraction increases to $82\%$ and $96\%$ for $V_{\rm sat}$ values of
-$250$ and $200~{\rm km~s}^{-1}$, respectively.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{figure*}
- \centering
- \hspace*{-0.5in}
-   \includegraphics[width=7.6in]{ch2_f6.pdf}
-   \caption{The fraction of H{\scriptsize I} gas stripped ($f_{\rm
-       stripped}$) via ram-pressure \emph{and} turbulent viscous
-     stripping as a function of satellite stellar mass for our sample
-     of $66$ dwarf galaxies. The solid line in each panel gives the
-     mean $f_{\rm stripped}$ in a sliding bin of width $0.6$ dex in
-     stellar mass, with the shaded region tracing the corresponding
-     $1\sigma$ scatter. In the \emph{top} and \emph{bottom} rows, we
-     assume a host halo gas density of $n_{\rm
-       halo}=10^{-3.5}$~cm$^{-3}$ and $10^{-4.0}$~cm$^{-3}$,
-     respectively. From \emph{left} to \emph{right}, the satellite
-     velocity varies from $200$ (cyan) to $250$ (magenta) to
-     $300$~km~s$^{-1}$ (gold). Including both ram-pressure and
-     turbulent viscous stripping, we find an increase in the fraction
-     of stripped gas, such that the majority of gas is removed from
-     low-mass satellites orbiting hosts with a halo gas density of
-     $10^{-3.5}~{\rm cm}^{-3}$.} 
- \label{fig:MW_KH}
-\end{figure*}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\subsection{Turbulent Viscous Stripping}
-\label{subsec:viscous}
-
-
-While ram-pressure stripping is effective at removing gas from
-satellites below the critical quenching mass scale
-($\lesssim~10^{8}~\msun$), it is only able to strip roughly half of
-the cold gas reservoir on average.
-%
-As discussed in Section~\ref{sec:intro}, however, infalling satellite
-systems are also subject to turbulent viscous stripping, which results
-from K-H instabilities at the interface of the satellite's ISM and the
-CGM.
-%
-To estimate the impact of this secondary stripping mechanism, we allow
-turbulent viscous stripping to proceed for up to $1$~Gyr following the
-initial ram-pressure stripping.
-
-
-Figure~\ref{fig:MW_KH} shows the mean and $1\sigma$ scatter in the
-stripped fraction due to both ram-pressure \emph{and} turbulent
-viscous stripping as a function of satellite stellar mass, assuming
-the same range of $V_{\rm sat}$ and $n_{\rm halo}$ values as in
-Figure~\ref{fig:MW}.
-%
-In contrast to when ram-pressure acts alone, the inclusion of
-turbulent viscous stripping at high satellite velocities ($V_{\rm sat}
-\ge 250~{\rm km~s}^{-1}$) and host halo densities ($n_{\rm halo} \ge
-10^{-3.5}$~cm$^{-3}$) yields non-zero stripped fractions for some
-massive satellites.
-%
-As discussed in Section~\ref{sec:disc}, the amount of gas removed,
-however, is relatively modest ($< \! f_{\rm stripped} \! > \; \lesssim
-0.2$), in agreement with the observations of massive satellites in the
-Local Group. 
-%
-At low stellar mass, the efficacy of stripping is notably increased
-when including turbulent viscous effects, such that the typical
-stripped fraction is roughly $1.5\times$ that produced by ram-pressure
-stripping alone.
-%
-For a host halo density of $n_{\rm halo} = 10^{-3.5}$, the majority of
-satellites in our sample are stripped of more than half of their cold
-gas reservoirs. 
-
-
-
-\section{Discussion}
-\label{sec:disc}
-
-
-Recent studies of satellite galaxies in the local Universe find that
-the efficiency of satellite (or environmental) quenching -- or the
-timescale upon which it occurs following infall -- strongly depends on
-the mass of the satellite system \citep{delucia12, wetzel13,
-  wetzel15b, wheeler14, fham15}. For satellites with $\mstar \gtrsim
-10^{8}~\msun$, the long quenching timescales inferred from the
-relatively low observed satellite quenched fractions are consistent
-with starvation as the dominant quenching mechanism \citep[][see also
-\citealt{davies16}]{fham15}.
-%
-At stellar masses below a critical mass scale of $\mstar \lesssim
-10^{8}~\msun$, however, the lack of quenched systems in the field
-combined with the very high satellite quenched fractions observed in
-the Local Group require a very short quenching timescale, consistent
-with a physical process that acts on roughly the dynamical time, such
-as ram-pressure stripping \citep{wetzel15b, fham15}. 
-%
-While stripping, and in particular ram-pressure stripping, is often
-thought to be a possible factor in the dearth of star-forming dwarfs
-in the Local Group \citep{einasto74, lin83, blitz00}, these recent
-results provide possible benchmarks by which to measure stripping as
-an active quenching mechanism.
-%
-In particular, does stripping become dominant at $\mstar \lesssim
-10^{8}~\msun$, and is it strong enough to quench low-mass satellites
-on a timescale of $\sim2$~Gyr in host systems such as the Milky Way or
-M31?
-
-
-
-
-
-\subsection{Reproducing the Critical Mass Scale for Satellite Quenching}
-\label{subsec:critmass}
-
-As first shown by \citet[][see also \citealt{slater14,
-  phillips15a}]{wheeler14}, observations of galaxies in the Local
-Volume point towards a remarkable shift in the efficiency of satellite
-quenching below a satellite stellar mass of $\sim10^{8}~\msun$, such
-that quenching at low masses proceeds relatively quickly following
-infall.
-%
-Recent analysis of much larger samples of Milky Way-like hosts in deep
-photometric datasets support this picture (Phillips et al.~in prep),
-indicating a global critical mass scale for satellite quenching.
-%
-In agreement with this picture, we find that ram pressure begins to
-overcome the local gravitational restoring force only in systems below
-a stellar mass of $\sim10^{9}~\msun$.
-%
-Above this mass scale, dwarfs are largely resistant to ram-pressure
-stripping, consistent with inefficient quenching via starvation.
-%
-At low masses, however, ram-pressure stripping is able to remove (at
-least some of) the fuel for star formation from an infalling satellite
-system, thus contributing to quenching and potentially driving the
-change in quenching efficiency below $\sim10^{8}~\msun$.
-%
-Moreover, when including turbulent viscous stripping, this critical
-scale for satellite quenching persists, with a dramatic increase in
-stripping efficiency evident over the full range of $n_{\rm halo}$ and
-$V_{\rm sat}$ values explored. 
-%
-Altogether, our results show that stripping naturally gives rise to a
-critical scale for satellite quenching, consistent with observations
-in the local Universe.
-
-
-Unlike ram pressure, we find that at high halo densities and satellite
-velocities turbulent viscous stripping is able to remove cold gas from
-some infalling satellites in the high-mass regime
-(i.e.~$>10^{9}~\msun$). 
-%
-The amount of gas removed, however, is relatively modest and in broad
-agreement with observations of massive satellites in the Local Group.
-%
-For example, there is clear evidence for stripping of the LMC and SMC,
-which are the only Milky Way satellites more massive than
-$10^{8}~\msun$. However, the stripped gas that comprises the
-Magellanic Stream and Leading Arm \citep{mathewson74}, may result from
-tidal effects \citep[e.g.][]{lin77, besla10, besla12, guglielmo14}
-versus ram-pressure or viscous stripping \citep[e.g.][]{md94,
-  mastropietro05, salem15, hammer15}.
-%
-Given the uncertainties associated with the orbit of the LMC and SMC
-and the physical origins of the stripped gas, it is difficult to make
-a clear accounting of the stripped fraction for the two systems 
-\citep[e.g.][]{donghia15}. However, the total H{\scriptsize I} gas
-mass attributed to the Magellanic Stream and Leading Arm versus that
-of the two Magellanic Clouds jointly is consistent with an average
-stripped fraction for the two systems of $\lesssim25\%$, consistent
-with our expectations at $\mstar>10^{8}~\msun$ \citep[see
-Fig.~\ref{fig:MW_KH},][]{bruns05, nidever08, nidever10}.
-
-
-Finally, the mass scale at which stripping begins to be effective
-should depend directly on the the properties of the host system
-(i.e.~$n_{\rm halo}$ and $V_{\rm sat}$ in our analysis).
-%
-That is, these parameters should, on average, scale with the mass of
-the host, such that a typical infalling satellite would experience a
-stronger ram pressure in more massive host systems and the critical
-mass scale for satellite quenching would increase accordingly.
-%
-While values of $n_{\rm halo}$ and $V_{\rm sat}$ consistent with those
-expected for the Milky Way lead to an onset of stripping at roughly
-$\sim10^{8-9}~\msun$, observations of more massive host systems, such
-as rich groups and clusters, should yield high quenched fractions at
-yet higher masses as the critical quenching mass increases with host
-mass.
-%
-This picture is supported by observations of local clusters, which
-find very few star-forming satellites at stellar masses of
-$10^{9.5}~\msun$ versus the $\sim 30\%$ quenched fraction measured for
-group and Milky Way-like hosts \citep[e.g.][]{smith12, boselli14b,
-  phillips15a, sj16}.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
  \centering
- \hspace*{-0.2in}
-   \includegraphics[width=0.5\textwidth]{ch2_f7.pdf}
-   \caption{The H{\scriptsize I} gas mass as a function of stellar
-     mass for our galaxy sample at $\mstar < 10^{8}~\msun$, prior to
-     infall (solid cyan circles) and after interaction with the host
-     CGM (solid magenta diamonds). To account for potential variations
-     in the local halo gas density, we assume $n_{\rm halo} =
-     10^{-3}$~cm$^{-3}$ and $V_{\rm sat} = 300$~km~s$^{-1}$, including
-     both ram pressure and turbulent viscous effects in our stripping
-     calculations. For comparison, we show the observed H{\scriptsize
-       I} gas masses for field galaxies in the Local Volume (open cyan
-     circles) and satellites of the Local Group (open magenta
-     diamonds) from \citet{mcconnachie12} and
-     \citet{spekkens14}. Arrows indicate observed upper-limits or
-     systems that are completely stripped in our analysis. The dashed
-     black line corresponds to an H{\scriptsize I} gas fraction of
-     $0.136$, below which we define a galaxy as quenched. Including a
-     clumpy host CGM, we find that stripping is able to quench
-     $\sim90\%$ of our infalling satellite population at low masses
-     ($33$ out of $37$ systems).}
- \label{fig:gasfrac}
+ \hspace*{-0.12in}
+ \includegraphics[width=6.5in]{ch1_f3.pdf}
+ \caption{The cumulative distribution of infall times ($t_{\rm
+     infall}$) as a function of lookback time for those subhalos in
+   the ELVIS simulations identified as hosts of the Local Group
+   satellites at $10^{6} < \mstar/\msun < 10^{8}$. The solid black
+   line corresponds to our default selection criteria, where subhalos
+   are selected according to the abundance matching relation of
+   \citet{gk14}, restricting to those subhalos with $V_{\rm
+     max}/V_{\rm peak} > 0.3$ and within the host virial radius at $z
+   = 0$.  The dashed cyan and magenta lines show the corresponding
+   distribution of infall times when applying alternative abundance
+   matching prescriptions (see~\S\ref{sec:ELVIS}), while the dashed
+   gold line traces the accretion history of only those subhalos
+   within $0.5~R_{\rm vir}$ at $z = 0$ following the \citet{gk14}
+   abundance matching relation. A quenched fraction of $90\%$ today,
+   as observed for the Local Group at these masses, corresponds to a
+   quenching timescale ($\tau_{\rm quench}$) of $\sim 1.4$~Gyr. }
+ \label{fig:tinfall}
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\subsection{Does Stripping Quench Low-Mass Satellites?}
-\label{subsec:efficacy}
-
-
-While ram-pressure stripping acts at the correct mass scales, our
-analysis finds that ram pressure alone is unable to suppress star
-formation in infalling satellites on the timescales predicted by
-\citet{fham15}.
-%
-As shown in Fig.~\ref{fig:MW}, for expected values of $n_{\rm
-  halo}$ and $V_{\rm sat}$, infalling satellites are typically
-ram-pressure stripped of $<50\%$ of their cold gas reservoirs.
-%
-Given the typical H{\scriptsize I} gas fractions and star formation
-rates for low-mass field dwarfs, which imply exceptionally long
-depletion timescales \citep{skillman03, geha06, schiminovich10}, a
-satellite stripped of only $50\%$ of its cold gas will still retain
-enough fuel to potentially form stars for many Gyr. 
-%
-For $n_{\rm halo} = 10^{-3.5}$~cm$^{-3}$ and $V_{\rm sat} =
-300$~km~s$^{-1}$, the gas fractions for our satellite population,
-following ram-pressure stripping, are still typically $\sim3\times$
-greater than the current observational limits for quenched satellites
-in the Local Group \citep[i.e.~$f_{\rm H\scalebox{0.45}{\rm
-    I}}\lesssim0.136$,][]{spekkens14}; 
-%
-that is, ram pressure only quenches $\lesssim15\%$ of our low-mass
-satellite population, such that $f_{\rm H\scalebox{0.45}{\rm I}} < 0.136$.
-%
-Ultimately, to reproduce the observed H{\scriptsize I} gas fractions
-for satellites in the Local Group and thus the inferred satellite
-quenching timescales at low stellar masses, ram-pressure stripping
-would need to be substantially more efficient than our predictions
-(i.e.~stripping nearly the entire cold gas reservoir of all
-systems, $<\!\!f_{\rm stripped}\!\!> \, \sim 0.9$).
-%
-\citet{emerick16} come to a similar conclusion based on wind-tunnel
-modeling of an idealized Leo T-like satellite during infall.
-Using the FLASH hydrodynamics code \citep{fryxell00}, they find that
-ram-pressure stripping is unable to fully strip the satellite within
-$2$ Gyr. 
-
-
-With the inclusion of viscous effects in our fiducial model, stripping
-is able to remove the majority of cold gas from the low-mass,
-infalling satellite population (i.e.~at $\mstar < 10^{8}~\msun$, see
-Fig.~\ref{fig:MW_KH}).
-%
-In $60\%$ of low-mass systems following stripping, we find
-H{\scriptsize I} gas fractions consistent with the observed limits for
-the Milky Way dwarf spheroidal population ($f_{\rm
-  H\scalebox{0.45}{\rm I}} < 0.136$), such that stripping is nearly
-able to reproduce the high satellite quenched fraction observed in the
-Local Group ($f_{\rm quenched} \sim 0.9-1$).
-%
-For roughly $40\%$ of systems, however, the resulting gas fractions --
-post stripping -- are still greater than that observed for satellites
-of the Milky Way.
-%
-Again, to bring our satellite population into agreement with the
-roughly $90-100\%$ satellite quenched fraction at low masses in the
-Local Group requires yet stronger stripping, such that the typical
-stripped fraction is closer to $f_{\rm stripped} \sim 0.9$ at $\mstar
-\lesssim 10^{8}~\msun$.
-
-
-While current observations of comparable nearby systems (e.g.~M81,
-M106) find low-mass satellite populations that roughly mirror that
-found in the Local Group \citep{kaisin13, spencer14}, it remains
-possible that the low-mass satellite quenched fractions for the Milky
-Way and M31 are abnormally high relative to comparable host halos.
-%
-As shown in Fig.~3 of \citet{fham15}, if the satellite quenched
-fraction for a Milky Way-like halo is typically $\sim70\%$ (versus
-$90-100\%$), the satellite quenching timescale increases to
-$\sim4-5$~Gyr (versus $\sim1-2$~Gyr). 
-%
-In such a scenario, stripping would not need to fully quench infalling
-satellites; instead, stripping could simply remove roughly half of a
-satellite's cold gas supply, so as to decrease the depletion
-(i.e.~starvation) timescale accordingly.
-%
-Our analysis suggests that this level of stripping is very much
-realistic for a Milky Way-like environment, even from ram pressure
-alone.
+\begin{figure*}
+  \centering
+  \hspace*{-0.42in}
+  \includegraphics[width=6.5in]{ch1_f4.pdf}
+  \caption{\emph{Left}: The dependence of the satellite quenched
+    fraction on the assumed quenching radius, $R_{\rm quench}$, for our
+    ram-pressure stripping model (see~\S\ref{subsec:rquench}). The
+    solid black and dashed cyan and magenta lines correspond to subhalo
+    populations selected according to different abundance matching
+    prescriptions (see~\S\ref{sec:ELVIS}). In all cases, a quenching
+    radius of $0.6~R_{\rm vir}$ is required to reproduce a quenched
+    fraction of $90\%$ as observed in the Local Group. \emph{Right}:
+    The dependence of the mean quenching timescale ($\tau_{\rm
+      quench}$) on the assumed quenching radius ($R_{\rm quench}$) for
+    the same set of abundance matching relations. For our fiducial
+    subhalo sample, the grey shaded region illustrates the $1\sigma$
+    scatter in the quenching timescale across the $48$ ELVIS hosts. As
+    for the starvation model, the high observed quenched fraction in
+    the Local Group implies a short quenching timescale ($\sim1.1$~Gyr)
+    in our ram-pressure stripping model. The typical $R_{\rm vir}$ (at
+    $z=0$) for ELVIS hosts is $\sim300$~kpc.}
+  \label{fig:rquench}
+\end{figure*}
 
 
 
-\subsection{The Efficacy of Stripping: Refining Our Analysis}
+\subsection{Starvation Model}
+\label{subsec:tquench}
 
-
-Within our analysis, there are several factors or approximations by
-which we are likely over- or under-estimating the true effectiveness
-of stripping.
-%
-For example, we assume instantaneous ram-pressure stripping, which
-likely overestimates the ram pressure \citep{tonnesen16}.
-%
-Moreover, like many studies of ram-pressure stripping, we adopt a
-smooth host halo in equilibrium with the dark matter potential. X-ray
-observations, however, find that massive hot halos, typically
-associated with galaxy clusters, exhibit structure on scales of $\lesssim
-1$~Mpc \citep{buote96, schuecker01}.
-%
-In addition, quasar absorption-line studies of low- and high-$z$ hosts
-find significant clumpiness in the CGM of massive galaxies
-\citep[e.g.][]{thom12, ab15}.
-%
-What the observed substructure in these systems implies for a typical
-Milky Way-like object is unclear, but the assumption of a smooth halo
-certainly ignores potentially important details.
-%
-Specifically, a clumpy gas halo will yield regions of higher density
-and thus an increased ram pressure. Such a halo is also likely to have
-some net velocity relative to the host's dark matter halo (our point
-of reference in determining satellite velocities, see
-Section~\ref{subsec:rhoV}). As shown by \citet{tonnesen08}, bulk
-motion of the gas halo tends to be in the same direction as that of
-the satellites, leading to a smaller effective $V_{\rm sat}$ and thus
-weaker ram pressure.
-Clearly, more detailed hydrodynamical simulations are needed to fully
-address the impact of a clumpy CGM on our calculations.
-%
-However, to quench roughly $80-90\%$ of satellites in our sample via
-stripping (i.e.~including ram-pressure and viscous effects) requires
-local variations in the halo gas density on the order of $2-3\times$
-that assumed in our fiducial model (i.e.~$n_{\rm halo} =
-10^{-3.25}-10^{-3}$~cm$^{-3}$), given a satellite velocity of
-$300$~km~s$^{-1}$. 
-%
-As shown in Figure~\ref{fig:gasfrac}, by including a clumpy CGM, our
-analysis is able to reproduce the observed H{\scriptsize I} gas
-fractions for the Local Group satellite population, with $\sim90\%$ of
-our satellite population quenched following infall.
-%
-To achieve the same quenched efficiency with a satellite velocity of
-only $200$~km~s$^{-1}$, thereby accounting for potential bulk motion
-of the halo gas, our analysis requires a local increase in CGM density
-of roughly $10-20\times$ that of our fiducial model (i.e.~$n_{\rm
-  halo} = 10^{-2.5}-10^{-2.2}$~cm$^{-3}$).
-%
-While such extreme CGM densities are unrealistic on average, local
-variations of this scale are in good agreement with the results of
-recent hydrodynamic simulations of stripping by \citet{bahe15}, which
-find that galaxies undergoing stripping in groups and clusters
-typically experience increased ram pressure associated with CGM
-overdensities as large as $100\times$ the mean.
-%
-
-
-Along with potential variations in the density of the host CGM, the
-efficacy of stripping is also impacted by the density of the satellite
-dark matter halo.
-%
-As discussed in Section~\ref{subsec:dMr}, the satellite dark matter
-halo mass profiles assumed in our fiducial model yield a potentially
-significant underestimate of the stripping efficiency.
-%
-If low-mass dwarfs live in less-concentrated host halos, as suggested
-by their observed internal kinematics, the resulting stripped
-fractions should increase by $\gtrsim 10\%$. 
-%
-With the inclusion of cored mass profiles, stripping becomes an
-increasingly realistic physical driver for the high quenched fractions
-and short quenching timescales for low-mass satellites. 
-
-
-While adopting less-concentrated mass profiles alone will likely not
-be enough to fully strip all systems, it emphasizes another missing
-ingredient in our analysis: baryonic feedback.
-%
-As shown by \citet{geha12}, field dwarfs (and thus infalling
-satellites) are nearly universally star-forming at stellar masses of
-$\lesssim10^{9}~\msun$ and will be subject to the stellar feedback
-associated with radiation pressure and supernovae \citep[e.g][]{mqt05,
-  hopkins14}.
-%
-As part of our analysis, we employ observed H{\scriptsize I} surface
-density profiles for a sample of star-forming field dwarfs, along with
-halo masses modeled from spatially-resolved kinematics, which should
-thus naturally capture the impact of feedback on $\Sigma_{\rm gas}$
-and $M(r)$.
-%
-Infalling satellites, however, may experience an elevated level of
-star formation and thus feedback. 
-%
-This increased star-formation activity would result from compression
-of the satellite's ISM due to interaction with the host CGM, thereby
-increasing the local gas density and allowing star formation to
-proceed at an accelerated rate.
-%
-For example, simulations of massive satellites in groups and clusters
-find that ram pressure often leads to a burst of star formation for
-the infalling system \citep{fujita99, bekki03, bekki14}.
-%
-Within the Local Group, modeling of the orbit and star-formation
-history of Leo I suggest that it experienced a small burst of star
-formation at pericentric passage prior to being quenched, consistent
-with being initiated by ram pressure \citep{sohn13, bk13,
-  weisz14a}.
-%
-%
-This increase in star formation, driven by interaction with the host
-CGM, can inject energy into the ISM of the satellite, puffing up the
-system and thereby making it more susceptible to stripping
-\citep[][but see also \citealt{emerick16}]{stinson07, el15}.
-High-resolution hydrodynamic simulations of Milky Way- or Local
-Group-like environments should provide a robust means for studying the
-possible importance of feedback in increasing the efficiency of
-stripping (e.g.~\citealt{zolotov12, mistani16, wetzel16};
-Garrison-Kimmel et al.~in prep).
+When quenching occurs via starvation, the satellite galaxy is deprived
+of any additional supply of cold gas after infall, such that star
+formation is halted following the consumption of its current gas
+reservoir --- i.e.~quenching occurs within the gas depletion timescale
+($\tau_{\rm depl} = {\rm M}_{\rm gas} / {\rm SFR}$). While
+observations suggest that atomic and/or molecular depletion timescales
+may vary with galaxy mass \citep{leroy08, bigiel11, boselli14,
+  somerville15}, we adopt a fixed quenching timescale (following infall)
+over the limited stellar mass range probed in our analysis
+($10^{6}-10^{8}~\msun$).
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In the models, we define the infall time as the lookback time at which
+a halo \emph{first} crosses the virial radius, $R_{\rm vir}(z)$, of
+the host. For the $\sim 23\%$ of subhalos that cross the host virial
+radius more than once, we are likely overestimating the infall
+time. However, $90\%$ of these subhalos are accreted for a final time
+$\gtrsim6$~Gyr ago, thereby contributing little to no effect on the
+final inferred quenching timescale. Figure~\ref{fig:tinfall} shows the
+cumulative distribution of infall times for subhalos selected as hosts
+of Local Group satellites in the simulations following various
+abundance matching prescriptions. Universally, we find that subhalos
+are accreted relatively uniformly over cosmic time, with the vast
+majority infalling into their host halo $>2$~Gyr ago.
+
+
+
+
+
+As shown in Figure~\ref{fig:tinfall}, to match the observed satellite
+quenched fraction of $\sim90\%$ in the Local Group, the starvation
+model -- independent of the adopted abundance matching prescription --
+favors a quenching timescale ($\tau_{\rm quench}$) of roughly
+$1.4^{+0.9}_{-0.7}$~Gyr, including the error associated with the
+uncertainty in the observed Local Group quenched fraction (according
+to binomial statistics). Thus, on average, satellites of the Milky Way
+and M31 (at $\mstar \sim 10^{6}-10^{8}~\msun$) must quench within
+$1.4$~Gyr of infalling onto their respective host halo. Within the
+individual ELVIS simulations there is non-negligible scatter in the
+derived quenching timescale, given the stochasticity of subhalo
+accretion events; assuming a quenched fraction of $90\%$, the
+$1\sigma$ scatter in $\tau_{\rm quench}$ across the $12$ Local
+Group-like host pairs in ELVIS is approximately $0.7$~Gyr.
+  
+
+
+A quenched fraction of $90\%$ in the local group could be dependent on
+completeness of the dwarf sample in this mass range, as discussed in
+the introduction. This is particularly true around M31, where PAndAS
+imaging only surveys the volume within a radius of $\sim150$~kpc. To
+test the impact of this potential selection effect on our results, we
+also compute the distribution of infall times for those subhalos that
+reside within $0.5~R_{\rm vir}$ today. While simulated subhalos with
+earlier infall times are slightly biased towards smaller host-centric
+distances \citep[e.g.][]{diemand08, rocha12, wetzel15}, the
+correlation between radial distance from the host and infall time
+exhibits significant scatter, such that the quenching timescale
+derived from subhalos within $0.5~R_{\rm vir}$ today is fully
+consistent with that based on the full sample of subhalos within
+$1~R_{\rm vir}$ (see~Fig.~\ref{fig:tinfall}).
+
+
+
+In our starvation model, it is assumed that the quenching timescale
+(i.e.~depletion timescale) is independent of cosmic time. While
+studies at higher redshift are limited to significantly more massive
+systems, current work suggests that molecular depletion timescales are
+relatively weakly dependent on redshift \citep{geach11, magdis12a,
+  saintogne13, bauermeister13}, favoring shorter timescales at higher
+$z$. This conclusion is echoed in analysis of the satellite quenching
+timescale across a broad range of halo masses at intermediate redshift
+\citep{mcgee11, mcgee14, mok14, muzzin14, bahe15}. Altogether, a
+modest variation in the quenching timescale with redshift would yield
+no significant impact on our results, as our analysis is focused on
+the cumulative quenched fraction today and not on the detailed
+quenching times of individual satellites.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\subsection{Stripping Model}
+\label{subsec:rquench}
+
+To mimic quenching via ram-pressure stripping, we implement a model in
+which satellites are quenched at a fixed radial distance ($R_{\rm
+  quench}$) from their host. In a stripping scenario, this radial
+quenching scale would be set by the volume over which the host's hot
+halo reaches a density capable of stripping an infalling dwarf. To
+account for growth of the hot halo over cosmic time, we define our
+quenching radius, $R_{\rm quench}$, in terms of the host's virial
+radius as a function of redshift (i.e.~$R_{\rm quench} \propto R_{\rm
+  vir}(z)$) and require that a subhalo cross within the quenching
+radius at $z < 3$, allowing the host's hot halo time to form
+\citep{birnboim03, keres05, dekel06}. For subhalos in ELVIS that have
+crossed within the quenching radius at $z < 3$, we classify the
+corresponding satellite as quenched; all other systems remain
+star-forming, independent of the time spent in the host halo
+(i.e.~independent of infall time).
+
+
+Figure~\ref{fig:rquench}a shows the dependence of the satellite
+quenched fraction on the adopted quenching radius (from $0.2~R_{\rm
+  vir}$ to $1~R_{\rm vir}$). We find that to reproduce the observed
+quenched fraction in the Local Group ($90\%$) requires a quenching
+radius of roughly $0.6~R_{\rm vir}$, again with little dependence on
+the assumed abundance matching relation. Adopting this value for the
+quenching radius ($R_{\rm quench} = 0.6~R_{\rm vir}$), we are able to
+determine the time at which each subhalo in the simulation
+(i.e.~satellite) quenched following infall --- and thus the quenching
+timescale (measured relative to infall). In Figure~\ref{fig:rquench}b,
+we show the mean quenching timescale as a function of the chosen
+quenching radius ($R_{\rm quench}$) within the $48$ ELVIS
+simulations. For large values of $R_{\rm quench}$, each satellite --
+largely independent of orbit -- spends little time in the host halo
+prior to being quenched, such that the effective quenching timescale
+($\tau_{\rm quench}$) is short. Adopting a quenching radius of $R_{\rm
+  quench} = 0.6~R_{\rm vir}$, we find an average quenching timescale
+of $1.1$~Gyr, in very good agreement with that derived from our
+starvation model (see \S\ref{subsec:tquench}). Finally, a
+complementary analysis by \citet{slater14}, in which quenching
+commences at pericenter passage, finds very similar results
+\citep[$\tau_{\rm quench} \sim 1-2$~Gyr, see also][]{weisz15, wetzel15b}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Discussion}
+\label{sec:discussion}
+
+
+
+Given that nearly all field dwarfs are star-forming at stellar masses
+of $\lesssim 10^{9}~\msun$ \citep{grebel97, mateo98, geha12},
+environment-dependent processes are the dominant driver of quenching
+at low masses and must act on a timescale so as to avoid over- or
+under-producing the number of star-forming satellite galaxies in the
+Local Group. Independent of the particular physical mechanism(s) at
+play, the high quenched fraction ($\sim90\%$) observed for low-mass
+Local Group satellites thereby dictates a remarkably short quenching
+timescale, measured relative to infall. Through a detailed comparison
+of the observed Milky Way and M31 satellites to the ELVIS suite of
+simulations, we show that this quenching timescale ($\tau_{\rm
+  quench}$) is $\sim 2$~Gyr at stellar masses of
+$10^{6}-10^{8}~\msun$ in the Local Group.
+
+A very similar analysis by \citet{wheeler14}, in which the properties
+of nearby dwarfs in the SDSS are compared to the Millennium-II
+simulation \citep{bk09}, finds that the quenching timescale must be
+much longer ($>7.5$~Gyr) at slightly higher stellar masses
+($\sim10^{9}~\msun$). This longer quenching timescale is dictated by
+the relatively low quenched fractions observed in nearby groups
+\citep{geha12}. While \citet{wheeler14} preferentially study
+higher-mass host halos than that of the Milky Way and M31, analysis of
+the Local Group is in broad agreement. At $\mstar \sim
+10^{8}-10^{10}~\msun$, the satellite quenched fraction in the Local
+Group is only $\sim40\%$ \citep{wheeler14, phillips15, slater14},
+which requires a quenching timescale of $\sim7.8$~Gyr when comparing
+the infall times of ELVIS subhalos selected to have $\mstar \sim
+10^{8.5}-10^{9.5}~\msun$ according to the abundance matching relation
+of \cite{gk14}.
+
+
+\begin{figure*}
+\centering
+\hspace*{-0.15in}
+\includegraphics[width=6.5in]{ch1_f5.pdf}
+\caption{The dependence of the satellite quenching timescale
+  ($\tau_{\rm quench}$) on satellite stellar mass at $\mstar \sim
+  10^{6}-10^{11}~\msun$. The inset legend lists the typical host halo
+  mass for each data set. The magenta, gold, and cyan colored bands
+  show the constraints for satellites in different mass host halos
+  derived from analysis of galaxy groups and clusters in the SDSS by
+  \citet{wetzel13}. The black square denotes the typical quenching
+  timescale for slightly lower-mass satellites ($\sim10^{9}~\msun$)
+  from \citet{wheeler14}, with the horizontal error bars denoting the
+  $25-75\%$ range in stellar mass probed by that work and the vertical
+  error bars giving the variation in $\tau_{\rm quench}$ corresponding
+  to satellite quenched fractions of $25-55\%$ (as derived from
+  analysis of subhalo populations in ELVIS, see
+  \S\ref{sec:discussion}). Our estimate for the low-mass satellite
+  quenching timescale in the Local Group is given by the black circles
+  ($\tau_{\rm quench} \sim 1.4$~Gyr, see \S\ref{subsec:tquench}),
+  where our sample of subhalos is divided into two stellar mass bins
+  of $10^{6}-10^{7}~\msun$ and $10^{7}-10^{8}~\msun$. Each point gives
+  the quenching timescale for subhalos in that mass bin assuming a
+  satellite quenched fraction of $90\%$, while the vertical error bars
+  illustrate the variation in $\tau_{\rm quench}$ corresponding to
+  satellite quenched fractions of $80-100\%$. Our results are largely
+  independent of mass, with increased scatter at higher masses due to
+  the smaller number (and thus increased stochasticity in the infall
+  times) of massive subhalos. The horizontal error bars show the
+  quartiles of the subhalo mass distribution within each bin. At high
+  masses, the quenching timescale increases with decreasing stellar
+  mass. Below ${\rm M}_{\star}\sim10^{8}~\msun$, we find that
+  satellite quenching becomes dramatically more efficient, suggesting
+  a likely change in the physical mechanisms at play.}
+\label{fig:tquench}
+\end{figure*}
+
+In an effort to study quenching for the most massive satellite
+systems, \citet{wetzel13} and \citet{delucia12} compare group and
+cluster populations from the SDSS \citep{yang07} to $N$-body and
+semi-analytic models, respectively. While analysis at these masses is
+complicated by the fact that some isolated or field systems are
+quenched independent of any environment-related effects, these
+independent analyses conclude that the quenching timescale at
+$\sim10^{10}-10^{11}~\msun$ increases with decreasing satellite
+stellar mass, reaching as long as $\sim 5-6$~Gyr \citep[see
+also][]{hirschmann14}. Interestingly, for these most massive
+satellites, no evidence is found for variation in the quenching
+timescale with host halo mass \citep[][but see also
+\citealt{phillips15}]{wetzel13}.
+
 
 
 \begin{figure*}
  \centering
- \hspace*{-0.2in}
-   \includegraphics[width=6in]{ch2_f8.pdf}
-   \caption{The dependence of the satellite quenching timescale on
-     satellite stellar mass in Milky Way-like and more massive host
-     halos ($>10^{12}~\msun$), as adapted from \citet{fham15}. The
-     magenta, gold, and cyan colored bands show the constraints from
-     \citet{wetzel13} for satellites in host halos of $M_{\rm host}
-     \sim 10^{12-13}~\msun$, $10^{13-14}~\msun$, $10^{14-15}~\msun$,
-     respectively. The black square and circles correspond to the
-     typical quenching timescale for intermediate- and low-mass
-     satellites from \citet{wheeler14} and \citet{fham15},
-     respectively. The light grey shaded regions highlight the
-     expected dominant quenching mechanism as a function of satellite
-     mass, while the vertical dashed black line denotes the critical
-     mass scale below which satellite quenching becomes increasingly
-     efficient. At $\mstar \gtrsim10^{8}~\msun$, the satellite
-     quenching timescales show broad agreement with the observed gas
-     depletion timescales for field systems, suggesting that
-     starvation is the main driver of satellite quenching at these
-     masses. 
-     At low masses, stripping -- potentially assisted by
-     stellar feedback and a clumpy host CGM -- is the most probable
-     mechanism responsible for the high satellite quenched fractions
-     and short quenching timescales observed in the Local Group.
-     The critical satellite stellar mass, $M_{\rm crit}$, at which the
-     dominant quenching mechanism shifts from starvation to stripping
-     should depend on the halo mass of the host system, with more
-     massive hosts able to strip more massive satellites. }
- \label{fig:model}
+ \hspace*{-0.48in}
+   \includegraphics[width=6.5in]{ch1_f6.png}
+   \caption{\emph{Left}: The dependence of the satellite quenching
+     timescale ($\tau_{\rm quench}$) and gas depletion timescale
+     ($\tau_{\rm depl}$) on satellite stellar mass at $\mstar \gtrsim
+     10^{8}~\msun$. The magenta, gold, and cyan colored bands show the
+     constraints for satellites in different mass host halos derived
+     from analysis of galaxy groups and clusters in the SDSS by
+     \citet{wetzel13}. The black square gives the typical quenching
+     timescale for lower-mass satellites ($\sim
+     10^{8.5}-10^{9.5}~\msun$) from \citet{wheeler14}. The solid and
+     dashed black lines show the mass dependence of the gas depletion
+     timescale (${\rm H}_{2}$ + H{\scriptsize I}) derived from
+     combining the observed gas fractions of \citet{boselli14} with
+     the star formation rate-stellar mass relation of \citet{salim07}
+     and \citet{speagle14}, respectively. The solid blue and solid
+     green lines give the corresponding predictions from the
+     hydrodynamical and semi-empirical models of \citet{dave11a} and
+     \citet{popping15}, respectively. The inferred satellite quenching
+     timescales at $\gtrsim10^{8}~\msun$ show broad agreement with the
+     observed gas depletion timescales for field systems, suggesting
+     that starvation is the main driver of satellite quenching at
+     these masses. \emph{Right}: The dependence of the satellite
+     quenching timescale on satellite stellar mass at $10^{6} <
+     \mstar/\msun < 10^{11}$, including the estimates of $\tau_{\rm
+       quench}$ from Fig.~\ref{fig:tquench}. The light grey shaded
+     regions highlight the expected dominant quenching mechanism and
+     projected mass dependence of $\tau_{\rm quench}$, while the
+     vertical hashed grey region demarcates the critical mass scale
+     below which a more efficient physical process (e.g.~ram-pressure
+     stripping) drives relatively rapid quenching in the Local
+     Group. At high masses ($\gtrsim10^{8}~\msun$), satellite
+     quenching is consistent with being driven by starvation; below
+     $\sim10^{8}~\msun$, however, we posit that ram-pressure stripping
+     becomes increasingly effective, such that depletion (and thus
+     quenching) timescales are significantly shorter.}
+
+ \label{fig:cartoon}
 \end{figure*}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In Figure~\ref{fig:tquench}, we combine our estimate of the quenching
+timescale for low-mass satellites in the Local Group ($\mstar~\sim
+10^{7}~\msun$) with the complementary constraints from
+\citet{wheeler14} and \citet{wetzel13} at higher stellar masses. Due
+to differences in the adopted definiton of infall time (see discussion
+in \citealt{wheeler14}), we assume a quenching timescale of $8$~Gyr at
+$10^{9}~\msun$. This value for $\tau_{\rm quench}$ is fully consistent
+with the results from \citet[][$\tau_{\rm
+  quench}\sim7.5-9$~Gyr]{wheeler14}; as previously highlighted,
+analysis of higher-mass subhalos in the ELVIS simulations --- systems
+corresponding to $10^{8.5}-10^{9.5}~\msun$ following the \citet{gk14}
+abundance matching relation --- yields a very similar result
+($\tau_{\rm quench}\sim7.8$~Gyr; see also
+\citealt{delucia12}). Altogether, we find that the quenching timescale
+increases with decreasing mass at $\gtrsim10^{8}~\msun$, such that
+environmental processes are relatively inefficient in suppressing star
+formation at $\sim10^{9}~\msun$. At lower stellar masses
+($\lesssim10^{8}~\msun$), however, the quenching timescale decreases
+dramatically, indicating a stark increase in the satellite quenching
+efficiency for low-mass systems. Given that all known satellites of
+the Milky Way and M31 are quenched below stellar masses of $\sim{\rm
+  a~few}~\times~10^{5}~\msun$, the quenching timescale is expected to
+remain short to even lower masses.  For the lowest-mass systems
+(i.e.~ultra-faint dwarfs) environmental quenching is likely
+irrelevant, as the smallest dark matter halos may have their star
+formation suppressed significantly by non-environmental mechanisms
+like cosmic reionization \citep[e.g.][]{rees86, efstathiou92,
+  wyithe06, onorbe15}.
 
 
 
-\subsection{Towards a Complete Picture of Satellite Quenching}
-\label{subsec:BigPic}
 
 
-Figure~\ref{fig:model} presents current constraints on the satellite
-quenching timescale from \citet{wetzel13}, \citet{wheeler14}, and
-\citet{fham15} along with a qualitative depiction of the dominant
-quenching mechanisms likely at play as a function of satellite stellar
-mass.
-%
-As illustrated by \citet{fham15}, the measured satellite quenching
-timescales at high masses, including the lack of strong dependence on
-host halo mass, are broadly consistent with the expectations for
-quenching via starvation \citep[see also][]{vdb08, wetzel13}.
-%
-At low masses, on the other hand, the short quenching timescales
-inferred from analysis of the Local Group satellite population are
-difficult to fully explain.
-%
-As our analysis shows, stripping is a likely culprit in suppressing
-star formation at low masses, as it qualitatively reproduces the
-critical mass scale for satellite quenching ($M_{\rm crit}$) within
-the Local Group.
-%
-However, our analysis suggests that stripping (and specifically
-ram-pressure stripping) may require a significantly clumpy host CGM or
-the assistance of baryonic feedback to effectively remove enough cold
-gas from the most gas-rich and concentrated systems.
-%
-Additionally, recent work by \citet{pearson16} and \citet{marasco16}
-shows that the distribution of H{\scriptsize I} in low-mass field
-galaxies can be significantly altered via close encounters with
-neighboring dwarfs. 
-If these encounters occur just before or during infall onto a host
-system, the resulting satellite's ISM will likely be more susceptible to
-stripping. 
-%
-
-If stripping drives quenching at low masses, then there are clear
-implications regarding the CGM of the Milky Way and similar systems. 
-%
-In particular, to quench all low-mass satellites within $\sim2$~Gyr of
-infall requires that the CGM extends to roughly $0.5~R_{\rm vir}$
-\citep[or $\sim150$~kpc,][]{fham15} at a density of $n_{\rm halo}
-\gtrsim 10^{-3.5}~{\rm cm}^{-3}$.
-%
-This large physical extent is needed to explain the quenching of
-satellites with more circular or non-plunging orbits.
-In ELVIS, we find that $\sim 25\%$ of subhalos in our selected mass
-range and accreted at $0.15 < z_{\rm infall} < 3$ reach their first
-pericentric passage at $0.5 < R/R_{\rm vir} < 1$.
-%
-To reproduce the extremely high satellite quenched fractions at
-$\lesssim10^{8}~\msun$ via stripping, the CGM must therefore have a
-relatively cored density profile \citep[e.g.][]{MB04}.
+For an infalling satellite of any mass, assumed to be isolated from
+subsequent gas accretion, an upper limit on the longevity of any star
+formation activity is set by the gas supply within the satellite upon
+infall --- including the satellite's hot halo, from which gas may
+cool. Processes such as ram-pressure stripping, tidal effects, and
+harassment would then work to diminish this gas supply, so as to
+accelerate the quenching process. The long quenching timescales
+observed for higher-mass satellites ($\sim10^{8}-10^{10}~\msun$) thus
+favor starvation as the dominant quenching mechanism. Ignoring future
+accretion, recycling, or gas cooling, the duration of star formation
+should follow the gas depletion timescale ($\tau_{\rm depl} = {\rm
+  M}_{\rm gas} / {\rm SFR}$, where ${\rm M}_{\rm gas}$ is the mass of
+a satellite's cold gas reservoir upon infall). While studies of nearby
+star-forming galaxies suggest that the surface density of ongoing star
+formation is most closely tied to the dense ${\rm H}_{2}$ gas
+\citep{bigiel08, bigiel11, leroy08}, observed molecular depletion
+timescales are much shorter than the inferred quenching
+timescales. For relatively massive galaxies ($\mstar \gtrsim
+10^{10}~\msun$), spanning a broad range of redshift, current
+observations point towards molecular depletion timescales of roughly
+$1-2$~Gyr \citep{bigiel11, leroy13, saintonge11, tacconi10, tacconi13,
+  genzel10, genzel15}. Moreover, recent work targeting larger samples
+of lower-mass galaxies conclude that the molecular depletion timescale
+decreases with decreasing stellar mass, such that infalling satellites
+at $10^{9}~\msun$ should, on average, exhaust their molecular
+reservoirs in less than $1$~Gyr \citep{saintonge11, boselli14}.
 
 
-
-While the physical picture presented in Fig.~\ref{fig:model} broadly
-explains the suppression of star formation in satellite systems, it
-largely ignores any corresponding structural evolution. 
-%
-Recent observations at intermediate redshift suggest that quenching of
-massive central galaxies is closely associated with development of a
-bulge-dominated morphology \citep{bell12, cheung12}.
-%
-Moreover, observations of galaxy morphology in field and group/cluster
-populations at $\mstar \gtrsim 10^{9.5}~\msun$ point towards an
-evolution of satellite systems from disk- to bulge-dominated
-\citep{vdb08, weinmann09}, suggesting that an additional mechanism
-beyond starvation must likely be driving satellite evolution ---
-unless fading of the stellar population, post quenching, can account
-for observed differences in the light profiles of field and satellite
-populations. 
-%
-In lower-mass hosts such as the Milky Way, however, there is little
-morphological difference between massive satellites and field systems
-of comparable mass \citep{phillips14}.
-%
-In addition, at lower satellite masses, structural evolution of
-satellites is relatively modest following infall and is potentially
-driven by baryonic feedback effects \citep{sj16, wheeler16}.
+These relatively short molecular depletion timescales are in direct
+conflict with the derived quenching timescales for satellites at
+$\sim10^{9}-10^{10}~\msun$, which indicate that star formation
+typically continues for $>4$~Gyr after infall. Given that strong
+variation in star-formation efficiency for ${\rm H}_{2}$ is disfavored
+by both observations of the Kennicutt-Schmidt relation
+\citep{bigiel08, leroy08, krumholz05} and the bimodality of rest-frame
+galaxy colors \citep[or specific star formation rates,][]{balogh09,
+  weinmann10},\footnote{While a reduction in the star formation
+  efficiency for satellites would yield longer depletion (and thus
+  quenching) timescales, it would also lead to overproducing galaxies
+  in the ``green valley''.} the extended star formation in satellite
+galaxies seemingly must be driven by a fuel supply beyond the
+molecular reservoir. While gas cooling from a satellite's hot halo
+could replenish the fuel supply for star formation, there is little
+observational evidence for significant hot gas coronae around
+star-forming galaxies, even at the high-mass regime and especially
+when restricting to gas with a sufficiently short cooling time
+\citep[][]{sun07, rasmussen09, crain10, miller15}.
 
 
+On the other hand, if atomic gas is included as a potential fuel
+source for star formation, there may be better agreement between the
+expected gas depletion and satellite quenching timescales. As
+previously stated, star formation is observed to follow molecular gas
+density more closely than atomic gas density, although the weaker
+correlation with H{\scriptsize I} surface density could be largely due
+to atomic gas spanning a broader range of densities, thus on average
+tracing dense star-forming clouds more poorly \citep{glover12a,
+  glover12b, clark12}. As shown in Figure~\ref{fig:cartoon}a, when
+including the atomic gas component, the inferred quenching timescales
+at high stellar masses ($\mstar \gtrsim 10^{8}~\msun$) are in broad
+agreement with the measured and predicted (atomic plus molecular) gas
+depletion timescales and thus consistent with a picture where
+satellite quenching is driven by starvation at high masses.
+
+
+
+In the low-mass regime ($\lesssim10^{8}~\msun$), the atomic component
+becomes increasingly important, with observations of nearby
+star-forming systems finding that the typical H{\scriptsize I} gas
+fraction increases steadily towards lower mass \citep{skillman03,
+  geha06, leroy08, schiminovich10, catinella10, huang12}. More
+importantly, this relative growth in atomic gas outpaces the
+corresponding increase in the average specific star formation rate
+\citep[e.g.][]{noeske07, salim07, speagle14}, such that the gas
+depletion timescale is generally long ($\gtrsim 10$~Gyr) for low-mass
+star-forming galaxies --- a result that is fully consistent with the
+dearth of quiescent field galaxies at $<10^{9}~\msun$ \citep{geha12,
+  onorbe15}. In comparison to the typical quenching timescales at low
+masses, however, the overabundance of atomic gas in these systems
+suggests that starvation alone cannot drive satellite quenching at
+$\lesssim10^{8}~\msun$. Instead, a secondary process, such as
+ram-pressure stripping, is needed to remove cool gas from infalling
+systems, thereby decreasing the gas depletion timescale significantly.
+
+
+
+As observations of systems such as Leo I suggest \citep{sohn13}, we
+would expect stripping to occur as a satellite infalls from $R_{\rm
+  vir}$ towards pericenter, such that quenching at low masses would
+proceed according to the dynamical time ($\tau_{\rm dyn}$), which is
+roughly $1-2$~Gyr for a Milky Way-like halo today
+\citep[e.g.][]{stewart09}.
+%
+While a detailed analysis of the efficacy of ram-pressure stripping
+(or other quenching mechanisms such as tidal forces) is beyond the
+scope of this work (see Fillingham et al.~in prep),
+Figure~\ref{fig:cartoon}b presents a qualitative depiction of the
+potential physical processes at play, where satellite quenching is
+primarily driven by starvation at higher masses ($\gtrsim
+10^{8}~\msun$ for the Local Group) while ram-pressure stripping
+becomes increasingly effective below a critical mass scale of $\sim
+10^{8}~\msun$, yielding shorter quenching timescales and high observed
+quenched fractions. In this qualitative picture, we expect that
+ram-pressure stripping (or some other efficient quenching mechanism)
+plays a critical role in suppressing star formation down to the mass
+scales at which reionization inhibits gas accretion and therefore star
+formation \citep[perhaps, $\mstar \sim 10^{4}~\msun$,][]{brown14,
+  onorbe15, wheeler15}. Applying this qualitative picture to
+higher-mass host halos (e.g.~rich groups and clusters), the critical
+scale at which ram-pressure stripping becomes effective should move to
+higher satellite masses due to the increased density of the host's hot
+halo in concert with higher infall velocities for the satellites.
 
 
 
 
 \section{Summary}
-\label{sec:endgame}
+\label{sec:summary}
 
-Through the utilization of observed H{\scriptsize I} surface density
-profiles for nearby dwarf galaxies, we investigated the effectiveness
-of ram-pressure and turbulent viscous stripping in Milky Way-like
-environments. 
-%
-Our analysis was motivated by recent results which point towards a
-sharp change in the satellite quenching timescale, and therefore the
-dominant quenching mechanism, for low-mass satellite galaxies. The
-principal results of our analysis are as follows:
-
-
+Comparing observations of the Local Group satellite population to
+corresponding high-resolution $N$-body simulations from the ELVIS
+suite, we investigate the typical timescale (following infall) upon
+which star formation is suppressed in low-mass ($<10^{8}~\msun$)
+satellite galaxies. When combining our work with complementary
+analyses of higher-mass satellite populations, we present a
+comprehensive picture of satellite quenching spanning roughly five
+orders of magnitude in stellar mass. Our principal results are as
+follows:
 
 \begin{itemize}[leftmargin=0.25cm]
 
-\item Ram-pressure and turbulent viscous stripping become increasingly
-  effective in satellite galaxies with $\mstar~\lesssim~10^{9}~\msun$,
-  consistent with the observed decrease in the satellite quenching
-  timescale at $\mstar~\sim~10^{8}~\msun$. If stripping dominates the
-  quenching of low-mass satellites, then we predict that the critical
-  mass scale
-  for satellite quenching should increase with host halo mass.  \\
+\item To reproduce the high fraction of quenched low-mass satellites
+  in the Local Group, the typical quenching timescale at $\mstar \sim
+  10^{6}-10^{8}~\msun$ must be relatively short ($\tau_{\rm
+    quench} \sim 2$~Gyr).  \\
 
-\item Assuming a smooth host halo with a density of $n_{\rm halo} =
-  10^{-3.5}~{\rm cm}^{-3}$ and a satellite velocity of $V_{\rm sat}
-  \sim 300$~km~s$^{-1}$, we find that stripping is able to remove
-  enough cold gas so as to quench $\sim60\%$ of infalling satellites
-  at low masses.
-%
-  However, when including a clumpy halo, such that the typical CGM
-  density at which stripping occurs is $n_{\rm halo} \sim 10^{-3.25} -
-  10^{-2.5}~{\rm cm}^{-3}$ (i.e.~$\sim2-20$ times the mean density),
-  stripping is able to effectively quench $\sim90\%$ of infalling
-  satellites, such that their gas fractions agree with observational
-  limits for dwarf spheroidals in the Local Group. \\
+\item The longer quenching timescales inferred for higher-mass
+  satellites are roughly consistent with the observed cold gas (${\rm
+    H}_{2}$ plus H{\scriptsize I}) depletion timescales in
+  corresponding field systems; this suggests that satellite quenching
+  is largely driven by starvation at $\mstar \gtrsim 10^{8}~\msun$.  \\
 
-\item The efficiency of stripping may be further enhanced with the
-  inclusion of stellar feedback, which could play an important role in
-  making satellite systems susceptible to ram pressure and turbulent
-  viscous effects. Further studies of stripping via hydrodynamic
-  simulations will be a critical step in further constraining the role
-  of stripping in the quenching of low-mass satellites.
+\item At low masses ($\mstar \lesssim 10^{8}~\msun$), the much shorter
+  satellite quenching timescales are potentially set by ram-pressure
+  stripping or some other process that removes the cold gas reservoirs
+  in infalling systems, such that nearly all low-mass satellites in
+  the Local Group (or more massive host halos) are quenched.
 
+\item If ram-pressure stripping is responsible for increasing the
+  satellite quenching efficiency at low masses ($\mstar \lesssim
+  10^{8}~\msun$) within the Local Group, we expect that this critical
+  quenching scale will shift to higher satellite masses in higher-mass
+  host halos (e.g.~rich groups and clusters) due to the increased
+  density of the host's hot halo in concert with higher infall
+  velocities for the satellites.
 
 \end{itemize}
 
+We have suggested here that the transition to rapid quenching in the
+smallest satellites ($\mstar \lesssim 10^{8}~\msun$) is potentially
+explained as a ram-pressure scale (see Figure~\ref{fig:cartoon} and
+Fillingham et al.~in prep). Above this scale, satellite quenching
+occurs on a gas depletion time, as accreted galaxies are starved of
+fresh fuel for star formation.  Below this scale, a more rapid,
+drag-induced stripping becomes dominant, such that the gravitational
+restoring force of lower-mass dark matter halos can no longer retain
+cool gas against the fluid pressure they experience while in orbit
+around a larger host.
+ 
 
+The idea that Local Group dwarfs are quenched via ram pressure has
+been around for some time \citep[e.g.][]{einasto74, lin83, blitz00}
+but the evidence for very rapid quenching provided here adds further
+argument in its favor, and identifies a characteristic mass scale
+where it may become dominant. Underlying this hypothesis is the notion
+that the Milky Way and M31 both harbor extended ($\sim 150$ kpc)
+reservoirs of hot baryons with sufficient density to strip small
+galaxies of their gas. There is evidence that M31 does indeed host an
+extended circumgalactic medium \citep{lehner15}, and X-ray studies are
+consistent with this possibility around the Milky Way
+\citep{fang13,miller15,fang15}. If extended low-density coronae of
+this kind are common around $\sim L^{*}$ galaxies, then they may prove
+important for understanding the baryon cycle and the global census of
+baryons in the Universe.
+
+
+Of course, one shortcoming of our analysis is that we have restricted
+ourselves to satellites of M31 and the Milky Way. Given completeness
+issues, the Local Group is a reasonable starting point, but it remains
+possible that satellites in our vicinity are unusually quenched,
+perhaps owing to an uncommonly dense distribution of hot baryons in
+our vicinity, or atypically early infall times for the Local Group
+satellite population. Ongoing efforts to discover and characterize
+dwarf satellite systems around other massive hosts will be important
+for solidifying the existence of a sharp transition scale at $\mstar
+\lesssim 10^{8}~\msun$, where satellite quenching appears to become
+extremely efficient in the Local Group. If future studies reveal that
+the Local Group is indeed typical, then pinpointing the origin of this
+quenching scale and testing the ram-pressure hypothesis will be of
+utmost importance.
