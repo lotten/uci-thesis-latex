@@ -24,7 +24,10 @@ UCI Theses and Dissertations Manual - 2. Preparing Your Electronic Manuscript
 2.10. Footnotes and Endnotes 
 2.11. Electronic and Audiovisual Appendices 
 2.12. Style Manuals
+ 
 
+PLEASE NOTE:  The burden of properly formatting the manuscript is entirely the responsibility of the student.
+ 
 2.1. Introduction
 Please keep in mind that your thesis/dissertation is part of your individual permanent academic record. It is also part of the permanent record of scholarship and research undertaken by all graduate student graduates of UCI, and it will be permanently accessible to the worldwide community of scholars.
 2.1.1. Paper and Electronic (ETD) Submissions
@@ -45,7 +48,7 @@ Only those pages listed below may be included as part of the preliminary pages s
 A Signature Page is not a valid part of your manuscript and is not included in the ETD submission. If the template you are using includes a Signature Page you do not have a current accurate template. Committee signatures are now included on the “Ph.D. Form II/Signature Page” or the “Master’s Thesis / Signature Page” that you print and submit to Graduate Division (Aldrich Hall 120). See Section 5.2 or 5.3 for more about your Submission Checklist.
 Title Page
 
-Author's name as it appears on official University records. Check with the Graduate Division if you are unsure.
+Author's name as it appears on official University records. Check with the Registrar's Office if you are unsure.
 The degree earned; use the wording given in Section 7.2., Graduate Degrees Awarded by UCI.
 The full name of each committee member.
 The words used in the title of your manuscript are the access points for researchers who may use keyword-searching techniques to identify works in various subject areas. Use word substitutes, not symbols or formulas, to ensure effective retrieval from on-line indexes. Use concise titles containing words descriptive of the work; emphasis should be on nouns, with easily identifiable key words.
@@ -90,7 +93,6 @@ Abstract
 
 Text is double-spaced.
 Includes the title, your name, the degree name, the university name and year, and your committee chair’s name; all of the above must be consistent with your title page.
-Contains no more than 250 words for Master’s theses or 350 for Ph.D. dissertations.
 Use indent or flush left at the beginning of paragraphs, depending on the style manual you are following. Include a short statement of the problem you studied; a brief exposition of the methods and procedures employed in gathering the data; and a summary of your findings. No graphs, charts, or tables may be included.
 Sample pages and templates are available.
 
@@ -122,6 +124,7 @@ Oversized material (e.g., extensive computer program instructions or computer li
 2.5. Selecting a Typeface
 Be consistent in the use of typeface(s) throughout your manuscript. All text material must be in the same typeface/font; all headings and figure/table titles/captions must be in a consistent typeface.
 Any symbols, equations, figures, drawings, diacritical marks, or lines that cannot be typed, and therefore are drawn, must be added in permanent black ink.
+Embedded fonts are required. Post Script Type 1 fonts are required.
 2.5.1. Font Size
 It is extremely important that you choose a type size that is legible.
 All fonts used, including those for sub-and superscripts, must be 10-point or larger. Recommended sizes are 14-point for chapter headings, 12-point for the main body of text and figure/table titles, and 10-point for footnotes, sub- and super-scripts, and text in figures and tables.
@@ -137,7 +140,7 @@ All manuscript text, excluding manuscript page numbers, must fit within these sp
 Tables, figures, graphs, photographs, and appendices are also included in these margin requirements. Materials may be reduced or enlarged, if necessary, to fit within the required margins.
 [back to Table of Contents][top of page]
 2.7. Spacing and Layout 
-Your manuscript must be double-spaced, with the exception of footnotes, bibliographic entries, long quotations, data in lists and tables, and figure/table captions, all of which should be single-spaced.
+Your manuscript must be double-spaced, with the exception of footnotes/endnotes, bibliographic entries, long quotations, data in lists and tables, lists in appendices and figure/table captions, all of which should be single-spaced.
 2.7.1. Preliminary pages
 The title page, copyright page, dedication page (if used), lists of figures, tables, symbols, or illustrations, acknowledgments page, curriculum vitae (Ph.D.s only) and abstract page have specific spacing and layout requirements. Model your pages after the sample pages in section 7.1. The manuscript you submit should not have a Signature page. This is no longer a valid part of your manuscript. If the template you are using includes a Signature page you do not have a current accurate template. There are templates available for Word and LaTeX. The Special Collections and Archives Department maintains the official thesis and dissertation Word templates. The LaTeX template is for dissertations only. It is not official and it is not maintained by Special Collections and Archives. However, it is accurate as of September 2013.
 Sample pages and templates are available.
