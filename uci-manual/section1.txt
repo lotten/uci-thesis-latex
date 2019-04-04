@@ -23,11 +23,12 @@ UCI Theses and Dissertations Manual - 1. Basic Information for the Candidate
 
 
 1.1. Introduction to Using the Manual
-Since Winter Quarter 2009, both Masters and Ph.D. students have the option of submitting their thesis or dissertation electronically via the UMI ETD system or via the paper submission process. We strongly encourage submission electronically via the ETD system, but we will continue to accept paper submissions.
-Congratulations! You are approaching the last step toward attainment of your graduate degree.
-Your Master's thesis or Ph.D. dissertation, as the permanent scholarly statement of your research, should be error-free and appropriately prepared. You are responsible for submitting a manuscript that fits the format described in this manual and is free of spelling and format errors. The University Archives staff will review your manuscript via the ETD system and will not accept it unless it has been appropriately prepared. Once your manuscript has been accepted by the University Archives, no changes to the text or substitution of pages may be made.
+Since Winter Quarter 2009, both Masters and Ph.D. students have the option of submitting their thesis or dissertation electronically via the UMI ETD system http://www.etdadmin.com/uci or via the paper submission process. We strongly encourage submission electronically via the ETD system, but we will continue to accept paper submissions.
+
+Congratulations! You are approaching the last step toward attainment of your graduate degree. Your Master's thesis or Ph.D. dissertation, as the permanent scholarly statement of your research, should be error-free and appropriately prepared. You are responsible for submitting a manuscript that fits the format described in this manual and is free of spelling and format errors. The University Archives staff will review your manuscript via the ETD system and will not accept it unless it has been appropriately prepared. Once your manuscript has been accepted by the University Archives, no changes to the text or substitution of pages may be made.
 The requirements described in this manual apply only to the formatting of your manuscript, not to its scholarly content. UCI's Graduate Division, the Graduate Council of the Irvine Division of the Academic Senate, and the University Archives have established these criteria and regulations in order to provide all Master's and Ph.D. degree candidates with a uniform presentation format.
-It is important that you work with your thesis/dissertation committee and/or your department to develop your manuscript. Be aware that your particular school or discipline's criteria for preparation and submission of manuscripts may vary from this manual.  School of the Arts students, for example, are not required to submit their theses to the University Archives, but may do so if they wish to have a copy of their manuscript bound and housed in the UCI Libraries or if they wish to have their manuscript published electronically by UMI.  If an art student does choose to submit to the Archives, their manuscript must conform to the requirements in this manual.
+
+It is important that you work with your thesis/dissertation committee and/or your department to develop your manuscript. Be aware that your particular school or discipline's criteria for preparation and submission of manuscripts may vary from this manual. School of the Arts students, for example, are not required to submit their theses to the University Archives, but may do so if they wish to have a copy of their manuscript bound and housed in the UCI Libraries or if they wish to have their manuscript published electronically by UMI. If an art student does choose to submit to the Archives, their manuscript must conform to the requirements in this manual.
 You and your committee are responsible for ensuring the accuracy of everything in your manuscript. All formatting requirements specified in this manual must be adhered to. Refer to sections 7.5 and 7.6 of the manual for answers to frequently asked questions about thesis/dissertation preparation and submission and an overview of common mistakes to avoid. For all other matters of organization, presentation, and documentation, your manuscript should meet the standards for published journal articles or monographs in your field.
 [back to Table of Contents][top of page]
 1.2. Your Responsibilities as a Candidate 
@@ -45,7 +46,13 @@ Once your petition has all the required signatures, take it to the Cashier's Off
 If your Filing Fee petition is not approved, you must continue to enroll and pay the full Registration Fee until you have completed all your degree requirements.
 1.2.4. Follow the Requirements in this Manual
 The requirements in this manual pertain to manuscript formatting, manuscript submission, and copyright matters. They take precedence over any style manuals used by your academic discipline or adopted by your committee. Since requirements change over time, it is important to note that the requirements in this manual supersede all prior editions.
-Students are responsible for adherence to all requirements specified in this manual. Do not rely principally on the format of another student's thesis/dissertation when preparing your own manuscript. We maintain a Word template that conforms to all formatting requirements. We do not maintain an official LaTeX template. However, this template is accurate as of December 2013: https://github.com/lotten/uci-thesis-latex. If you are using a LaTeX template, please check to see that it conforms to the Word template that we maintain. The Ph.D. dissertation Word template is available here. The Masters thesis Word template is available here.
+ 
+PLEASE NOTE:  Students are responsible for adherence to all requirements specified in this manual. 
+-Do not rely principally on the format of another student's thesis/dissertation when preparing your own manuscript. 
+-We maintain a Word template that conforms to all formatting requirements. The Ph.D. dissertation Word template is available here. The Masters thesis Word template is available here.
+-We do not maintain an official LaTeX template. However, this template is accurate as of December 2013: https://github.com/lotten/uci-thesis-latex. If you are using a LaTeX template, please check to see that it conforms to the Word template that we maintain. 
+-Your Manuscript must be submitted in Adobe PDF format.
+ 
 The Graduate Division and the University Archives conduct quarterly workshops on the preparation and filing of theses and dissertations. You are strongly urged to attend; dates and times of future sessions are available here.
 [back to Table of Contents][top of page]
  
@@ -54,15 +61,15 @@ Graduate students have the option of submitting their thesis/dissertation electr
 1.3.1. Electronic Thesis or Dissertation (ETD) submissions:
 Electronic submissions of ETDs are done here.
 Information about the electronic submission process is available in this manual, on the Graduate Division website and on the ETD site. Upon submitting your manuscript electronically, University Archives will automatically send you a verification email stating your submission has been received. That will be followed shortly by an email informing you that your submission is under review, and who will be reviewing it. Theses or dissertations that do not follow the formatting requirements in the manual will not be accepted and the student will be told what needs to be changed and will be referred to certain section(s) of the manual for formatting requirements. 
+You will receive an automatic confirmation of receipt of your manuscript as soon as you submit it. We will review your thesis/dissertation for formatting and if revisions are needed, we will reply within approximately 2 business days. If the manuscript clears all requirements, you will receive a final confirmation email from the University Archives.
  The Archives staff reviews your manuscript to ensure that:
 
-The margins, pagination, and other formatting requirements have been followed.
 All required preliminary pages are present.
-All requirements specified by ProQuest for ETD submission have been met.
+All requirements specified by ProQuest for ETD submission have been met.  These requirements are online here.
 
-For ETD submissions, all required and optional forms need to be submitted to the Graduate Division, 120 Aldrich Hall before the submission deadline to insure that you will obtain your degree. Graduate Division staff will verify that:
+For ETD submissions, all required and optional forms need to be submitted to the Graduate Division, 120 Aldrich Hall on or before the submission deadline to insure that you meet the degree deadline. Graduate Division staff will verify that:
 
-All committee members have signed the appropriate form.
+The official original signatures of all committee members on the appropriate form.
 Your graduate degree paperwork is complete.
 You have submitted your manuscript electronically.
 
