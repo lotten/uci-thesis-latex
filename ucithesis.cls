@@ -193,10 +193,10 @@
 
 % Add "Page" as column title to Table of Contents, List of Figures,
 % List of Tables, and List of Algorithms
-\addtocontents{toc}{\protect\raggedleft Page\\}
-\addtocontents{lof}{\protect\raggedleft Page\\}
-\addtocontents{lot}{\protect\raggedleft Page\\}
-\addtocontents{loa}{\protect\raggedleft Page\\}
+\addtocontents{toc}{{\protect\flushright Page\par}}
+\addtocontents{lof}{{\protect\flushright Page\par}}
+\addtocontents{lot}{{\protect\flushright Page\par}}
+\addtocontents{loa}{{\protect\flushright Page\par}}
 
 \newcommand{\preliminarypages}
 {
