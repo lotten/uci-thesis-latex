@@ -1,4 +1,9 @@
 
+UCI Theses and Dissertations Manual - 1. Basic Information for the Candidate
+
+
+
+
 
 1.1. Introduction to Using the Manual
 1.2. Your Responsibilities as a Candidate
@@ -73,4 +78,6 @@ All approved thesis/dissertation manuscripts completed by UCI students automatic
 Dissertations are published by UMI Dissertation Services (a division of ProQuest Information and Learning Company) or another designated firm approved by UCI that makes dissertations available worldwide through an online index.
 The time needed for cataloging and various other processes for electronic publishing varies; allow a minimum of five months for the entire process from submission of your manuscript to the University Archives to the time your manuscript is available for viewing.
 [2. Preparing Your Manuscript]
+
+
 

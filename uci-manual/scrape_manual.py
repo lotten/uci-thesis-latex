@@ -8,7 +8,7 @@ import urllib2
 
 def get_contents(url, output_name):
     html = urllib2.urlopen(url).read()
-    manual_content = Soup(html).findAll('div', {'class': 'content'})[0]
+    manual_content = Soup(html).findAll('div', {'class': 'region region-content'})[0]
     with open(output_name + '.txt', 'w') as fh:
         fh.write(manual_content.text.encode('utf8'))
 
