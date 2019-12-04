@@ -18,6 +18,7 @@
 \usepackage{graphicx}
 \usepackage{natbib}
 \usepackage{relsize}
+\usepackage[titletoc]{appendix}
 
 % Some other useful packages
 \usepackage{caption}
@@ -109,6 +110,8 @@
 \captionsetup[table]{list=no}
 
 % If you have an appendix, it should come after the references.
+\begin{appendices}
 \include{appendix}
+\end{appendices}
 
 \end{document}
