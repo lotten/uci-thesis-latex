@@ -10,6 +10,9 @@
 % Lars Otten <lotten@uci.edu>
 %
 % Changelog:
+% Mar 17, 2020: Curriculum Vitae --> Vita per most recent edition of 
+%               the UCI Thesis/Dissertation Manual (guides.lib.uci.edu/gradmanual)
+%               effective January 2020.
 % Oct 11, 2012: Defaulted back to standard \appendix with subsequent \chapter,
 %               since custom \appendix confused figure/table counters. (Lars)
 % Oct 10, 2012: Changed all margins to 1 in and removed signature page. (Lars)
@@ -156,7 +159,7 @@
 \newcommand{\curriculumvitaepage}
 {
 	\begin{center}
-		\textbf{\Large CURRICULUM VITAE} \\
+		\textbf{\Large VITA} \\
 		\vspace{0.4in}
 		\textbf{\large{\Authorname}}
 	\end{center}
@@ -241,7 +244,7 @@
 	\ifx\Curriculumvitae\undefined
 	\else
 	  \phantomsection
-	  \addcontentsline{toc}{chapter}{CURRICULUM VITAE}
+	  \addcontentsline{toc}{chapter}{VITA}
 	  \curriculumvitaepage
 	  \clearpage
 	\fi
