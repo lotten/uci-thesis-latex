@@ -10,6 +10,8 @@
 % Lars Otten <lotten@uci.edu>
 %
 % Changelog:
+% May 19, 2020: List of Algorithms page title should be centered and all caps, was
+%               previously left-aligned and standard capitalization
 % Mar 17, 2020: Curriculum Vitae --> Vita per most recent edition of 
 %               the UCI Thesis/Dissertation Manual (guides.lib.uci.edu/gradmanual)
 %               effective January 2020.
@@ -234,6 +236,7 @@
 	  \clearpage
 	  \phantomsection
 	  \addcontentsline{toc}{chapter}{LIST OF ALGORITHMS}
+	  \renewcommand{\listalgorithmname}{\protect\centering\protect\Large LIST OF ALGORITHMS}
 	  \listofalgorithms
 	\fi
 	\clearpage
