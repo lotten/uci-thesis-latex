@@ -60,6 +60,34 @@
 %\widowpenalty=10000
 %\clubpenalty=10000
 
+%% This attempts to give us a redefinition of \label and \ref so that we can fix
+%% the problem arising from having multiple sections with the same label.
+%% That is, we should be able to have \label{intro} within a chapter refer to the
+%% intro of that chapter, not the introduction chapter of the whole thesis.
+%%
+%% NOTE: when referring to a section in another chapter, you'll need to do e.g. \origref{intro:section_name}
+%%
+%%  WARNING: some issues arise from using hyperref
+%% taken from: https://tex.stackexchange.com/questions/82091/can-i-re-use-section-labels-across-chapters/82115#82115
+%
+% see also: https://tex.stackexchange.com/questions/135883/using-custom-locallabels-command-with-custom-eqref-command
+
+\makeatletter
+\AtBeginDocument{%
+\let\origref\ref
+\let\origpageref\pageref
+\let\origlabel\label
+% \let\origeqref\eqref
+\let\origlabel@in@display\label@in@display
+\newcommand\locallabels[1]{%
+  \renewcommand\label[1]{\origlabel{#1##1}}%
+  \renewcommand\ref[1]{\origref{#1##1}}%
+  \renewcommand\pageref[1]{\origpageref{#1##1}}%
+%   \renewcommand\eqref[1]{\origeqref{#1##1}}%
+  \renewcommand\label@in@display[1]{\origlabel@in@display{#1##1}}%
+}}
+\makeatother
+
 % Modify or extend these at will.
 \newtheorem{theorem}{\textsc{Theorem}}[chapter]
 \newtheorem{definition}{\textsc{Definition}}[chapter]
