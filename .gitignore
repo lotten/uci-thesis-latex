@@ -26,3 +26,7 @@
 *.mtc
 *.mtc0
 *.swp
+
+# backup files
+**/*~
+**/.*
