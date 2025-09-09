@@ -252,7 +252,7 @@
 	  \clearpage
 	\fi
 	\phantomsection
-	\addcontentsline{toc}{chapter}{ABSTRACT OF THE \uppercase{\Documenttitle}}
+	\addcontentsline{toc}{chapter}{ABSTRACT OF THE \texorpdfstring{\uppercase{\Documenttitle}}{DISSERTATION}}
 	\abstractpage
 	\clearpage
 	\setcounter{page}{1}
